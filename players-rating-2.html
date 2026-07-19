@@ -1,0 +1,687 @@
+<!DOCTYPE HTML>
+      <html lang="en">
+        <head>
+         <meta charset=UTF-8>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Goal official website</title>
+         <style>
+         
+         body {
+             background-color: hsl(0, 0%, 18%);
+             margin: 0;
+         }
+         
+         .header {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             column-gap: 10px;
+             background-color: black;
+             width: 375px;
+             height: 50px;
+             border-bottom: 4px solid hsl(21, 100%, 50%);
+             paddin: 0px 15px 0px 0px;
+         }
+         
+         .menu {
+             max-width: 19px;
+         }
+         
+         .profile {
+             max-width: 30px;
+         }
+         
+         .goal {
+             max-width: 135px;
+         }
+         
+         .live {
+             max-width: 68px;
+         }
+         
+         .vpn {
+             max-width: 75px;
+         }
+         
+         .firstsec {
+             background-color: hsl(0, 0%, 10%);
+             padding-bottom: 10px;
+         }
+         
+          .ccc {
+              
+          }
+          
+          .firstp {
+              display: block;
+              to: 100px;
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              background-color: black;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+              padding: 20px;
+          }
+          
+          .firstdiv {
+              background-color: hsl(215, 100%, 50%);
+              width: 350px;
+              height: 140px;
+              border-radius: 15px;
+              margin: 15px 13px;
+              padding-bottom: 15px;
+          }
+          
+          .spanf, .span2 {
+                   display: flex;
+               }
+          
+          
+          .firstimg {
+                   max-width: 100%;
+               }
+               
+          .ddiv {
+                   background-color: white;
+                   width: 70px;
+                   height: 25px;
+                   margin: 10px 140px;
+                   border-radius: 20px;
+               }
+               
+               
+          .span1 {
+                   display: flex;
+                   border-top: 25px solid black;
+               }
+               .firsth3 {
+                   font-family: Impact, Arial Black, sans-serif;
+                   color: white;
+                   text-transform: uppercase;
+                   text-align: center;
+                   font-weight: bold;
+               }
+               
+               .secondh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   color: white;
+                   font-weight: bold;
+                   padding-left: 18px;
+               }
+               
+               .thirdh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 19px;
+                   font-weight: 30;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: 1px;
+               }
+               
+               .p2 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 13px;
+                   font-weight: bold;
+                   color: hsl(0, 0%, 13%);
+                   text-align: center;
+                   padding-top: 6px;
+               }
+               
+               .p3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: bold;
+                   color: white;
+                   padding: 13px 8px;
+               }
+               
+               .p4 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: 540;
+                   color: white;
+                   padding: 8px 10px 5px 18px;
+              
+               }
+               
+               .p5 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: 200;
+                   color: white;
+                   padding: 3px 0px 0px 10px;
+               }
+              
+               .pp {
+                   color: white;
+                   padding-top: 2px;
+               }
+          
+          
+          .secondh1 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: bold;
+                   font-size: 29px;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: -3px;
+               }
+          
+          .seconddiv {
+                   display: flex;
+                   justify-conten: center;
+                   align-items: center;
+                   column-gap: 80px;
+                   background-color: hsl(0, 0%, 26%);
+                   width: 350px;
+                   height: 40px;
+                   margin: 0 13px;
+                   border-radius: 5px;
+               }
+               
+               .inn {
+                        max-width: 73px;
+                         }
+          
+             .firsth1 {
+                      font-family: "Sofia Pro", sans-serif;
+                      font-weight: 800;
+                      color: white;
+                      padding-left: 18px;
+                      word-spacing: -5px;
+                  }
+          
+             #menu {
+                          position: sticky;
+                          top: 50px;
+                          font-family: "Sofia Pro", sans-serif;
+                          font-weight: bold;
+                          line-height: 45px;
+                          font-size: 22px;
+                          display: none;
+                          background: #111;
+                          padding: 20px;
+                      }
+                       
+                      #menu a {
+                          display: block;
+                          color: white;
+                          text-decoration: none;
+                          padding: 10px 0;
+                      }
+          
+          
+          .lastdiv {
+                   background-color: black;
+                   height: 55px;
+                   margin-top: 100px;
+               }
+               
+               .kkk {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 15px;
+                        background-color: hsl(0, 0%, 10%);
+                        width: 355px;
+                        height: 100px;
+                        padding-left: 20px;
+                    }
+                    
+                    .kkk a {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        background: #2d2d2d;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        transition: 0.3s;
+                    }
+                    
+                    .yyy {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .footer {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        background-color: black;
+                        color: white;
+                        padding: 10px 10px 50px 10px;
+                        font-size: 13px;
+                        line-height: 100%;
+                    }
+                    
+                    .footerp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerpp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerppp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    
+                    .footerpppp {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .imgpppp {
+                        width: 24px;
+                        height: 16px;
+                    }
+                    
+                    .zzz {
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                        margin-top: 8px;
+                        align-items: center;
+                    }
+                    
+                    .ggg {
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    a:hover {
+                        color: hsl(27, 100%, 50%);
+                    }
+                    
+                    .footer p {
+                      margin: 0;
+                      line-height: 2;
+                    }
+               
+                    .google {
+                        background-color: #4a4a4a;
+                        width: 90%;
+                        max-width: 900px;
+                        margin: 0px 13px 35px 13px;
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 10px 0px 12px 0px;
+                        align-items: center;
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                    }
+                    
+                    .googleimg {
+                        max-width: 16px;
+                    }
+                    
+                    .square {
+                        background-color: hsl(0, 0%, 10%);
+                        width: 330px;
+                        height: 80px;
+                        margin: -2px 35px -50px 13px;
+                    }
+                    
+                    .con {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                        font-size: 9px;
+                    } 
+                    
+                    .ficons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 16px;
+                        margin-bottom: 30px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons {
+                        max-width: 30px;
+                    }
+                    
+                    .iconss {
+                        max-width: 22px;
+                    }
+                    
+                    .iconsss {
+                        max-width: 27px;
+                    }
+                    
+                    .iconssss {
+                        max-width: 38px;
+                    }
+                    
+                    .dark {
+                        max-width: 60px;
+                    }
+                    
+                    .fgordon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .gordon {
+                        max-width: 110px;
+                        padding-top: 7px;
+                    }
+                    
+          
+          </style>
+             </head>
+             <body>
+              <header class="header">
+               <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+               <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+               <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+               <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+               <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+              </header>
+              <nav id="menu">
+               <a href="#">WORLD CUP</a>
+               <a href="#">LIVE SCORES</a>
+               <a href="#">NEWS</a>
+               <a href="#">FORUMS</a>
+               <a href="#">PREMIER LEAGUE</a>
+               <a href="#">LA LIGA</a>
+               <a href="#">BETTING</a>
+               <a href="#">CULTURE</a>
+                  </nav>
+                  <br>
+                  <br>
+              <section class="firstsec">
+              <div>
+               <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+              </div>
+              <div class="firstdiv">
+               <br>
+                <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+               <div class="ddiv">
+                <p class="p2">Explore</p>
+               </div>
+              </div>
+              <div Class="seconddiv">
+               <p class="p3">Explore Betting on GOAL</p>
+               <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+              </div>
+              </section>
+              
+              <span class="spanf">
+               <img class="firstimg" src="https://i.postimg.cc/rpHPTsmh/IMG-5433.webp" alt="Enzo and Lamine">
+              </span>
+             
+              <span class="span2"><p class="p4">Ryan Tolmich</p> <p class="pp">|</p><p class="p5">16 Jul 2026 13:15+01:00</p></span>
+               <h1 class="firsth1">World Cup player <br>value tracker: Enzo Fernandez plays hero for Argentina amid frequent Chelsea exit links as Lamine Yamal soars to £210m</h1>
+                   
+               <h4 class="thirdh3">Excitement is growing as we approach the final of the 2026 World Cup and, throughout the showpiece tournament in North America, GOAL, in association with eToro, is tracking the value of some of the world's most sought-after talents. Will their price rise or plummet? Follow our unique player value tracker to find out...</h4>
+                   
+              <span class="span1">
+               <img class="firstimg" src="https://i.postimg.cc/d0fxF31S/IMG-5434.webp" alt="Argentina & England"> 
+              </span>
+              </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">12.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Crysencio <br>Summerville|WestHam &<br>Netherland|£40m</h1>
+                <h4 class="thirdh3">It's shaping up to be a very testing summer for West Ham. In the case of Crysencio Summerville, they possess a talented forward player who has shown flashes of his class in the Premier League already and looks almost certain to seek an exit following their relegation from the Premier League. Not only that, but the Dutchman boosted his profile globally with his performances, and goals, at the World Cup - had they survived the drop, the Hammers would've undoubtedly been able to command a much bigger transfer fee to ward off potential suitors.
+                <br><br>Manchester United have been most strongly linked, although a lot could depend on the future of Marcus Rashford as to whether the Red Devils concretise any interest. Having reached the end of his World Cup story, it's fair to say Summerville was one of standout performers of the group stages, having only earned his first Netherlands cap at the start of June.
+                <br><br>He began his tournament by cutting in and scoring with a clever left-footed strike in the Group F opener against Japan, following that up with another long-range strike in the 5-1 demolition of Sweden. That saw Ronald Koeman hand the 24-year-old a start in the last 32, with an energetic display seeing him claim an assist before his penalty in the shootout - that was certainly not the worst we've seen at this tournament - was expertly kept out by Yassine Bounou to help send Morocco through.
+                <br><br>Player value before World Cup started: £30m
+                <br><br>Current player value: £40m (⬆️ by £10m)</h4>
+                                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/q7R6HMh1/IMG-5435.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">11.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Deniz Undav | VfB <br>Stuttgart & Germany | <br>£40m</h1>
+                <h4 class="thirdh3">Rewind three years and Deniz Undav was at something of a career crossroads. The forward was scratching around for minutes at Brighton, playing second fiddle to the likes of Evan Ferguson and Danny Welbeck. A drastic change was clearly needed. That came in the form of an initial loan move to VfB Stuttgart - a deal that was eventually made permanent in 2024 - and he hasn't looked back since.
+                <br><br>With 19 goals, Undav finished the 2025-26 campaign as the top-scoring German in the Bundesliga, behind only the relentless Harry Kane in the overall standings. And despite being overlooked for the starting XI in all three of Germany's group games at the World Cup, Undav became something of a super-sub in North America, bagging a goal and an assist in the 7-1 win over Curacao, before changing the game against Ivory Coast as he came off the bench to set-up the equaliser and then he netted the stoppage-time winner with a neat turn and finish.
+                <br><br>Those contributions, and a lack of cutting edge shown by those picked to start in the 2-1 loss to Ecuador, saw Julian Nagelsmann finally reward Undav with a start. Unfortunately for the 29-year-old it proved to be his worst showing of the tournament in the shock penalty shoot-out loss to Paraguay, with Undav struggling to get in the game before being hooked in the 63rd minute. Still, unlike many of his team-mates, his reputation has undoubtedly been boosted by his three group-stage goals, and kudos must go to Stuttgart for getting a new contract signed and sorted before the World Cup kicked off.
+                <br><br>Player value before World Cup started: £30m
+                Current player value: £40m (⬆️ by £10m)</h4>                      
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/JhnHC4Dc/IMG-5436.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">10.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Nico Paz | Como & <br>Argentina | £55m</h1>
+                <h4 class="thirdh3">The name Nico Paz may not be too familiar with the casual football fan, but that should change in the summer. The Como midfielder, let go by Real Madrid in 2024, has been making waves under Cesc Fabregas' stewardship in Serie A, playing a vital role in a 2025-26 season that saw him plunder 12 goals - more than any other midfielder in Italy's top flight - to help the club secure Champions League qualification.
+                <br><br>You don't occupy an attacking spot alongside Lionel Messi in Argentina's squad if you've not got something about you, and that's exactly where Paz finds himself at the World Cup. His biggest moment in the famous Albiceleste shirt so far came in March, when he smacked home a free-kick that left his legendary team-mate with a face of disbelief. He will, however, likely have to continue to accept the role of impact-sub in North America, with Paz having only been introduced as a late replacement for Messi in the 3-0 win over Algeria before not even making it off the bench against Austria. He did get a start in the final Group J meeting with Jordan - standing in for his legendary captain in the No.10 role - and although there were flashes of what he's capable of, it's likely to continue to be bench duties for the rest of the tournament.
+                <br><br>Away from North America, it's been confirmed that Paz will continue at Como after Madrid triggered a €9m buyback clause and sent him straight back to the Serie A side, for a fee in region of €60m. It's a smart piece of business by Jose Mourinho's side, who will also benefit from an agreement that gives them the option to re-sign Paz in the future.
+                <br><br>Player value before World Cup started: £75m
+                Current player value: £55m (⬇️ by £20m)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/Gp2Tnh8P/IMG-5437.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">9.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Bradley Barcola | Paris <br>Saint-Germain & France | <br>£65m</h1>
+                <h4 class="thirdh3">It seems unthinkable that PSG could contemplate selling one of the most talented forward players to have emerged from France in recent years but that's the situation the Ligue 1 champions find themselves in with Bradley Barcola. The 23-year-old is simply too good to be regularly sat on the bench and, with Khvicha Kvaratskhelia, Desire Doue and Ousmane Dembele being the three pillars of Luis Enrique's attack, that's where he found himself for the matches that really mattered in the 2025-26 campaign.
+                <br><br>There will be no shortage of suitors desperate to snap him up if there's an indication that a deal can be done, with Liverpool being a potential destination. The only stumbling block for Barcola heading into the tournament was competition for places, with Didier Deschamps having benched him for France's Group I opener against Senegal - a game that saw Barcola come on and make an almost instantaneous difference, breaking away in the 82nd minute before dinking a nonchalant finish over Edouard Mendy to make it 2-0.
+                <br><br>The more the tournament went on, though, the more Deschamps seemed to trust Barcola as his main man on the left of the attack. Indeed, he started for Les Bleus against Sweden in the last 32 and produced a decisive showing that saw him keep his place for the ugly 1-0 win over Paraguay. Barcola underwhelmed in that last-16 tie, however, and thus lost his place to Doue for the quarter-final. Despite returning to the starting line-up for the semi-final showdown with Spain, he, like pretty much all of his team-mates, produced a flat performance and failed to show up as the Spanish advanced, resulting in little change to his overall player value.
+                <br><br>Player value before World Cup started: £60m
+                Current player value: £65m (⬆️ by £5m)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/8C5fgPJL/IMG-5438.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">8.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Ayyoub Bouaddi | Lille <br>& Morocco | £70m</h1>
+                <h4 class="thirdh3">Not many players are capable of running the show against Brazil, less so when they're only 18 years of age and only had three full international caps to their name. That's exactly what Ayyoub Bouaddi achieved with his first-class performance in Morocco's World Cup Group C opener, however, dominating against a vastly experienced Selecao midfield and undoubtedly alerting the attention of all of Europe's top clubs.
+                <br><br>In truth, Bouaddi had already been on the radar of football's elite long before his elegant outing at MetLife Stadium, with the Lille midfielder having caught the eye with his mature displays in Ligue 1 over the last 12 months. His performance in game two - a narrow 1-0 win over Scotland - may not have been as headline-grabbing but he was neat and tidy in possession all the same, snapping into tackles to stop the Scots building momentum. Fit and raring to go after being rested for Morocco's 4-2 triumph over Haiti in their final group game, Bouaddi stood out in the last 32 triumph win over Netherlands, looking assured as he frequently carried the ball forward while also screening the back four on the road to a dramatic penalty shoot-out win.
+                <br><br>The likes of Arsenal, Real Madrid and Manchester City have been most strongly linked, and, after helping Morocco advance to the quarter-final before they were finally sent packing by France, Bouaddi's shown that he's more than capable of holding his own against the world's elite, with a big summer transfer surely now just a formality.
+                <br><br>Player value before World Cup started: £45m
+                Current player value: £70m (⬆️ by £25m)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/9fMwHFR9/IMG-5439.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">7.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Yan Diomande | RB <br>Leipzig & Ivory Coast | <br>£90m</h1>
+                <h4 class="thirdh3">Yan Diomande's name has dominated the transfer gossip columns for a while now, and it's not difficult to see why. The Ivorian forward has put a clutch of Europe's top clubs on alert with his electric showings in the Bundesliga, and it would be a surprise if he didn't follow the likes of Benjamin Sesko, Josko Gvardiol and Dominik Szoboszlai in seeking a headline-grabbing move away from RB Leipzig before too long.
+                <br><br>The supremely gifted 19-year-old has been further showcasing his talents to prospective suitors at the World Cup, with Diomande arguably the best player on the pitch in Ivory Coast's 1-0 win over Ecuador before he made a decisive contribution in the second group game against Germany, beating Joshua Kimmich down the line and smashing the ball across to allow Franck Kessie to score in the narrow 2-1 loss. After bagging an assist in the 2-0 win over Curacao as well, Diomande's group-stage performances would have his name up in lights as he became the first player this century to complete 10+ dribbles, and create 10+ chances, across his first three World Cup matches.
+                <br><br>Sadly for Diomande and Ivory Coast, the journey came to an end with a crushing late loss to an Erling Haaland-inspired Norway, but that won't take away from the fact the winger has boosted his reputation, and transfer value, in North America, with it looking like a fee in the region of £100m is going to be needed to prize him away from RB Leipzig, with PSG the most likely to pounce.
+                <br><br>Player value before World Cup started: £80m
+                Current player value: £90m (⬆️ by £10m)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/vmBxwHg6/IMG-5440.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">6.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Morgan Rogers | <br>Aston Villa & England | £90m</h1>
+                <h4 class="thirdh3">Thomas Tuchel had a monumental decision to make ahead of the World Cup - did he start with Morgan Rogers or Jude Bellingham? It was one of the biggest selection dilemmas that the Three Lions boss faced going into the tournament, with the Real Madrid midfielder getting the nod and producing a host of monster performances to back-up his manager's faith.
+                <br><br>As a direct result, it's fair to say, Rogers' prospects at the tournament, and his ability to make a significant impact, suffered a major blow. Such has been his consistency in helping to propel Aston Villa into the Champions League for consecutive seasons, as well as playing a big role in them winning the Europa League, he would've had every reason to be disappointed at being overlooked for the XI. Fortunately for Tuchel, however, Rogers didn't sulk or kick up a fuss if things weren't going his way, and instead he helped boost the positive energy within the camp, waiting patiently for his chance on the pitch.
+                <br><br>Introduced as a second-half substitute in England's first two Group L matches, Rogers, who is reportedly at the top of Arsenal's transfer wishlist, did get his opportunity to shine in the final group game against Panama. Like many of his team-mates, however, he struggled to do anything of note and that saw him relegated back to the bench, where he played no part in the dramatic, Harry Kane-inspired 2-1 win over DR Congo. There was a short cameo against Mexico after Kane had run out of steam, but his two decisive moments were still to come, as he first bagged an assist for Bellingham's winner against Norway before his pinpoint delivery found Anthony Gordon to give the Three Lions the lead against Argentina. It may have all gone pear shaped for England after that, but Rogers' value certainly hasn't taken any sort of hit despite his overall lack of World Cup minutes.
+                <br><br>Player value before World Cup started: £90m
+                Current player value: £90m (↔️ no value change)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/nLz9fcjs/IMG-5441.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">5.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Enzo Fernandez | <br>Chelsea & Argentina | <br>£95m</h1>
+                <h4 class="thirdh3">One of the main storylines of the summer transfer window will undoubtedly revolve around Enzo Fernandez and whether he leaves Stamford Bridge. The midfielder, who arrived for an eyewatering £106.8m back in 2023, has been one of few bright sparks of what's been a testing few years in west London, amid frequent managerial change.
+                <br><br>Xabi Alonso's the latest man in the hotseat and question marks remain as to whether his presence alone will be enough to convince the Argentine that he should roll his sleeves up and stay put, or seek pastures new (Real Madrid would clearly be his destination of choice). Without Champions League football, Chelsea's arm is weakened - and quite significantly. If a sale does become a necessity, his strong performances at the World Cup will only help boost his price tag, with Fernandez having been a regular throughout the knockout stages.
+                <br><br>The first game of his tournament saw him produce a steady, if unspectacular, display in the 3-0 win over Algeria - a result headlined by Lionel Messi's stunning hat-trick. He followed that up with an energetic outing in the 2-0 triumph over Austria - another Messi show in North America - and it was Enzo's pass that led to the penalty incident that saw Lautaro Martinez hacked down in the box inside the first 10 minutes. After struggling in the epic 3-2 victory over minnows Cape Verde, and his place surely being under threat, he dusted himself down to make the telling contribution in the epic win over Egypt, arriving at the far post to head home the dramatic last-gasp winner.
+                <br><br>After helping his team-mates see off the Swiss in the quarters, Fernandez came to the fore once again as he bagged a superb long-range equaliser against England in the semi-final, giving Argentina the platform to eventually go on and reach the final. Are you watching, Jose?
+                <br><br>Player value before World Cup started: £85m
+                Current player value: £95m (⬆️ by £10m)</h4>
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/vmBxwHg4/IMG-5442.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">4.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Elliot Anderson | <br>Nottingham Forest & <br>England | £95m</h1>
+                <h4 class="thirdh3">Elliot Anderson's trajectory has hit stratospheric levels over the last two years. The new Manchester City midfielder has gone from the fringes of Newcastle's first team to starring for Nottingham Forest and being one of the first names on the teamsheet for Thomas Tuchel's England.
+                <br><br>The fee Enzo Maresca's side have paid is in the region of £116m - smashing the British transfer record - and, given the eye-watering fee, his performances at the World Cup, more than most, were going to be put under the microscope. After a polished showing in the Three Lions' Group L opener against Croatia, the 23-year-old was one of many England stars to struggle in the stodgy game two draw with Ghana, where he failed to drive forward and link up with the likes of Harry Kane and Jude Bellingham. He was arguably worse against Panama, however, with the game bypassing him somewhat as Tuchel's men toiled to an unconvincing 2-0 win.
+                <br><br>After another below-par outing in the narrow last-32 victory over DR Congo, Anderson produced his two strongest performances of the tournament - firstly in the dramatic 3-2 win over Mexico before he controlled proceedings and sparked the move for Belllingham's equalising goal in the 2-1 triumph over Norway. It was to be another disappointing showing for Anderson against Argentina in the semi-final, however, as he struggled to contain Lionel Messi and ultimately walked a disciplinary tightrope for a large chunk of the game due to a booking for clattering into the Argentine GOAT. All in all, England fans will have been hoping for more from the City midfielder, and his challenge will now be to justify his inflated price tag at the Etihad Stadium.
+                <br><br>Player value before World Cup started: £105m
+                Current player value: £95m (⬇️ by £10m)</h4>
+                
+
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/3wR0QJ4R/IMG-5443.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">3.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Julian Alvarez | Atletico <br>Madrid & Argentina | <br>£105m</h1>
+                <h4 class="thirdh3">Pep Guardiola rarely gets it wrong in the transfer market, although in the case of Julian Alvarez he may wish he could turn back the clock. To be fair, back when Manchester City let him go in 2024, Alvarez wasn't quite the scintillating, game-winning asset that he is today, and the Premier League side did receive a tidy profit after recouping £85m from Atletico Madrid. Still, nobody at the Etihad will be the slightest bit amused if the Argentine rocks up at Arsenal next season and puts his old team-mates to the sword. Stranger things have happened.
+                <br><br>The Gunners, it has been widely reported, are in the running to land Alvarez - but Mikel Arteta will have to dig deep into his pockets, with the price quoted at well over £100m. Barcelona and Real Madrid are also in the mix, and both would dearly love to nab the crown jewel of a direct rival, with the forward having now gone public with his desire to exit Atleti. A meaningful impact at the World Cup will only serve to drive up Alvarez's price but it's not all been going to plan up to now.
+                <br><br>Indeed, heading into the tournament carrying an ankle injury, Lionel Scaloni has used Alvarez cautiously, with the 26-year-old having only come off the bench in Argentina's first two group games before he put in a disappointing display from the start against Jordan. Indeed, it was back to the bench again for the in-demand Atleti forward for the first knockout round of the tournament and after another fairly anonymous display, this time from the start in the chaotic 3-2 win over Egypt in the last 16, it was perhaps surprising that he kept his place against Switzerland.
+                <br><br>It was against the Swiss that his biggest moment of the tournament so far arrived, however, as he thundered in a right-footed shot in extra-time that helped drag Argentina to the semi-finals. That all being said, given how ineffective Alvarez was against England in the last four - and Lautaro Martinez's goalscoring contribution from the bench - will Lionel Scaloni now drop him for the final showdown with Spain? All eyes on the New York New Jersey Stadium.
+                <br><br>Player value before World Cup started: £120m
+                Current player value: £105m (⬇️ by £15m)</h4>
+                
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/4xwH0hdV/IMG-5444.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">2.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Michael Olise | Bayern <br>Munich & France | £140m</h1>
+                <h4 class="thirdh3">Bayern Munich landed themselves a gem when they managed to pluck Michael Olise from the Premier League in a deal worth around £50m back in the summer of 2024. Looking back now, it's fair to say the Bavarians won the transfer window with that coup, with the France international having gone on to light up the Bundesliga and Champions League with his supreme performances over the last couple of years.
+                <br><br>Didier Deschamps hasn't been blind to his progress either, with Olise having formed part of a frightening Les Bleus attack at the World Cup. If anyone even dares to test Bayern's resolve with a bid for the former Crystal Palace winger in the summer, they're looking at truly monster numbers for the Bundesliga champions to even contemplate a sale. To that end, the latest rumours from the Spanish press suggest that Real Madrid are readying a mammoth £192m transfer package to try to force the Bavarian giants into a sale.
+                <br><br>And those sort of numbers don't seem so crazy when you assess how well Olise has performed at the World Cup. Starting with the 3-1 win over Senegal, the former Reading winger provided the gorgeous assist for Kylian Mbappe's opener before Olise would then combine with the Real Madrid forward, and Ousmane Dembele, in game two to help dismantle Iraq. After a rare off-day in the 4-1 win over Norway, Olise would go on to claim assist number four, and then five, in the commanding 3-0 hammering of Sweden in the last 32.
+                <br><br>He was one of many in France blue to underwhelm against Paraguay but after another assured performance in the 2-0 win over Morocco, the expectation was that he would step up a gear and, along with Mbappe, Dembele and Barcola, prove too hot for Spain to handle in the semi-final. How ultimately wrong we all were, though, as Olise hardly touched the ball in a dominant victory for La Roja that's added a sour note to an otherwise solid first World Cup full of highlights for the Bayern man. The big question now is whether he'll stay in Munich or seek a switch to the Bernabeu, as has been reported in the press in recent days.
+                <br><br>Player value before World Cup started: £125m
+                Current player value: £140m (⬆️ by £15m)</h4>
+                
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/3x90qDRy/IMG-5445.webp" alt="Argentina & England"> 
+                </span>
+                <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">1.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Lamine Yamal | <br>Barcelona & Spain | <br>£210m</h1>
+                <h4 class="thirdh3">There's surely no one in football that has a higher value than Lamine Yamal. At just 19, the Barcelona sensation has arguably proved he's already the best player in the world, and all eyes will be on him as he carries the hopes of a nation in the World Cup final. After a second-half cameo off the bench against Cape Verde - a precautionary move given Yamal had come into the tournament carrying an injury - the Barca forward exploded into life in his first start in North America, a 4-0 win over Saudi Arabia, sliding home at the far post to convert Mikel Oyarzabal's cross.
+                <br><br>It is, in truth, what we've come to expect with Yamal, where he'll be negatively judged if he's not providing those blockbuster moments on a regular basis. Indeed, after an ineffective showing in the final group game against Uruguay, the Barca forward looked the most dangerous player on the pitch in the convincing last-32 win over Austria as he constantly looked to burst forward with the ball, causing chaos in the opposition defence.
+                <br><br>Yet to score in the knockouts, Yamal is clearly desperate to produce a truly memorable moment before the World Cup ends. It wasn't to be the last-16 tie against Portugal, however, as Mikel Merino played hero in that one, dragging his side through to the quarters after the Barca winger showed flashes of his class but ultimately didn't quite hit his levels. It was another steady outing that lacked real cutting edge in the narrow 2-1 win over Belgium before Yamal turned the tide in Spain's favour against France in the semis, darting in to capitalise on Lucas Digne's mistake and force the penalty that would give La Roja the lead. A mouthwatering final clash with Argentina, and Lionel Messi no less, is up next for the teenager with the world at his feet, where the stage set for Yamal to really stamp his mark on this tournament.
+                <br><br>Player value before World Cup started: £200m
+                <br><br>Current player value: £210m (⬆️ by £10m)</h4>
+               
+               
+               
+               
+               
+               
+               
+               
+              <div class="lastdiv">
+                   </div>
+                   
+                       <div class="kkk">
+                        <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                        <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                       </div>
+                       <footer class="footer">
+                          <span class="yyy">
+                         <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                          </span>
+                         <div class="ficons">
+                          <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                          <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                          <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                          <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                         </div>
+                         <div class="footerp">
+                          <p><a href="http">Contact Us</a> |</p>
+                          <p><a href="http">Terms of Service</a> |</p>
+                          <p><a href="http">Privacy policy</a> |</p>
+                          <p><a href="http">Careers</a> |</p>
+                         </div>
+                         <div class="footerpp">
+                          <p><a href="http">Goal App (Android)</a> |</p>
+                          <p><a href="http">Goal App (iOS)</a> |</p>
+                          <p><a href="http">Goal Live</a> |</p>
+                         </div>
+                         <div class="footerppp">
+                         <p><a href="http">Betting</a> |</p>
+                         <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                         </div>
+                         <div class="footerpppp">
+                          <div class="zzz">
+                          <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                          <span>Nigeria</span>
+                          </div>
+                         </div>
+                         
+                         <div class="google">
+                          <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                          <span class="ggg">Add as preferred source on Google</span>
+                         </div>
+                         
+                          <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                         
+                         <div class="square">
+                         <div class="fgordon">
+                          <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                         </div> 
+                          <p class="con">+18
+                          Please play responsibly</p>
+                         </div>
+                        </footer>
+              
+              <script>
+                            const menuBtn = document.getElementById("menu-btn");
+                            const menu = document.getElementById("menu");
+                            
+                            menuBtn.addEventListener("click", function () {
+                              if (menu.style.display === "block") {
+                                menu.style.display = "none";
+                              } else {
+                                menu.style.display = "block";
+                              }
+                            });
+                            </script>
+              
+              
+       </body>
+      </html>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     

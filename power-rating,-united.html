@@ -1,0 +1,630 @@
+<!DOCTYPE HTML>
+      <html lang="en">
+        <head>
+         <meta charset=UTF-8>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Goal official website</title>
+         <style>
+         
+         body {
+             background-color: hsl(0, 0%, 18%);
+             margin: 0;
+         }
+         
+         .header {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             column-gap: 10px;
+             background-color: black;
+             width: 375px;
+             height: 50px;
+             border-bottom: 4px solid hsl(21, 100%, 50%);
+             paddin: 0px 15px 0px 0px;
+         }
+         
+         .menu {
+             max-width: 19px;
+         }
+         
+         .profile {
+             max-width: 30px;
+         }
+         
+         .goal {
+             max-width: 135px;
+         }
+         
+         .live {
+             max-width: 68px;
+         }
+         
+         .vpn {
+             max-width: 75px;
+         }
+         
+         .firstsec {
+             background-color: hsl(0, 0%, 10%);
+             padding-bottom: 10px;
+         }
+         
+          .ccc {
+              
+          }
+          
+          .firstp {
+              display: block;
+              to: 100px;
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              background-color: black;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+              padding: 20px;
+          }
+          
+          .firstdiv {
+              background-color: hsl(215, 100%, 50%);
+              width: 350px;
+              height: 140px;
+              border-radius: 15px;
+              margin: 15px 13px;
+              padding-bottom: 15px;
+          }
+          
+          .spanf, .span2 {
+                   display: flex;
+               }
+          
+          
+          .firstimg {
+                   max-width: 100%;
+               }
+               
+          .ddiv {
+                   background-color: white;
+                   width: 70px;
+                   height: 25px;
+                   margin: 10px 140px;
+                   border-radius: 20px;
+               }
+               
+               
+          .span1 {
+                   display: flex;
+                   border-top: 25px solid black;
+               }
+               .firsth3 {
+                   font-family: Impact, Arial Black, sans-serif;
+                   color: white;
+                   text-transform: uppercase;
+                   text-align: center;
+                   font-weight: bold;
+               }
+               
+               .secondh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   color: white;
+                   font-weight: bold;
+                   padding-left: 18px;
+               }
+               
+               .thirdh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 19px;
+                   font-weight: 30;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: 1px;
+               }
+               
+               .p2 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 13px;
+                   font-weight: bold;
+                   color: hsl(0, 0%, 13%);
+                   text-align: center;
+                   padding-top: 6px;
+               }
+               
+               .p3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: bold;
+                   color: white;
+                   padding: 13px 8px;
+               }
+               
+               .p4 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: 540;
+                   color: white;
+                   padding: 8px 10px 5px 18px;
+              
+               }
+               
+               .p5 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: 200;
+                   color: white;
+                   padding: 3px 0px 0px 10px;
+               }
+              
+               .pp {
+                   color: white;
+                   padding-top: 2px;
+               }
+          
+          
+          .secondh1 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: bold;
+                   font-size: 29px;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: -2px;
+               }
+          
+          .seconddiv {
+                   display: flex;
+                   justify-conten: center;
+                   align-items: center;
+                   column-gap: 80px;
+                   background-color: hsl(0, 0%, 26%);
+                   width: 350px;
+                   height: 40px;
+                   margin: 0 13px;
+                   border-radius: 5px;
+               }
+               
+               .inn {
+                        max-width: 73px;
+                         }
+          
+             .firsth1 {
+                      font-family: "Sofia Pro", sans-serif;
+                      font-weight: 800;
+                      color: white;
+                      padding-left: 18px;
+                      word-spacing: -5px;
+                  }
+          
+             #menu {
+                          position: sticky;
+                          top: 50px;
+                          font-family: "Sofia Pro", sans-serif;
+                          font-weight: bold;
+                          line-height: 45px;
+                          font-size: 22px;
+                          display: none;
+                          background: #111;
+                          padding: 20px;
+                      }
+                       
+                      #menu a {
+                          display: block;
+                          color: white;
+                          text-decoration: none;
+                          padding: 10px 0;
+                      }
+          
+          
+          .lastdiv {
+                   background-color: black;
+                   height: 55px;
+                   margin-top: 100px;
+               }
+               
+               .kkk {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 15px;
+                        background-color: hsl(0, 0%, 10%);
+                        width: 355px;
+                        height: 100px;
+                        padding-left: 20px;
+                    }
+                    
+                    .kkk a {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        background: #2d2d2d;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        transition: 0.3s;
+                    }
+                    
+                    .yyy {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .footer {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        background-color: black;
+                        color: white;
+                        padding: 10px 10px 50px 10px;
+                        font-size: 13px;
+                        line-height: 100%;
+                    }
+                    
+                    .footerp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerpp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerppp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    
+                    .footerpppp {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .imgpppp {
+                        width: 24px;
+                        height: 16px;
+                    }
+                    
+                    .zzz {
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                        margin-top: 8px;
+                        align-items: center;
+                    }
+                    
+                    .ggg {
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    a:hover {
+                        color: hsl(27, 100%, 50%);
+                    }
+                    
+                    .footer p {
+                      margin: 0;
+                      line-height: 2;
+                    }
+               
+                    .google {
+                        background-color: #4a4a4a;
+                        width: 90%;
+                        max-width: 900px;
+                        margin: 0px 13px 35px 13px;
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 10px 0px 12px 0px;
+                        align-items: center;
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                    }
+                    
+                    .googleimg {
+                        max-width: 16px;
+                    }
+                    
+                    .square {
+                        background-color: hsl(0, 0%, 10%);
+                        width: 330px;
+                        height: 80px;
+                        margin: -2px 35px -50px 13px;
+                    }
+                    
+                    .con {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                        font-size: 9px;
+                    } 
+                    
+                    .ficons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 16px;
+                        margin-bottom: 30px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons {
+                        max-width: 30px;
+                    }
+                    
+                    .iconss {
+                        max-width: 22px;
+                    }
+                    
+                    .iconsss {
+                        max-width: 27px;
+                    }
+                    
+                    .iconssss {
+                        max-width: 38px;
+                    }
+                    
+                    .dark {
+                        max-width: 60px;
+                    }
+                    
+                    .fgordon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .gordon {
+                        max-width: 110px;
+                        padding-top: 7px;
+                    }
+                    
+          
+          </style>
+             </head>
+             <body>
+              <header class="header">
+               <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+               <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+               <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+               <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+               <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+              </header>
+              <nav id="menu">
+               <a href="#">WORLD CUP</a>
+               <a href="#">LIVE SCORES</a>
+               <a href="#">NEWS</a>
+               <a href="#">FORUMS</a>
+               <a href="#">PREMIER LEAGUE</a>
+               <a href="#">LA LIGA</a>
+               <a href="#">BETTING</a>
+               <a href="#">CULTURE</a>
+                  </nav>
+                  <br>
+                  <br>
+              <section class="firstsec">
+              <div>
+               <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+              </div>
+              <div class="firstdiv">
+               <br>
+                <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+               <div class="ddiv">
+                <p class="p2">Explore</p>
+               </div>
+              </div>
+              <div Class="seconddiv">
+               <p class="p3">Explore Betting on GOAL</p>
+               <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+              </div>
+              </section>
+              
+              <span class="spanf">
+               <img class="firstimg" src="https://i.postimg.cc/qvg69vCz/IMG-5446.webp" alt="United Feminine">
+              </span>
+             
+              <span class="span2"><p class="p4">Ameé Ruszkai</p> <p class="pp">|</p><p class="p5">15 Jul 2026 08:00+01:00</p></span>
+               <h1 class="firsth1">Man Utd in danger of falling further behind WSL elite after slow start to summer <br>transfer window <br>leaves Red Devils at <br>risk of being engulfed by improving middle class</h1>
+                   
+               <h4 class="thirdh3">It's been a hectic summer transfer window so far in the women's game, especially in the Women's Super League. Two-time Ballon d'Or winner Alexia Putellas has landed in the division, as has one of the NWSL's brightest stars in Manaka Matsukubo, while Georgia Stanway and Mary Earps have returned and other England stars, such as Beth Mead and Niamh Charles, have also been on the move. None of these eye-catching deals, though, have involved Manchester United.
+               <br><br>The Red Devils had a mixed season last year. Reaching another cup final, just their third since the women's team was reinstated in 2018, was a big positive, as was a run to the Champions League quarter-finals on their debut in the main competition. However, a fourth-placed finish in the WSL means United will be without European football for the new campaign, having come up a disappointing nine points shy of the division's top three.
+               <br><br>This summer is a big one, then, when it comes to making up that ground to Manchester City, who just ended a 10-year wait for a WSL crown and added an FA Cup triumph to it for good measure; Arsenal, only a year removed from Champions League glory; and Chelsea, who were still able to lift the League Cup in what was their most disappointing season in seven years. United have shown they can beat all of these teams over the years, but doing so consistently has so far eluded the club.
+               <br><br>And yet, while Arsenal continue to wow all with their transfer business, City subtly add to their title-winning team and Chelsea near a solution to their striker woes, United have been concerningly quiet in this transfer window - and all while those behind them, most notably London City Lionesses, have been anything but.</h4>
+                   
+              <span class="span1">
+               <img class="firstimg" src="https://i.postimg.cc/zf8ZyVSf/IMG-5447.webp" alt="United Team"> 
+              </span>
+                <h1 class="secondh1">On the cusp</h1>
+                <h4 class="thirdh3">That United missed out on European football last season despite reaching a Champions League quarter-final, and competing well in it, almost sums up where this team is at right now: On the cusp of the top of the game and able to hold their own at times, but not quite with the staying power required to remain there and, better yet, kick on.
+                <br><br>In a way, that's no huge surprise. After all, United only reformed the women's team eight years ago, meaning there was always a large gap to bridge between themselves and City, Arsenal and Chelsea. The Red Devils have made some in-roads in that time, qualifying for the Champions League while reaching three cup finals and winning a major title, in the FA Cup. But there is still a lot of ground that needs to be made up, as they just don't have the same foundations as teams that have been at the top table for a while.</h4>
+                    
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/rmBzRFvz/IMG-5448.webp" alt="United Team"> 
+                </span>
+                 <h1 class="secondh1">Not enough</h1>
+                 <h4 class="thirdh3">Taking big steps on and off the pitch was always going to be necessary then, and while that is made more difficult by the fact their rivals are all doing the same, United haven't yet done enough.
+                 
+                 A lack of squad depth in particular is a key area where United have lagged behind others, especially this past season when they were competing in the Champions League. That desperately needs to be addressed this summer, with the club failing to do so 12 months ago.
+                     It's not like United recruit badly, either. Taking a look back at last summer, both Julia Zigiotti Olme and Jess Park would qualify as real success stories. The problem was that they were among just three signings made. That was never going to be enough as Marc Skinner's side prepared to compete on four fronts - and so it proved, despite some January activity.</h4>
+                                    
+                
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/V6x50L3v/IMG-5449.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">Rivals making moves</h1>
+                <h4 class="thirdh3">Little has happened so far in this summer transfer window to suggest anything will change, all while United's rivals go about their business well.
+                
+                City came into the market explicitly stating that they would not be overly busy, having just won the WSL and FA Cup. Yet, they've still signed Mead, a top-level attacker with tons of winning experience; Charles, another England international who addresses a position of need at left-back; and staved off interest from Chelsea in star striker Khadija Shaw, tying the WSL Golden Boot winner down to a new contract.
+                    Arsenal, meanwhile, have been extremely bullish as they look to end their seven-year wait for a WSL title, wasting no time and announcing all of Stanway, Ona Batlle, Selina Cerci, Geraldine Reuteler and Lisa Baum in a two-week spell, all while interest in signing Barcelona free agent Salma Paralluelo continues. That's the sort of business that can take a team to the top of the WSL.
+                
+                Even Chelsea, who have had a far from ideal window to date, have made some great signings. Amid the frustration of being rejected by Shaw, then Paralluelo, then Felicia Schroder in their hunt for a new striker, the Blues have signed Katie McCabe and also made an excellent addition in Matsukubo, who was one of the best players in the NWSL last year and is still only 21 years old. The Blues' search for a centre forward may also be over, with Paris Saint-Germain star Romee Leuchter on the way, according to Vrouwen Voetbal Nieuws.</h4>
+                                  
+                                  
+                    
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/76FbJYpL/IMG-5450.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">Quiet start</h1>
+               <h4 class="thirdh3">What have United been up to? Well, Andrea Medina is through the door, the talented 22-year-old who can play as a centre-back or a left-back. She's a great signing and someone who addresses the lack of depth, too. But that's it so far.
+               
+               There's been a real lack of rumours or reporting around potential targets for the Red Devils, too, with the biggest transfer stories instead concerning departures. It was widely reported on Tuesday that Melvine Malard, one of United's best players last season, is closing in on a move to Chelsea, with defender Millie Turner's move to Birmingham announced on Wednesday and midfielder Lisa Naalsund set to follow her to the club.
+                   
+            Meanwhile, the Athletic reported in May that United were open to selling Elisabeth Terland, United's top-scorer from last season, if an offer that meets their valuation was received, in order to reinvest the funds instead of potentially losing the Norway international on a free transfer next summer. Whether that remains the case after the sale of Malard, time will tell.
+               
+               Terland, who rejected a new deal in November, is not the only name out of contract next year, either. Ella Toone is another, and when quizzed about her future last month, the England midfielder was non-committal.
+               
+               "Obviously it’s now time to talk," Toone said. "I just know I have got to make a decision on what’s best for me."</h4>
+                           
+                           
+                                                                     
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/Kz643vdz/IMG-5451.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">Looking over their shoulders</h1>
+                <h4 class="thirdh3">And it's not just catching up to City, Arsenal and Chelsea that should be on the minds of United. There's also a need to look over their shoulder, because those in that cluster of mid-table clubs are improving.
+                
+                London City Lionesses are the obvious threat. Owned by billionaire Michele Kang, who also owns Trinity Rodman's Washington Spirit and eight-time European champions Lyon, the club has made the signing of the summer in luring two-time Ballon d'Or winner Putellas to England, with four-time Champions League winner Mapi Leon, former Lionesses star Mary Earps and France forward Kadidiatou Diani also among those through the door.
+                    But there are others to be wary of. Tottenham, who finished one place and just four points behind United last term after drawing with them home and away, have made a really solid start to the summer window, bringing in five new faces already. Among them are Shekiera Martinez, scorer of 16 goals in 32 league games for relegation-threatened West Ham; Kirsty Hanson, only outscored by Shaw and Russo in the WSL last term; and goalkeeper Selma Panengstuen, who reportedly chose Spurs over Arsenal and PSG.
+                
+                Brighton, another side that caused United problems last year, are looking to build on their run to May's FA Cup final, too, and have added former Arsenal midfielder Lia Walti to their squad in what is an excellent bit of business.</h4>
+                                                    
+               
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/Kz643vdh/IMG-5452.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">More needed</h1>
+               <h4 class="thirdh3">How will United respond? Last summer, as the women's transfer window hit new financial heights, head coach Skinner admitted that the Red Devils were not going to be able to compete with the seven-figure sums that took Olivia Smith to Arsenal and Grace Geyoro to London City.
+               
+               "The reality is we have to try and find our own way to do it," he said. And United did do some good work despite that admission prompting frustration from fans - they just didn't do enough of it to build a squad capable of competing on four fronts.
+                There won't be four fronts this year. Champions League football is off the table and United will be looking to take advantage of that, just as City did this year as they ended their decade-long wait for another WSL title. There's also hope that those signed in January can make a greater impact in the new campaign, having had six months to settle. That's especially the case with Lea Schuller, who arrived from Bayern Munich with an incredible goal record but netted only twice in her first 18 appearances.
+               
+               But this United team still needs strengthening massively in order to compete not only with City, Arsenal and Chelsea, but also the teams below them in the table who are taking huge strides. This is a massive transfer window for the club, and while a quiet start doesn't mean it won't be a successful one, the summer has not yet featured the sort of response fans would have hoped for after a disappointing season that showed why United are still not a consistent contender at the top of the women's game.</h4>
+                                                   
+               
+               
+               
+               
+               
+              <div class="lastdiv">
+                   </div>
+                   
+                       <div class="kkk">
+                        <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                        <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                       </div>
+                       <footer class="footer">
+                          <span class="yyy">
+                         <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                          </span>
+                         <div class="ficons">
+                          <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                          <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                          <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                          <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                         </div>
+                         <div class="footerp">
+                          <p><a href="http">Contact Us</a> |</p>
+                          <p><a href="http">Terms of Service</a> |</p>
+                          <p><a href="http">Privacy policy</a> |</p>
+                          <p><a href="http">Careers</a> |</p>
+                         </div>
+                         <div class="footerpp">
+                          <p><a href="http">Goal App (Android)</a> |</p>
+                          <p><a href="http">Goal App (iOS)</a> |</p>
+                          <p><a href="http">Goal Live</a> |</p>
+                         </div>
+                         <div class="footerppp">
+                         <p><a href="http">Betting</a> |</p>
+                         <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                         </div>
+                         <div class="footerpppp">
+                          <div class="zzz">
+                          <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                          <span>Nigeria</span>
+                          </div>
+                         </div>
+                         
+                         <div class="google">
+                          <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                          <span class="ggg">Add as preferred source on Google</span>
+                         </div>
+                         
+                          <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                         
+                         <div class="square">
+                         <div class="fgordon">
+                          <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                         </div> 
+                          <p class="con">+18
+                          Please play responsibly</p>
+                         </div>
+                        </footer>
+              
+              <script>
+                            const menuBtn = document.getElementById("menu-btn");
+                            const menu = document.getElementById("menu");
+                            
+                            menuBtn.addEventListener("click", function () {
+                              if (menu.style.display === "block") {
+                                menu.style.display = "none";
+                              } else {
+                                menu.style.display = "block";
+                              }
+                            });
+                            </script>
+              
+              
+       </body>
+      </html>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     

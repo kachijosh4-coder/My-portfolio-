@@ -1,0 +1,647 @@
+<!DOCTYPE HTML>
+      <html lang="en">
+        <head>
+         <meta charset=UTF-8>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Goal official website</title>
+         <style>
+         
+         body {
+             background-color: hsl(0, 0%, 18%);
+             margin: 0;
+         }
+         
+         .header {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             column-gap: 10px;
+             background-color: black;
+             width: 375px;
+             height: 50px;
+             border-bottom: 4px solid hsl(21, 100%, 50%);
+             paddin: 0px 15px 0px 0px;
+         }
+         
+         .menu {
+             max-width: 19px;
+         }
+         
+         .profile {
+             max-width: 30px;
+         }
+         
+         .goal {
+             max-width: 135px;
+         }
+         
+         .live {
+             max-width: 68px;
+         }
+         
+         .vpn {
+             max-width: 75px;
+         }
+         
+         .firstsec {
+             background-color: hsl(0, 0%, 10%);
+             padding-bottom: 10px;
+         }
+         
+          .ccc {
+              
+          }
+          
+          .firstp {
+              display: block;
+              to: 100px;
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              background-color: black;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+              padding: 20px;
+          }
+          
+          .firstdiv {
+              background-color: hsl(215, 100%, 50%);
+              width: 350px;
+              height: 140px;
+              border-radius: 15px;
+              margin: 15px 13px;
+              padding-bottom: 15px;
+          }
+          
+          .spanf, .span2 {
+                   display: flex;
+               }
+          
+          
+          .firstimg {
+                   max-width: 100%;
+               }
+               
+          .ddiv {
+                   background-color: white;
+                   width: 70px;
+                   height: 25px;
+                   margin: 10px 140px;
+                   border-radius: 20px;
+               }
+               
+               
+          .span1 {
+                   display: flex;
+                   border-top: 25px solid black;
+               }
+               .firsth3 {
+                   font-family: Impact, Arial Black, sans-serif;
+                   color: white;
+                   text-transform: uppercase;
+                   text-align: center;
+                   font-weight: bold;
+               }
+               
+               .secondh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   color: white;
+                   font-weight: bold;
+                   padding-left: 18px;
+               }
+               
+               .thirdh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 19px;
+                   font-weight: 30;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: 1px;
+               }
+               
+               .p2 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 13px;
+                   font-weight: bold;
+                   color: hsl(0, 0%, 13%);
+                   text-align: center;
+                   padding-top: 6px;
+               }
+               
+               .p3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: bold;
+                   color: white;
+                   padding: 13px 8px;
+               }
+               
+               .p4 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: 540;
+                   color: white;
+                   padding: 8px 10px 5px 18px;
+              
+               }
+               
+               .p5 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: 200;
+                   color: white;
+                   padding: 3px 0px 0px 10px;
+               }
+              
+               .pp {
+                   color: white;
+                   padding-top: 2px;
+               }
+          
+          
+          .secondh1 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: bold;
+                   font-size: 29px;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: -2px;
+               }
+          
+          .seconddiv {
+                   display: flex;
+                   justify-conten: center;
+                   align-items: center;
+                   column-gap: 80px;
+                   background-color: hsl(0, 0%, 26%);
+                   width: 350px;
+                   height: 40px;
+                   margin: 0 13px;
+                   border-radius: 5px;
+               }
+               
+               .inn {
+                        max-width: 73px;
+                         }
+          
+             .firsth1 {
+                      font-family: "Sofia Pro", sans-serif;
+                      font-weight: 800;
+                      color: white;
+                      padding-left: 18px;
+                      word-spacing: -5px;
+                  }
+          
+             #menu {
+                          position: sticky;
+                          top: 50px;
+                          font-family: "Sofia Pro", sans-serif;
+                          font-weight: bold;
+                          line-height: 45px;
+                          font-size: 22px;
+                          display: none;
+                          background: #111;
+                          padding: 20px;
+                      }
+                       
+                      #menu a {
+                          display: block;
+                          color: white;
+                          text-decoration: none;
+                          padding: 10px 0;
+                      }
+          
+          
+          .lastdiv {
+                   background-color: black;
+                   height: 55px;
+                   margin-top: 100px;
+               }
+               
+               .kkk {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 15px;
+                        background-color: hsl(0, 0%, 10%);
+                        width: 355px;
+                        height: 100px;
+                        padding-left: 20px;
+                    }
+                    
+                    .kkk a {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        background: #2d2d2d;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        transition: 0.3s;
+                    }
+                    
+                    .yyy {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .footer {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        background-color: black;
+                        color: white;
+                        padding: 10px 10px 50px 10px;
+                        font-size: 13px;
+                        line-height: 100%;
+                    }
+                    
+                    .footerp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerpp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerppp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    
+                    .footerpppp {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .imgpppp {
+                        width: 24px;
+                        height: 16px;
+                    }
+                    
+                    .zzz {
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                        margin-top: 8px;
+                        align-items: center;
+                    }
+                    
+                    .ggg {
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    a:hover {
+                        color: hsl(27, 100%, 50%);
+                    }
+                    
+                    .footer p {
+                      margin: 0;
+                      line-height: 2;
+                    }
+               
+                    .google {
+                        background-color: #4a4a4a;
+                        width: 90%;
+                        max-width: 900px;
+                        margin: 0px 13px 35px 13px;
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 10px 0px 12px 0px;
+                        align-items: center;
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                    }
+                    
+                    .googleimg {
+                        max-width: 16px;
+                    }
+                    
+                    .square {
+                        background-color: hsl(0, 0%, 10%);
+                        width: 330px;
+                        height: 80px;
+                        margin: -2px 35px -50px 13px;
+                    }
+                    
+                    .con {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                        font-size: 9px;
+                    } 
+                    
+                    .ficons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 16px;
+                        margin-bottom: 30px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons {
+                        max-width: 30px;
+                    }
+                    
+                    .iconss {
+                        max-width: 22px;
+                    }
+                    
+                    .iconsss {
+                        max-width: 27px;
+                    }
+                    
+                    .iconssss {
+                        max-width: 38px;
+                    }
+                    
+                    .dark {
+                        max-width: 60px;
+                    }
+                    
+                    .fgordon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .gordon {
+                        max-width: 110px;
+                        padding-top: 7px;
+                    }
+                    
+          
+          </style>
+             </head>
+             <body>
+              <header class="header">
+               <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+               <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+               <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+               <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+               <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+              </header>
+              <nav id="menu">
+               <a href="#">WORLD CUP</a>
+               <a href="#">LIVE SCORES</a>
+               <a href="#">NEWS</a>
+               <a href="#">FORUMS</a>
+               <a href="#">PREMIER LEAGUE</a>
+               <a href="#">LA LIGA</a>
+               <a href="#">BETTING</a>
+               <a href="#">CULTURE</a>
+                  </nav>
+                  <br>
+                  <br>
+              <section class="firstsec">
+              <div>
+               <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+              </div>
+              <div class="firstdiv">
+               <br>
+                <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+               <div class="ddiv">
+                <p class="p2">Explore</p>
+               </div>
+              </div>
+              <div Class="seconddiv">
+               <p class="p3">Explore Betting on GOAL</p>
+               <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+              </div>
+              </section>
+              
+              <span class="spanf">
+               <img class="firstimg" src="https://i.postimg.cc/Pf0FNsJC/IMG-5453.webp" alt="Kane">
+              </span>
+             
+              <span class="span2"><p class="p4">Tom Hindle</p> <p class="pp">|</p><p class="p5">17 Jul 2026 09:00+01:00</p></span>
+               <h1 class="firsth1">Harry Kane is unlikely <br>to get another shot at World Cup glory after his most painful England failure yet - while his Ballon d'Or hopes are also now hanging by a thread</h1>
+                   
+               <h4 class="thirdh3">It was a surprise, in truth, that it took reporters so long to ask Harry Kane about his future. The England striker stood there in the mixed zone, after a devastating 2-1 loss to Argentina, faced with the damning end to a remarkable season. And not until the third question did someone ask the England captain what might be next for him.
+               <br><br>It was a fair query, too. Kane is two weeks shy of his 33rd birthday. All of the conventional wisdom of sport suggests that this decline is imminent, and that it might be steep. He will be 35 by the time Euro 2028 rolls around. He might not be the same footballer.
+               <br><br>And this whole situation really could have been so, so different. England led 1-0 after 85 minutes on Wednesday evening. And had Kane shown up in that game, it might have been more. The subsequent 48 hours could have been a victory lap before the final, a series of rousing pieces about how Kane might lead England to glory.
+               
+               <br><br>Instead we are left here, looking at a player who smashed countless records for club, but, ultimately, failed for country. International success is the last frontier for Kane to conquer. And it looks as if the moment might have passed him by.
+               
+               <br><br>"We were close, really close to another final, but it wasn’t enough. We’ve given everything over these last seven weeks, and to fall short is hard to take! I know the expectations are high and rightly so; we’ve been knocking on the door for eight years now but again are missing that final piece of the jigsaw," he said on social media.
+               </h4>
+                   
+              <span class="span1">
+               <img class="firstimg" src="https://i.postimg.cc/zf8ZyVSf/IMG-5447.webp" alt="United Team"> 
+              </span>
+                <h1 class="secondh1">A mixed showing against Argentina</h1>
+                <h4 class="thirdh3">For an hour, England were pretty compelling against Argentina. Thomas Tuchel's side did not necessarily have the beating of the reigning World Cup champions. But they played them about even. When Anthony Gordon scored in the 55th minute, it did not feel like a massive injustice. This was the first punch. Argentina would, presumably, land another. England were well equipped to throw one back.
+                
+               <br><br> Of course, they didn't. England cowered in defence. Argentina attacked with no fear. Lionel Scaloni remarked that Argentina "smelled blood in the water". Tuchel might as well have been throwing chum.
+              <br><br> And Kane was a weird bystander for most of it. His stat line from the game makes for ugly reading: 26 touches, nine passes completed, one shot (blocked), and zero touches in Argentina's box. That's perhaps a slightly unfair depiction of the game that Kane played as a whole.
+                
+               <br><br> This was a scrappy affair, and Kane was, well, up for the scrap. He spent most of the first half, in fact, getting stuck in. He attempted more duels than Lisandro Martinez and Alexis Mac Allister. There were times when he quite recklessly threw his body on the line.
+                
+               <br><br> That was valuable in the first half, when there wasn't much football to be played. But, in the second, when England needed to push, things fell flat.
+                </h4>
+                    
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/rmBzRFvz/IMG-5448.webp" alt="United Team"> 
+                </span>
+                 <h1 class="secondh1">'We struggled to be on <br>the ball'</h1>
+                 <h4 class="thirdh3">The second half, after England scored, presented a strange tactical conundrum for Tuchel. He was, in fairness, in quite a strange spot. England had completed a heroic rear-guard action at the Azetca, a defensive stand for the ages to see out a narrow win against Mexico. Kane was on the pitch for 89 minutes that night, scrapping, kicking and fighting.
+                 
+                <br><br> And he remained as such on Wednesday - even if he insisted that England should have pushed up more.
+                 
+                <br><br> "For one reason or another, we struggled to be on the ball, we struggle to put pressure on the ball and it allowed them to create more momentum and created more attacks for them in our final third," Kane said. The irony here is that Kane is part of the problem.
+                 
+               <br><br>  What England really needed was an out ball, someone to stand on one of Argentina's lumbering centre-backs, and keep them honest. Kane is a near-complete striker. The one thing he does not have is pace. And so he dropped deep to try to stem the tide but proved unsurprisingly powerless as wave after wave of pressure broke in front of him.
+                 
+               <br><br>  This was no longer a game for Kane. Tuchel really should have hooked him. But Kane was there, watching disaster unfold in front of him.</h4>
+                
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/V6x50L3v/IMG-5449.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">A record-breaking <br>season</h1>
+                <h4 class="thirdh3">In context, it is a remarkably disappointing - if not unfair - end to the season. Kane was magnificent for Bayern Munich last year. He broke the single-season record for a Bundesliga player by scoring 58 goals in all competitions. No player in Europe's top five leagues matched his domestic tally of 36. He became the fastest Bayern Munich player ever to reach 100 goal contributions. Bayern won the league by 16 points, after taking their foot off the gas a little bit towards the end of the campaign.
+                
+               <br><br> There were, accordingly, some pretty compelling Ballon d'Or shouts for the English striker. These were numbers that Robert Lewandowski never reached. He was touching Messi and Ronaldo territory with such statistical hauls. On numbers alone, there was a pretty compelling argument for him to become the first Englishman since Michael Owen to win the award.
+                
+              <br><br>  But Bayern's performances in major competitions rather hampered his chances. They went toe-to-toe with eventual champions PSG, but failed to mount a second-leg comeback, and slumped to a 6-5 loss in the semis.</h4>
+                                  
+                    
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/76FbJYpL/IMG-5450.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">'I'd be one of the <br>favourites'</h1>
+               <h4 class="thirdh3">The World Cup felt like a bit of a blank slate in his effort. Kane himself admitted that he knew that a strong World Cup would put him back in the running.
+               
+              <br><br> "I’d be one of the favorites, definitely," Kane said before the tournament. "Given the trophies I’ve won this season and the number of goals I’ve scored, I’d be in the running. Especially as, should England win the World Cup, one could imagine the trophy going to an English player."
+               
+              <br><br> For the first five games, Kane played like it, too. He scored twice against Croatia, once against Panama, twice against Congo and mixed in an assist at the Azteca. He and Jude Bellingham paced England. Everyone else just did their jobs.
+               
+              <br><br> A Golden Boot tends to help with these things, too. And heading into Wednesday's semi-final, Kane was two goals behind Messi and Mbappe. Logically, England would need his contributions if they were to advance. Put more simply, Kane was primed to strike.
+               
+              <br><br> Yet in his failure to score against Argentina, he has almost certainly seen the Golden Boot slip away. Even if Kane were to put three past France in a third place game he really shouldn't play in, it would be foolish to suggest that Messi won't score against Spain in the final.
+               
+              <br><br> Kane will head back to Germany without a Golden Boot, having just fallen short as a team. His chances are gone.</h4>
+                           
+                                                                     
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/Kz643vdz/IMG-5451.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">Could this be the <br>end?</h1>
+                <h4 class="thirdh3">The sad part? This could really be the end. Kane's move to Bayern was a bit of a career rebirth. Looking back, he probably stayed at Tottenham for a year or two too long. He was magnificent for Spurs, routinely one of the best players in the Premier League. But there were always too many issues around him, and not enough money spent by ownership (which, ironically, has decided to start spending hundreds of millions this summer).
+                
+              <br><br>  His success through his first two seasons in Bayern, more than anything, stood as proof of legitimacy. Kane could still do it at a high level. Perhaps he was yet to peak. He has spoken often of studying other sports, and highlighting other athletes for how well they are able to look after their bodies. Kane wants to fight off Father Time, and his Bayern years suggest that he can - at least at a club level.
+                
+               <br><br> But international football is so, so different. These are not long campaigns where tactics can be tweaked, and weeks can be taken off. There are no breaks to manage minutes or games taken off to stretch out tired legs. England stretched out their World Cup camp, but even then it was less than two months. After a long season, this was basically a straight sprint. And Kane, when it mattered most, failed to deliver.</h4>    
+               
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/Kz643vdh/IMG-5452.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">A strange England <br>legacy</h1>
+               <h4 class="thirdh3">And if this is really it, then Kane's England legacy is a strange one. First of all, he is surely England's best ever striker. Assuming he keeps going, Kane will certainly eclipse 100 goals for his country. Peter Shilton's record of 125 caps is well within reach (Kane has 121 to his name). He has scored more penalties than any other player at the World Cup, and won the Golden Boot in 2018.
+               
+              <br><br> But major tournament failures will surely hamper his legacy. He was ineffective at Euro 2024, and missed a crucial penalty in Qatar in 2022. And even if he played in markedly weaker squads in the 2018 World Cup and 2021 Euros, Kane has never really carried the country in a way that a player of his talent should. Record-breaking goalscorers with numbers of this level - Messi, Ronaldo, Pele, Maradona, Henry - all had a major trophy to point to. Kane does not.
+               
+              <br><br> Yet England, too, have a problem. Look at the striker depth chart, and it is worryingly thin. Tuchel took a 30-year-old Ollie Watkins and a 30-year-old Ivan Toney to this World Cup. There is no young striker to take the mantle from here. And Kane will be very hard to force out.
+               
+              <br><br> So, England will likely trundle on. Kane will be in the team in 2028. England will likely be pretty good in that tournament. But by then, he will surely be over the hill. Yet England don't really have anyone else to turn to.
+               
+               <br><br>Kane, for his part, wants to carry on.
+               
+               <br><br>"The national team is my pride and joy," he said. "It's what I love to do most more than anything. Obviously four years is a long way away, I'm 33 this summer but it never ended with Leo [Messi] there, he's still performing at the highest level. I never want to put a limit on these things."
+               
+               <br><br>Yet that cannot be counted on. Kane has had tournaments where he could prove his greatness before, and seen them slip away. This one, in this disappointing style, feels like the biggest miss of them all.</h4>      
+               
+               
+               
+               
+               
+              <div class="lastdiv">
+                   </div>
+                   
+                       <div class="kkk">
+                        <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                        <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                       </div>
+                       <footer class="footer">
+                          <span class="yyy">
+                         <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                          </span>
+                         <div class="ficons">
+                          <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                          <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                          <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                          <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                         </div>
+                         <div class="footerp">
+                          <p><a href="http">Contact Us</a> |</p>
+                          <p><a href="http">Terms of Service</a> |</p>
+                          <p><a href="http">Privacy policy</a> |</p>
+                          <p><a href="http">Careers</a> |</p>
+                         </div>
+                         <div class="footerpp">
+                          <p><a href="http">Goal App (Android)</a> |</p>
+                          <p><a href="http">Goal App (iOS)</a> |</p>
+                          <p><a href="http">Goal Live</a> |</p>
+                         </div>
+                         <div class="footerppp">
+                         <p><a href="http">Betting</a> |</p>
+                         <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                         </div>
+                         <div class="footerpppp">
+                          <div class="zzz">
+                          <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                          <span>Nigeria</span>
+                          </div>
+                         </div>
+                         
+                         <div class="google">
+                          <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                          <span class="ggg">Add as preferred source on Google</span>
+                         </div>
+                         
+                          <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                         
+                         <div class="square">
+                         <div class="fgordon">
+                          <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                         </div> 
+                          <p class="con">+18
+                          Please play responsibly</p>
+                         </div>
+                        </footer>
+              
+              <script>
+                            const menuBtn = document.getElementById("menu-btn");
+                            const menu = document.getElementById("menu");
+                            
+                            menuBtn.addEventListener("click", function () {
+                              if (menu.style.display === "block") {
+                                menu.style.display = "none";
+                              } else {
+                                menu.style.display = "block";
+                              }
+                            });
+                            </script>
+              
+              
+       </body>
+      </html>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     

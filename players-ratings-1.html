@@ -1,0 +1,657 @@
+<!DOCTYPE HTML>
+      <html lang="en">
+        <head>
+         <meta charset=UTF-8>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Goal official website</title>
+         <style>
+         
+         body {
+             background-color: hsl(0, 0%, 18%);
+             margin: 0;
+         }
+         
+         .header {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             column-gap: 10px;
+             background-color: black;
+             width: 375px;
+             height: 50px;
+             border-bottom: 4px solid hsl(21, 100%, 50%);
+             paddin: 0px 15px 0px 0px;
+         }
+         
+         .menu {
+             max-width: 19px;
+         }
+         
+         .profile {
+             max-width: 30px;
+         }
+         
+         .goal {
+             max-width: 135px;
+         }
+         
+         .live {
+             max-width: 68px;
+         }
+         
+         .vpn {
+             max-width: 75px;
+         }
+         
+         .firstsec {
+             background-color: hsl(0, 0%, 10%);
+             padding-bottom: 10px;
+         }
+         
+          .ccc {
+              
+          }
+          
+          .firstp {
+              display: block;
+              to: 100px;
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              background-color: black;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+              padding: 20px;
+          }
+          
+          .firstdiv {
+              background-color: hsl(215, 100%, 50%);
+              width: 350px;
+              height: 140px;
+              border-radius: 15px;
+              margin: 15px 13px;
+              padding-bottom: 15px;
+          }
+          
+          .spanf, .span2 {
+                   display: flex;
+               }
+          
+          
+          .firstimg {
+                   max-width: 100%;
+               }
+               
+          .ddiv {
+                   background-color: white;
+                   width: 70px;
+                   height: 25px;
+                   margin: 10px 140px;
+                   border-radius: 20px;
+               }
+               
+               
+          .span1 {
+                   display: flex;
+                   border-top: 25px solid black;
+               }
+               .firsth3 {
+                   font-family: Impact, Arial Black, sans-serif;
+                   color: white;
+                   text-transform: uppercase;
+                   text-align: center;
+                   font-weight: bold;
+               }
+               
+               .secondh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   color: white;
+                   font-weight: bold;
+                   padding-left: 18px;
+               }
+               
+               .thirdh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 19px;
+                   font-weight: 30;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: 1px;
+               }
+               
+               .p2 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 13px;
+                   font-weight: bold;
+                   color: hsl(0, 0%, 13%);
+                   text-align: center;
+                   padding-top: 6px;
+               }
+               
+               .p3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: bold;
+                   color: white;
+                   padding: 13px 8px;
+               }
+               
+               .p4 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: 540;
+                   color: white;
+                   padding: 8px 10px 5px 18px;
+              
+               }
+               
+               .p5 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: 200;
+                   color: white;
+                   padding: 3px 0px 0px 10px;
+               }
+              
+               .pp {
+                   color: white;
+                   padding-top: 2px;
+               }
+          
+          
+          .secondh1 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: bold;
+                   font-size: 29px;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: -4px;
+               }
+          
+          .seconddiv {
+                   display: flex;
+                   justify-conten: center;
+                   align-items: center;
+                   column-gap: 80px;
+                   background-color: hsl(0, 0%, 26%);
+                   width: 350px;
+                   height: 40px;
+                   margin: 0 13px;
+                   border-radius: 5px;
+               }
+               
+               .inn {
+                        max-width: 73px;
+                         }
+          
+             .firsth1 {
+                      font-family: "Sofia Pro", sans-serif;
+                      font-weight: 800;
+                      color: white;
+                      padding-left: 18px;
+                      word-spacing: -5px;
+                  }
+          
+             #menu {
+                          position: sticky;
+                          top: 50px;
+                          font-family: "Sofia Pro", sans-serif;
+                          font-weight: bold;
+                          line-height: 45px;
+                          font-size: 22px;
+                          display: none;
+                          background: #111;
+                          padding: 20px;
+                      }
+                       
+                      #menu a {
+                          display: block;
+                          color: white;
+                          text-decoration: none;
+                          padding: 10px 0;
+                      }
+          
+          
+          .lastdiv {
+                   background-color: black;
+                   height: 55px;
+                   margin-top: 100px;
+               }
+               
+               .kkk {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 15px;
+                        background-color: hsl(0, 0%, 10%);
+                        width: 355px;
+                        height: 100px;
+                        padding-left: 20px;
+                    }
+                    
+                    .kkk a {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        background: #2d2d2d;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        transition: 0.3s;
+                    }
+                    
+                    .yyy {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .footer {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        background-color: black;
+                        color: white;
+                        padding: 10px 10px 50px 10px;
+                        font-size: 13px;
+                        line-height: 100%;
+                    }
+                    
+                    .footerp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerpp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerppp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    
+                    .footerpppp {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .imgpppp {
+                        width: 24px;
+                        height: 16px;
+                    }
+                    
+                    .zzz {
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                        margin-top: 8px;
+                        align-items: center;
+                    }
+                    
+                    .ggg {
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    a:hover {
+                        color: hsl(27, 100%, 50%);
+                    }
+                    
+                    .footer p {
+                      margin: 0;
+                      line-height: 2;
+                    }
+               
+                    .google {
+                        background-color: #4a4a4a;
+                        width: 90%;
+                        max-width: 900px;
+                        margin: 0px 13px 35px 13px;
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 10px 0px 12px 0px;
+                        align-items: center;
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                    }
+                    
+                    .googleimg {
+                        max-width: 16px;
+                    }
+                    
+                    .square {
+                        background-color: hsl(0, 0%, 10%);
+                        width: 330px;
+                        height: 80px;
+                        margin: -2px 35px -50px 13px;
+                    }
+                    
+                    .con {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                        font-size: 9px;
+                    } 
+                    
+                    .ficons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 16px;
+                        margin-bottom: 30px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons {
+                        max-width: 30px;
+                    }
+                    
+                    .iconss {
+                        max-width: 22px;
+                    }
+                    
+                    .iconsss {
+                        max-width: 27px;
+                    }
+                    
+                    .iconssss {
+                        max-width: 38px;
+                    }
+                    
+                    .dark {
+                        max-width: 60px;
+                    }
+                    
+                    .fgordon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .gordon {
+                        max-width: 110px;
+                        padding-top: 7px;
+                    }
+                    
+          
+          </style>
+             </head>
+             <body>
+              <header class="header">
+               <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+               <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+               <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+               <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+               <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+              </header>
+              <nav id="menu">
+               <a href="#">WORLD CUP</a>
+               <a href="#">LIVE SCORES</a>
+               <a href="#">NEWS</a>
+               <a href="#">FORUMS</a>
+               <a href="#">PREMIER LEAGUE</a>
+               <a href="#">LA LIGA</a>
+               <a href="#">BETTING</a>
+               <a href="#">CULTURE</a>
+                  </nav>
+                  <br>
+                  <br>
+              <section class="firstsec">
+              <div>
+               <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+              </div>
+              <div class="firstdiv">
+               <br>
+                <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+               <div class="ddiv">
+                <p class="p2">Explore</p>
+               </div>
+              </div>
+              <div Class="seconddiv">
+               <p class="p3">Explore Betting on GOAL</p>
+               <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+              </div>
+              </section>
+              
+              <span class="spanf">
+               <img class="firstimg" src="https://i.postimg.cc/50phB6rw/IMG-5425.webp" alt="Argentina">
+              </span>
+             
+              <span class="span2"><p class="p4">Ryan Tolmich</p> <p class="pp">|</p><p class="p5">15 Jul 2026 22:13+01:00</p></span>
+               <h1 class="firsth1">Argentina player ratings vs England: Never write the champions off! Lionel Messi produces more magic as Enzo Fernandez and <br>Lautaro Martinez <br>send Albiceleste to another World Cup <br>final</h1>
+               
+               <h4 class="thirdh3">Every time Lionel Messi got near the ball, the crowd in Atlanta held its breath. It wouldn't take much to feel the room shift during the first hour or so of Argentina's clash with England, just a brief moment where the Argentinian icon drifted into enough space to maybe, perhaps, do something. As the game wore on, those moments became more tense. Down a goal late, the moments where the air left the crowd were less about anticipating magic and more about a potential reality setting in.
+               With this Argentina team, though, reality just seems to be different. It wasn't Messi who gave the pro-Argentinian crowd their ability to breathe, but he did play his part. Once again, this team, the defending champions, came back from the brink in a World Cup game. They never make it easy, but they always seem to make it.
+               After going behind to England in the 55th minute, Messi and co. stormed back with two late goals, earning a 2-1 win that sends them to a second consecutive World Cup final. Messi provided the assists for both goals, but, on this day, he wasn't the magic man; it was his supporting cast that made the difference.
+              
+               <br><br>First up was Enzo Fernandez, who had previously been well-managed by England's star-studded midfield. In truth, all of Argentina had through 85 minutes but, with one swing of Fernandez's foot, that all went up in flames. As his shot sailed past a helpless Jordan Pickford, the crowd in Atlanta erupted. From there it felt like a matter of time.
+              <br><br>It was. Two minutes into stoppage time, momentum was building and Argentina seized on it to win the game. Messi's cross landed right on the head of Lautaro Martinez, who couldn't miss from close-range. He didn't, and Argentina were through. The champions could still be champions again.
+              <br><br>This one wasn't easy, but none of the wins that came prior were, either. Tested by a physical and motivated England team, Argentina were pushed to the brink. They're used to being there, though, which is why they're still here with one more chance at a final and one more chance to take the world's breath away.
+              <br><br>GOAL rates Argentina's players from Atlanta...</h4>
+                   
+              <span class="span1">
+               <img class="firstimg" src="https://i.postimg.cc/JnV1tDkK/IMG-5428.webp" alt="Argentina & England"> 
+              </span>
+               <h1 class="secondh1">Goalkeeper & Defence</h1>
+               <h3 class="secondh3">Emiliano Martinez (6/10):</h3>
+               
+               <h4 class="thirdh3">Pretty helpless on the England goal. Had a few easier moments in the 55 minutes leading up to it, but really didn't have to do much.</h4>
+               
+               <h3 class="secondh3">Nicolas Tagliafico (6/10):</h3>
+              
+               <h4 class="thirdh3">The better of the two full-backs. England changed things up by going with Rogers instead of Madueke, but Tagliafico was never really threatened.</h4>
+                              
+               <h3 class="secondh3">Lisandro Martinez (6/10):</h3>
+                   
+               <h4 class="thirdh3">Picked up a somewhat-necessary yellow in the first half, which did force him to calm down a bit. His bicycle kick on Gordon's goal sequence was admirable, but it also left Argentina totally out of their shape for England's decisive attack.</h4>
+                   
+               <h3 class="secondh3">Cristian Romero (7/10):</h3>
+               
+               <h4 class="thirdh3">Like Martinez, was forced to take a yellow card early in the second half. Was generally rock solid otherwise.</h4>
+              
+               <h3 class="secondh3">Nahuel Molina (4/10):</h3>
+               
+               <h4 class="thirdh3">Totally caught ball-watching on Gordon's goal, allowing the England winger to drift in behind him. That came after England really picked on him on his side of the field in the first half.</h4>
+              
+              
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/85Q1sJ6K/IMG-5429.webp" alt="Enzo"> 
+               </span>
+                <h1 class="secondh1">Midfield</h1>
+                <h3 class="secondh3">Enzo Fernandez (8/10):</h3>
+                              
+                <h4 class="thirdh3">Scored the game-changing goal and, from there, it was only a matter of time. For so long, Argentina just needed a spark; Fernandez was the one who provided it.</h4>
+                
+                <h3 class="secondh3">Alexis Mac Allister (7/10):</h3>
+                    
+                <h4 class="thirdh3">Came so close to scoring twice, only to hit the post on both occasions. The second time led directly to Argentina's winner, so he'll probably be just fine with that.</h4>
+                               
+                <h3 class="secondh3">Leandro Paredes (6/10):</h3>
+               
+                <h4 class="thirdh3">Was very solid as a tone-setter both with the ball and without it, but was the first substitution as Argentina needed more attacking juice in midfield.</h4>
+                                
+                
+                
+                
+                
+                <span class="span1">
+                              <img class="firstimg" src="https://i.postimg.cc/j5HRfxH4/IMG-5430.webp" alt="Simeone"> 
+                             </span>
+                              <h1 class="secondh1">Attack</h1>
+                              <h3 class="secondh3">Giuliano Simeone (5/10):</h3>
+                                            
+                              <h4 class="thirdh3">Was, generally, something of a pest, which makes sense considering his job is largely to create space for Messi. Just lacked the quality to really create something for himself, though.</h4>
+                              
+                              <h3 class="secondh3">Julian Alvarez (5/10):</h3>
+                                  
+                              <h4 class="thirdh3">A lot of dirty work in the first half and a few half-decent looks at goal in the second. Effort was there, but the other attackers provided the quality.
+                              
+                              </h4>
+                                             
+                              <h3 class="secondh3">Lionel Messi (8/10):</h3>
+                             
+                              <h4 class="thirdh3">Several moments felt like they could be magic, but none of them were for him. After being credited with an assist on Fernandez's wonderstrike, he did the hard part on the winner, playing an inch-perfect cross to Martinez.</h4>
+                                              
+                             
+              
+              
+              
+              
+                <span class="span1">
+                              <img class="firstimg" src="https://i.postimg.cc/MT2WXMQ4/IMG-5431.webp" alt="Lionel Scaloni"> 
+                             </span>
+                              <h1 class="secondh1">Subs & Manager</h1>
+                              <h3 class="secondh3">Nicolas Gonzalez (7/10):</h3>
+                                            
+                              <h4 class="thirdh3">Came on and almost instantly got on the end of Argentina's first real chance, but Pickford was big enough to block it. Got another crack at a header later on, but put it wide. Safe to say he added life, but lacked that game-changing touch.</h4>
+                              
+                              <h3 class="secondh3">Gonzalo Montiel (6/10):</h3>
+                                  
+                              <h4 class="thirdh3">Nothing special as he came on as part of a group of late subs.</h4>
+                                             
+                              <h3 class="secondh3">Nicolas Otamendi (6/10):</h3>
+                             
+                              <h4 class="thirdh3">Replaced Lisandro Martinez to avoid any yellow card chaos, which made sense.</h4>
+                                              
+                              <h3 class="secondh3">Rodrigo De Paul (6/10):</h3>
+                              
+                              <h4 class="thirdh3">Did what you'd expect: provide energy and steel. Picked up a yellow card for his efforts, too.</h4>
+                                              
+                              <h3 class="secondh3">Lautaro Martinez (9/10):</h3>
+                              
+                              <h4 class="thirdh3">The match-winner. He's shown for years that he's the type of player that can get goals and, boy, did he get a big one as he booked Argentina's place in the World Cup final.</h4>
+                                                          
+                              <h3 class="secondh3">Lionel Scaloni (8/10):</h3> 
+                              
+                              <h4 class="thirdh3">Got his subs spot on. Argentina chased the game, but they chased it in the right way. It helped, too, that England sat back enough for the Argentine's to impose their will late.</h4>
+              
+              <div class="lastdiv">
+                   </div>
+                   
+                       <div class="kkk">
+                        <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                        <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                       </div>
+                       <footer class="footer">
+                          <span class="yyy">
+                         <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                          </span>
+                         <div class="ficons">
+                          <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                          <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                          <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                          <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                         </div>
+                         <div class="footerp">
+                          <p><a href="http">Contact Us</a> |</p>
+                          <p><a href="http">Terms of Service</a> |</p>
+                          <p><a href="http">Privacy policy</a> |</p>
+                          <p><a href="http">Careers</a> |</p>
+                         </div>
+                         <div class="footerpp">
+                          <p><a href="http">Goal App (Android)</a> |</p>
+                          <p><a href="http">Goal App (iOS)</a> |</p>
+                          <p><a href="http">Goal Live</a> |</p>
+                         </div>
+                         <div class="footerppp">
+                         <p><a href="http">Betting</a> |</p>
+                         <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                         </div>
+                         <div class="footerpppp">
+                          <div class="zzz">
+                          <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                          <span>Nigeria</span>
+                          </div>
+                         </div>
+                         
+                         <div class="google">
+                          <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                          <span class="ggg">Add as preferred source on Google</span>
+                         </div>
+                         
+                          <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                         
+                         <div class="square">
+                         <div class="fgordon">
+                          <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                         </div> 
+                          <p class="con">+18
+                          Please play responsibly</p>
+                         </div>
+                        </footer>
+              
+              <script>
+                            const menuBtn = document.getElementById("menu-btn");
+                            const menu = document.getElementById("menu");
+                            
+                            menuBtn.addEventListener("click", function () {
+                              if (menu.style.display === "block") {
+                                menu.style.display = "none";
+                              } else {
+                                menu.style.display = "block";
+                              }
+                            });
+                            </script>
+              
+              
+       </body>
+      </html>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     

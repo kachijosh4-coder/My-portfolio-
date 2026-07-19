@@ -1,0 +1,716 @@
+<!DOCTYPE HTML>
+ <html lang="en">
+   <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal official website</title>
+    <style>
+    
+    body {
+        background-color: hsl(0, 0%, 18%);
+        margin: 0;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 10px;
+        background-color: black;
+        width: 375px;
+        height: 50px;
+        border-bottom: 4px solid hsl(21, 100%, 50%);
+        paddin: 0px 15px 0px 0px;
+    }
+    
+    .menu {
+        max-width: 19px;
+    }
+    
+    .profile {
+        max-width: 30px;
+    }
+    
+    .goal {
+        max-width: 135px;
+    }
+    
+    .live {
+        max-width: 68px;
+    }
+    
+    .vpn {
+        max-width: 75px;
+    }
+    
+    .firstsec {
+        background-color: hsl(0, 0%, 10%);
+        padding-bottom: 10px;
+    }
+    
+     .ccc {
+         
+     }
+     
+     .firstp {
+         display: block;
+         to: 100px;
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-weight: bold;
+         background-color: black;
+         color: white;
+         text-align: center;
+         font-size: 9px;
+         padding: 20px;
+     }
+     
+     .firstdiv {
+         background-color: hsl(215, 100%, 50%);
+         width: 350px;
+         height: 140px;
+         border-radius: 15px;
+         margin: 15px 13px;
+         padding-bottom: 15px;
+     }
+     
+     .spanf, .span2 {
+              display: flex;
+          }
+     
+     
+     .firstimg {
+              max-width: 100%;
+          }
+          
+     .ddiv {
+              background-color: white;
+              width: 70px;
+              height: 25px;
+              margin: 10px 140px;
+              border-radius: 20px;
+          }
+          
+          
+     .span1 {
+              display: flex;
+              border-top: 25px solid black;
+          }
+          .firsth3 {
+              font-family: Impact, Arial Black, sans-serif;
+              color: white;
+              text-transform: uppercase;
+              text-align: center;
+              font-weight: bold;
+          }
+          
+          .secondh3 {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              color: white;
+              font-weight: bold;
+              padding-left: 18px;
+          }
+          
+          .thirdh3 {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-size: 20px;
+              font-weight: 80;
+              color: white;
+              padding-left: 18px;
+              word-spacing: 1px;
+          }
+          
+          .p2 {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-size: 13px;
+              font-weight: bold;
+              color: hsl(0, 0%, 13%);
+              text-align: center;
+              padding-top: 6px;
+          }
+          
+          .p3 {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              padding: 13px 8px;
+          }
+          
+          .p4 {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 540;
+              color: white;
+              padding: 8px 10px 5px 18px;
+         
+          }
+          
+          .p5 {
+              font-family: "Sofia Pro", sans-serif;
+              font-weight: 200;
+              color: white;
+              padding: 3px 0px 0px 10px;
+          }
+         
+          .pp {
+              color: white;
+              padding-top: 2px;
+          }
+     
+     
+     .secondh1 {
+              font-family: "Sofia Pro", sans-serif;
+              font-weight: 800;
+              font-size: 24px;
+              color: white;
+              padding-left: 18px;
+              word-spacing: -2px;
+          }
+     
+     .seconddiv {
+              display: flex;
+              justify-conten: center;
+              align-items: center;
+              column-gap: 80px;
+              background-color: hsl(0, 0%, 26%);
+              width: 350px;
+              height: 40px;
+              margin: 0 13px;
+              border-radius: 5px;
+          }
+          
+          .inn {
+                   max-width: 73px;
+                    }
+     
+        .firsth1 {
+                 font-family: "Sofia Pro", sans-serif;
+                 font-weight: 800;
+                 color: white;
+                 padding-left: 18px;
+                 word-spacing: -5px;
+             }
+     
+        #menu {
+                     position: sticky;
+                     top: 50px;
+                     font-family: "Sofia Pro", sans-serif;
+                     font-weight: bold;
+                     line-height: 45px;
+                     font-size: 22px;
+                     display: none;
+                     background: #111;
+                     padding: 20px;
+                 }
+                  
+                 #menu a {
+                     display: block;
+                     color: white;
+                     text-decoration: none;
+                     padding: 10px 0;
+                 }
+     
+     
+     .lastdiv {
+              background-color: black;
+              height: 55px;
+              margin-top: 100px;
+          }
+          
+          .kkk {
+                   display: flex;
+                   align-items: center;
+                   column-gap: 15px;
+                   background-color: hsl(0, 0%, 10%);
+                   width: 355px;
+                   height: 100px;
+                   padding-left: 20px;
+               }
+               
+               .kkk a {
+                   width: 35px;
+                   height: 35px;
+                   border-radius: 50%;
+                   background: #2d2d2d;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   color: white;
+                   text-decoration: none;
+                   font-size: 28px;
+                   transition: 0.3s;
+               }
+               
+               .yyy {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+               }
+               
+               .footer {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   background-color: black;
+                   color: white;
+                   padding: 10px 10px 50px 10px;
+                   font-size: 13px;
+                   line-height: 100%;
+               }
+               
+               .footerp {
+                   display: flex;
+                   justify-content: center;
+                   column-gap: 6px;
+                   text-align: center;
+               }
+               
+               .footerpp {
+                   display: flex;
+                   justify-content: center;
+                   column-gap: 6px;
+                   text-align: center;
+               }
+               
+               .footerppp {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   text-align: center;
+               }
+               
+               .footerpppp {
+                   text-align: center;
+                   margin-bottom: 30px;
+               }
+               
+               .imgpppp {
+                   width: 24px;
+                   height: 16px;
+               }
+               
+               .zzz {
+                   display: flex;
+                   column-gap: 10px;
+                   justify-content: center;
+                   margin-top: 8px;
+                   align-items: center;
+               }
+               
+               .ggg {
+                   font-weight: bold;
+                   font-size: 16px;
+               }
+               
+               a {
+                   text-decoration: none;
+                   color: white;
+               }
+               
+               a:hover {
+                   color: hsl(27, 100%, 50%);
+               }
+               
+               .footer p {
+                 margin: 0;
+                 line-height: 2;
+               }
+          
+               .google {
+                   background-color: #4a4a4a;
+                   width: 90%;
+                   max-width: 900px;
+                   margin: 0px 13px 35px 13px;
+                   border-radius: 50px;
+                   text-align: center;
+                   padding: 10px 0px 12px 0px;
+                   align-items: center;
+                   display: flex;
+                   column-gap: 10px;
+                   justify-content: center;
+               }
+               
+               .googleimg {
+                   max-width: 16px;
+               }
+               
+               .square {
+                   background-color: hsl(0, 0%, 10%);
+                   width: 330px;
+                   height: 80px;
+                   margin: -2px 35px -50px 13px;
+               }
+               
+               .con {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-weight: bold;
+                   color: white;
+                   text-align: center;
+                   font-size: 9px;
+               } 
+               
+               .ficons {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   column-gap: 16px;
+                   margin-bottom: 30px;
+                   padding-top: 20px;
+               }
+               
+               .icons {
+                   max-width: 30px;
+               }
+               
+               .iconss {
+                   max-width: 22px;
+               }
+               
+               .iconsss {
+                   max-width: 27px;
+               }
+               
+               .iconssss {
+                   max-width: 38px;
+               }
+               
+               .dark {
+                   max-width: 60px;
+               }
+               
+               .fgordon {
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+               }
+               
+               .gordon {
+                   max-width: 110px;
+                   padding-top: 7px;
+               }
+               
+     
+     </style>
+        </head>
+        <body>
+         <header class="header">
+          <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+          <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+          <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+          <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+          <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+         </header>
+         <nav id="menu">
+          <a href="#">WORLD CUP</a>
+          <a href="#">LIVE SCORES</a>
+          <a href="#">NEWS</a>
+          <a href="#">FORUMS</a>
+          <a href="#">PREMIER LEAGUE</a>
+          <a href="#">LA LIGA</a>
+          <a href="#">BETTING</a>
+          <a href="#">CULTURE</a>
+             </nav>
+             <br>
+             <br>
+         <section class="firstsec">
+         <div>
+          <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+         </div>
+         <div class="firstdiv">
+          <br>
+           <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+          <div class="ddiv">
+           <p class="p2">Explore</p>
+          </div>
+         </div>
+         <div Class="seconddiv">
+          <p class="p3">Explore Betting on GOAL</p>
+          <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+         </div>
+         </section>
+         
+         <span class="spanf">
+          <img class="firstimg" src="https://i.postimg.cc/sx8ZPZTL/IMG-5394.webp" alt="Lamine Yamal">
+         </span>
+        
+         <span class="span2"><p class="p4">Tom Maston</p> <p class="pp">|</p><p class="p5">16 Jul 2026 12:00+01:00</p></span>
+          <h1 class="firsth1">Ballon d'Or 2026 <br>Power Rankings:<br>Lionel Messi and<br>Lamine Yamal remain<br>in the hunt ahead of<br>World Cup final as<br>Harry Kane's hopes<br>take a hit</h1>
+          <h3 class="secondh3">All the 2026-27 kits in one place</h3>
+          <h4 class="thirdh3">With the Lionel Messi-Cristiano Ronaldo duopoly presumably disappearing into the rearview <br>mirror, the battle for the Ballon d'Or hasn't felt so open for the best part <br>of 20 years, with countless players <br>now beginning each campaign believing they have a chance of claiming the most prestigious <br>individual prize football has to offer. Ousmane Dembele emerged from a career plagued by injuries and inconsistencies to win the Golden <br>Ball in 2025, and he is among a crowded field of contenders again in 2026.
+         <br><br>Dembele largely secured the award <br>off the back of his performances in helping Paris Saint-Germain win <br>their first European Cup, and the Champions League is yet again likely to have a big say on the Ballon d'Or battle this time around. However, it's also a World Cup year, so there is a chance that the eventual winner <br>doesn't become clear until after this summer's tournament in North <br>America is over.
+         Don't forget, too, <br>that the Africa Cup of Nations will <br>also be taken into account, meaning there could be some players who <br>not only shine for their clubs but also impress at two major tournaments <br>over the course of the campaign. <br><br>The Ballon d'Or race is a marathon <br>not a sprint, but with the World Cup entering it's later rounds, we're almost to the point where we can crown a winner. GOAL's Ballon d'Or Power Rankings continue to track the <br>likeliest recipients of the 2026 Golden Ball ahead of the ceremony in London on October 26...</h4>
+         
+         <span class="span1">
+          <img class="firstimg" src="https://i.postimg.cc/RCX9ZXxb/IMG-5395.webp" alt="Bellingham"> 
+         </span>
+          <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">20.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Jude Bellingham (Real<br>Madrid)⬇️</h1>
+          <h4 class="thirdh3">Having finished on the podium back <br>in 2024, Jude Bellingham's chances <br>of even earning himself a Ballon d'Or nomination two years later looked <br>over following a deeply underwhelming season at Real Madrid that was twice punctuated by spells on the sidelines as he recovered from injury. However, what Bellingham produced at the <br>World Cup for England could yet <br>earn him a spot on the final <br>shortlist.
+          <br><br>The midfielder was the driving force behind the Three Lions' run to the semi-finals, his tally of six goals including match-winning braces <br>against Mexico and Norway in the knockout rounds. And while England came up short once again on the global stage, Bellingham's performances are likely to live long <br>in the memory of the Ballon d'Or voters.</h4>
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/XqSL5XDC/IMG-5399.webp" alt="Raya"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">19.</span><span style="color: hsl(0, 0%, 18%)";>.</span>David Raya (Arsenal)🆕</h1>
+                   <h4 class="thirdh3">There's always a space on the Ballon d'Or shortlist for a goalkeeper or two, and David Raya is the outstanding candidate in 2026 after enjoying another superb season for Arsenal. Raya won the Premier League Golden Glove for the third successive season as the Gunners finally got over the hump and triumphed in the English top-flight, while he conceded only five goals during Arsenal's run to the Champions League final.
+                   <br><br>He could still end the season with a World Cup winners' medal, too, although Raya is rather surprisingly second-choice to Unai Simon for Spain, and thus hasn't made an appearance in North America for La Roja.</h4>
+                  
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/KjSfT4sg/IMG-5400.webp" alt="Fernandes"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">18.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Bruno Fernandes <br>(Manchester United)⬇️</h1>
+                   <h4 class="thirdh3">With the Premier League single-season assist record having been secured, and with it both the FWA Footballer of the Year and Premier League Player of the Year trophies, Bruno Fernandes yet again proved to be the man who made Manchester United tick, even if he couldn't carry that form into the World Cup as Portugal exited at the last-16 stage.
+                   <br><br>Winning the Golden Ball would likely have been beyond Fernandes regardless. With United not in Europe and without a trophy to show for their efforts, Fernandes would had to have enjoyed a truly remarkable campaign to get himself into the running among the main contenders. As good as he was, he didn't hit that level.</h4>
+                       
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/brcgndFS/IMG-5401.webp" alt="Gabriel"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">17.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Gabriel Magalhaes<br>(Arsenal)⬇️</h1>
+                   <h4 class="thirdh3">Perhaps no player encapsulates modern-day Arsenal more than Gabriel Magalhaes, with the Brazil international having emerged as one of the most dangerous set-piece weapons within the Premier League, while his physical style of defending has rarely been as in vogue within the past couple of decades as it is right now.
+                   <br><br>Though William Saliba remains as classy as ever, Gabriel can now be considered the most important of Arsenal's centre-back duo. However, his penalty miss in the Champions League final will undoubtedly count against him in the Ballon d'Or voting, as will Brazil's relatively early exit from the World Cup.</h4>
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/brcgndFr/IMG-5402.webp" alt="Hakimi "> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">16.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Achraf Hakimi (Paris<br>Saint-Germain)⬇️</h1>
+                   <h4 class="thirdh3">The best right-back on the planet, Achraf Hakimi enjoyed another excellent season for PSG, and returned from injury just in time to play a full part in their Champions League final triumph.
+                  <br><br> For now, he can also claim to be a champion of Africa following CAF's ruling to overturn the result of the controversial Cup of Nations final, though Senegal's appeal could yet reverse that call. Regardless, Morocco once again showed themselves to be the continent's leading light at the World Cup, with Hakimi producing the goods during their run to the quarter-finals.</h4>
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/G2k7qkDF/IMG-5403.webp" alt="Rodri"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">15.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Rodri (Manchester<br>City)🆕</h1>
+                   <h4 class="thirdh3">Following his return from the ACL injury that ruined his hopes of defending the 2024 Ballon d'Or, Rodri didn't look like the same player for much of the 2025-26 campaign. Though he had his moments in a Manchester City shirt as they secured two trophies, he continued to struggle with fitness issues and looked off the pace at times.
+                   <br><br>However, all that has been forgotten at the World Cup, where Rodri has been one of the outstanding performers for Spain during their run to the final. If he can guide La Roja to glory against Argentina, then Rodri could once more find himself in the top 10 when the final Ballon d'Or votes are cast.</h4>
+                       
+                       
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/KznqJnTr/IMG-5404.webp" alt="Vini jr"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">14.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Vinicius Jr (Real<br>Madrid)⬇️</h1>
+                   <h4 class="thirdh3">Vinicius Jr endured a miserable 2025 when it came to his performances for Real Madrid, managing just eight goals in La Liga over the course of the calendar year as his Ballon d'Or revenge tour went awry. However, as the old adage goes, 'form is temporary, but class is permanent', and Vini showed that he can still prove to be decisive during a hot streak to kick-off 2026 that included him scoring four goals in six Champions League knockout games.
+                  <br><br>The former Flamengo talent's return to his best level wasn't enough to help bring silverware to the Bernabeu, but he did manage to put his abysmal record with Brazil to bed while leading from the front with four goals during the World Cup, though he couldn't do enough to guide the Selecao beyond the last 16 as their wait for a sixth star goes on.</h4>
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/tThS2h6z/IMG-5405.webp" alt="Rice"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">13.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Declan Rice (Arsenal)⬇️</h1>
+                   <h4 class="thirdh3">Declan Rice announced himself as one of the world's elite midfielders with his performances against Real Madrid in the 2024-25 Champions League, and the Arsenal man has gone from strength to strength since. Rice was one of the Gunners' most important players as they claimed the Premier League title this time around, as well as playing a big role in them reaching the Champions League final.
+                   <br><br>Rice's driving runs, defensive actions and set-piece deliveries meant games rarely passed him by, and he continued to make telling contributions during England's run to the World Cup semi-finals despite battling with injuries and illness in North America.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/bJQC3Qnm/IMG-5406.webp" alt="Martinez"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">12.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Lautaro Martinez <br>(Inter)⬆️</h1>
+                   <h4 class="thirdh3">Though they were embarrassingly dumped out of the Champions League by Bodo/Glimt, Inter still enjoyed a successful season, as the Nerazzuri wrapped up the Serie A title before triumphing in the Coppa Italia final. As in previous years, Lautaro Martinez was the driving force behind that success.
+                   <br><br>He finished three goals clear as the top scorer in the Italian top-flight, and has carried that form into World Cup, where he has netted some crucial goals for Argentina, including the winner in their semi-final victory over England. He is not always first-choice for the defending champions, but Lautaro continues to contribute as the Albiceleste aim to become just the third team to win back-to-back editions of the tournament.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/FzNPq7bM/IMG-5407.webp" alt="Oyarzabal"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">11.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Mikel Oyarzabal (Real<br>Sociedad)⬆️</h1>
+                   <h4 class="thirdh3">It's no exaggeration to say that Mikel Oyarzabal is enjoying the season of his life. The man who netted the winner in the Euro 2024 final enjoyed the best goal-scoring campaign of his career at club level while helping Real Sociedad win the Copa del Rey, and he has maintained that lethal edge in the international arena.
+                   <br><br>Oyarzabal is averaging almost a goal per game for Spain since they began World Cup qualifying in September, and has showcased his deadly nature through the tournament thus far as La Roja look to add global glory to the continental title they claimed in Germany two years ago.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/HxQZBQMB/IMG-5408.webp" alt="Vitinha"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">10.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Vitinha (Paris Saint-<br>Germain)⬆️</h1>
+                   <h4 class="thirdh3">Vitinha came a long way from his underwhelming loan spell at Wolves in 2021 to finishing on the Ballon d'Or podium in 2025, and the PSG dictator-in-chief is now regarded by many as the best midfielder on the planet. Certainly, he played in such a fashion for much of the season, and even added more goals and assists to his game as Luis Enrique's side again won both Ligue 1 and the Champions League.
+                   <br><br>Vitinha was named Player of the Match in the final of the latter, and continued to set the tempo for Portugal at the World Cup, though the Seleccao as a whole massively underwhelmed on their way to a last-16 loss to Spain.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/zBnt0nht/IMG-5409.webp" alt="Diaz"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">9.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Luis Diaz (Bayern<br>Munich)⬆️️</h1>
+                   <h4 class="thirdh3">Liverpool fans might be forgiven for wondering whether their season might have been far more successful had Luis Diaz not been sold last summer. The versatile forward played an important role in the Reds' title triumph of 2024-25, but his desire for a new challenge led to them accepting a €75m (£65.5m/m) bid from Bayern Munich for the Colombia international.
+                   <br><br>Diaz hasn't looked back since, having struck up a fine understanding with Harry Kane and the rest of his Bayern team-mates. Some of his strikes in the Bundesliga this past season were stunning, while his thrilling performances in the Champions League will definitely have caught the Ballon d'Or voters' eyes, even if Bayern ultimately came up short in Europe again. He also provided some moments of magic for Colombia at the World Cup, even if they were eliminated on penalties by Switzerland in the last 16.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/Pxm32mDV/IMG-5410.webp" alt="Haaland"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">8.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Erling Haaland<br>(Manchester City)⬇️</h1>
+                   <h4 class="thirdh3">After an underwhelming season by his own lofty standards, Erling Haaland went into 'Terminator Mode' to begin the 2025-26 campaign, becoming a one-man battering ram for Manchester City as they aimed to re-establish themselves as challengers for the biggest prizes. A subsequent dry spell to start 2026 threatened to both ruin Haaland's Ballon d'Or chances as well as City's hopes of silverware as they crashed out of the Champions League, but both he and the team bounced back, winning the FA Cup and Carabao Cup while pushing Arsenal all the way in the Premier League title race.
+                   <br><br>And so while Haaland failed to land the biggest trophies available to him, his Golden Ball candidacy was undoubtedly boosted by Norway's first appearance at the World Cup since 1998, where their star striker took full advantage by netting seven times during their first-ever run to the quarter-finals.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/qR8bj8K5/IMG-5411.webp" alt="Kvaratskhelia "> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">7.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Khvicha Kvaratskhelia<br>(Paris Saint-Germain)⬇️</h1>
+                   <h4 class="thirdh3">If we were to crown the outstanding player of the Champions League knockout stages, then Khvicha Kvaratskhelia would be head and shoulders above pretty much everyone else. The PSG winger became the first player in the competition's history to score or assist in seven successive knockout games, with some stunning strikes included in that number as the defending champions fought their way to another European triumph.
+                   <br><br>Kvaratskhelia's season-long form did not reached those same heights, however, while Georgia's failure to qualify for the World Cup threatens to put a ceiling on where he can finish in the final Ballon d'Or reckoning. There is still a path to at least the podium for the man they call 'Kvaradona', and he could barely have done more to get there.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/Pxm32mD9/IMG-5412.webp" alt="Dembele"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">6.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Ousnane Dembele<br>(Paris Saint-Germain)⬇️</h1>
+                   <h4 class="thirdh3">Injuries limited the impact Dembele was able to have on the first half of PSG's season, meaning him defending his Ballon d'Or crown looked to be off the table. However, after returning to full fitness, he forced his way back into the reckoning by rediscovering his best form, most notably with match-winning performances against both Liverpool and Bayern Munich in the Champions League knockouts before he again found the net in the final victory over Arsenal.
+                   <br><br>Dembele still needed to make an impact on the World Cup to further his case, and after finally scoring his first tournament goal against Iraq on matchday two of the group stages, he truly announced himself on the tournament with a superb hat-trick to take down Norway. However, he was otherwise overshadowed by some of his team-mates in North America, meaning back-to-back Golden Balls are now almost certainly out of reach.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/V6jGDjMy/IMG-5413.webp" alt="Mbappe"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">5.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Kylian Mbappe (Real<br>Madrid)⬇️</h1>
+                   <h4 class="thirdh3">Is this the year Kylian Mbappe finally gets his hands on the Ballon d'Or? Almost from the moment he emerged as a teenager at Monaco, the forward has been anointed a future Golden Ball winner. But having turned 27 in December, Mbappe is still waiting for his opportunity to stand atop the podium.
+                   <br><br>For much of the season, he could have done little more to give himself the best chance possible of ending that wait, as Mbappe carried a struggling Real Madrid, to the point that he picked up a knee injury that he struggled to fully recover from, during which time Los Blancos' hopes of ending the season with a trophy gradually drifted away. Mbappe does, however, tend to save his best performances for World Cups, and for the third tournament running he has been one of the standout performers, with his eight goals meaning he has a real shot at becoming the first two-time Golden Boot winner if he can add to his tally in the third-place play-off.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/B6xYMxFy/IMG-5414.webp" alt="Olise"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">4.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Michael Olise (Bayern<br>Munich)⬇️</h1>
+                   <h4 class="thirdh3">Anyone who predicted that Michael Olise would struggle to make the step up from Crystal Palace to Bayern Munich has been sorely mistaken, with the winger having strung together two years of fantastic performances for the Bundesliga champions. Equally capable of scoring as he is creating goals for others, the 24-year-old has grown into one of the most fearsome forward players in Europe while also making his mark on the Champions League, most notably against Real Madrid in the quarter-finals, whom he ran ragged for long periods at the Bernabeu before capping the tie with a goal back in Bavaria.
+                   <br><br>Olise's club performances also helped him lock down a starting spot in the France line-up despite intense competition for places, and he was one of the stars of Les Bleus' World Cup campaign, with his creativity and eye for a pass helping the beaten semi-finalists unlock opposition defences with regularity.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/C1jPmjDg/IMG-5415.webp" alt="Lamine"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">3.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Lamine Yamal<br>(Barcelona)⬆️</h1>
+                   <h4 class="thirdh3">The bookmakers' Ballon d'Or favourite heading into the season, Lamine Yamal is well on course to become the first player under the age of 21 to claim the award - and he wouldn't even have to win it in 2026 to do so! The Barcelona teenager's performances in the latter stages of last season's Champions League saw him emerge in the eyes of many as the finest footballer in the world, and his runners-up finish behind Dembele in the voting was testament to that.
+                   <br><br>There are those who still believe Yamal needs to produce more decisive moments in the biggest games, while there are concerns that the number of matches he has played at such a young age are leading to an increase in injury issues that ultimately brought a premature end to his club campaign and have played a part in his limited output for Spain at the World Cup thus far. Still, it would not be a shock if Yamal suddenly turned it on for La Roja in Sunday's final; if he does and Spain win, he has a real shot at finishing top of the pile when the Ballon d'Or votes are counted in October.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/vBWq3W9d/IMG-5416.webp" alt="Messi"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">2.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Lionel Messi (Inter<br>Miami)⬆️</h1>
+                   <h4 class="thirdh3">He couldn't, could he?! The days of Lionel Messi even being nominated for the Ballon d'Or were thought to be behind us, but after guiding Inter Miami to their first-ever MLS Cup before enjoying a sparkling World Cup with Argentina, there is a real chance that the eight-time winner earns himself another Golden Ball for his collection.
+                   <br><br>Messi proved to be a class apart on his way to winning a second-straight MLS MVP award as he provided six goals and seven assists in Miami's six play-off matches alone, and certainly that success at club level would be taken into account if he can help Argentina defend their global crown in North America.
+                   <br><br>He has been on fire so far, scoring eight times in seven games to break the World Cup's all-time scoring record and take the lead in the Golden Boot race. If Messi can take La Albiceleste all the way, there might not be a better Ballon d'Or option in 2026.</h4>
+         
+         
+         <span class="span1">
+                   <img class="firstimg" src="https://i.postimg.cc/264c24vY/IMG-5417.webp" alt="Kane"> 
+                  </span>
+                   <h1 class="secondh1"><span class="nnn" style="color: hsl(21, 100%, 50%); font-size: 30px;">1.</span><span style="color: hsl(0, 0%, 18%)";>.</span>Harry Kane (Bayern <br>Munich)↔️</h1>
+                   <h4 class="thirdh3">There will always be those who don't fully appreciate Harry Kane, but now that he has got the trophy monkey off his back that so many used to beat him with, the Bayern Munich striker has looked like a man on a mission, utterly determined to show that he is also worthy of individual recognition as he found the net at a remarkable rate.
+                   <br><br>As well as scoring mountains of goals, Kane showcased his all-round game to devastating effect for the Bundesliga champions, while he netted six times for England during their run to the World Cup semi-finals. Coming up short in North America has opened the door for others to steal the Ballon d'Or away from him, but Kane has put together quite the portfolio for the judges to consider.</h4>
+         
+         
+         
+         
+         
+         <div class="lastdiv">
+              </div>
+              
+                  <div class="kkk">
+                   <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                   <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                   <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                   <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                  </div>
+                  <footer class="footer">
+                     <span class="yyy">
+                    <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                     </span>
+                    <div class="ficons">
+                     <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                     <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                     <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                     <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                    </div>
+                    <div class="footerp">
+                     <p><a href="http">Contact Us</a> |</p>
+                     <p><a href="http">Terms of Service</a> |</p>
+                     <p><a href="http">Privacy policy</a> |</p>
+                     <p><a href="http">Careers</a> |</p>
+                    </div>
+                    <div class="footerpp">
+                     <p><a href="http">Goal App (Android)</a> |</p>
+                     <p><a href="http">Goal App (iOS)</a> |</p>
+                     <p><a href="http">Goal Live</a> |</p>
+                    </div>
+                    <div class="footerppp">
+                    <p><a href="http">Betting</a> |</p>
+                    <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                    </div>
+                    <div class="footerpppp">
+                     <div class="zzz">
+                     <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                     <span>Nigeria</span>
+                     </div>
+                    </div>
+                    
+                    <div class="google">
+                     <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                     <span class="ggg">Add as preferred source on Google</span>
+                    </div>
+                    
+                     <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                    
+                    <div class="square">
+                    <div class="fgordon">
+                     <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                    </div> 
+                     <p class="con">+18
+                     Please play responsibly</p>
+                    </div>
+                   </footer>
+         
+         <script>
+                       const menuBtn = document.getElementById("menu-btn");
+                       const menu = document.getElementById("menu");
+                       
+                       menuBtn.addEventListener("click", function () {
+                         if (menu.style.display === "block") {
+                           menu.style.display = "none";
+                         } else {
+                           menu.style.display = "block";
+                         }
+                       });
+                       </script>
+         
+         
+  </body>
+ </html>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     

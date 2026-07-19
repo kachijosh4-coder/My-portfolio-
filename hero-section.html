@@ -1,0 +1,645 @@
+<!DOCTYPE HTML>
+      <html lang="en">
+        <head>
+         <meta charset=UTF-8>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Goal official website</title>
+         <style>
+         
+         body {
+             background-color: hsl(0, 0%, 18%);
+             margin: 0;
+         }
+         
+         .header {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             column-gap: 10px;
+             background-color: black;
+             width: 375px;
+             height: 50px;
+             border-bottom: 4px solid hsl(21, 100%, 50%);
+             paddin: 0px 15px 0px 0px;
+         }
+         
+         .menu {
+             max-width: 19px;
+         }
+         
+         .profile {
+             max-width: 30px;
+         }
+         
+         .goal {
+             max-width: 135px;
+         }
+         
+         .live {
+             max-width: 68px;
+         }
+         
+         .vpn {
+             max-width: 75px;
+         }
+         
+         .firstsec {
+             background-color: hsl(0, 0%, 10%);
+             padding-bottom: 10px;
+         }
+         
+          .ccc {
+              
+          }
+          
+          .firstp {
+              display: block;
+              to: 100px;
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              background-color: black;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+              padding: 20px;
+          }
+          
+          .firstdiv {
+              background-color: hsl(215, 100%, 50%);
+              width: 350px;
+              height: 140px;
+              border-radius: 15px;
+              margin: 15px 13px;
+              padding-bottom: 15px;
+          }
+          
+          .spanf, .span2 {
+                   display: flex;
+               }
+          
+          
+          .firstimg {
+                   max-width: 100%;
+               }
+               
+          .ddiv {
+                   background-color: white;
+                   width: 70px;
+                   height: 25px;
+                   margin: 10px 140px;
+                   border-radius: 20px;
+               }
+               
+               
+          .span1 {
+                   display: flex;
+                   border-top: 25px solid black;
+               }
+               .firsth3 {
+                   font-family: Impact, Arial Black, sans-serif;
+                   color: white;
+                   text-transform: uppercase;
+                   text-align: center;
+                   font-weight: bold;
+               }
+               
+               .secondh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   color: white;
+                   font-weight: bold;
+                   padding-left: 18px;
+               }
+               
+               .thirdh3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 19px;
+                   font-weight: 30;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: 1px;
+               }
+               
+               .p2 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 13px;
+                   font-weight: bold;
+                   color: hsl(0, 0%, 13%);
+                   text-align: center;
+                   padding-top: 6px;
+               }
+               
+               .p3 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: bold;
+                   color: white;
+                   padding: 13px 8px;
+               }
+               
+               .p4 {
+                   font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                   font-size: 14px;
+                   font-weight: 540;
+                   color: white;
+                   padding: 8px 10px 5px 18px;
+              
+               }
+               
+               .p5 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: 200;
+                   color: white;
+                   padding: 3px 0px 0px 10px;
+               }
+              
+               .pp {
+                   color: white;
+                   padding-top: 2px;
+               }
+          
+          
+          .secondh1 {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-weight: bold;
+                   font-size: 29px;
+                   color: white;
+                   padding-left: 18px;
+                   word-spacing: -2px;
+               }
+          
+          .seconddiv {
+                   display: flex;
+                   justify-conten: center;
+                   align-items: center;
+                   column-gap: 80px;
+                   background-color: hsl(0, 0%, 26%);
+                   width: 350px;
+                   height: 40px;
+                   margin: 0 13px;
+                   border-radius: 5px;
+               }
+               
+               .inn {
+                        max-width: 73px;
+                         }
+          
+             .firsth1 {
+                      font-family: "Sofia Pro", sans-serif;
+                      font-weight: 800;
+                      color: white;
+                      padding-left: 18px;
+                      word-spacing: -5px;
+                  }
+          
+             #menu {
+                          position: sticky;
+                          top: 50px;
+                          font-family: "Sofia Pro", sans-serif;
+                          font-weight: bold;
+                          line-height: 45px;
+                          font-size: 22px;
+                          display: none;
+                          background: #111;
+                          padding: 20px;
+                      }
+                       
+                      #menu a {
+                          display: block;
+                          color: white;
+                          text-decoration: none;
+                          padding: 10px 0;
+                      }
+          
+          
+          .lastdiv {
+                   background-color: black;
+                   height: 55px;
+                   margin-top: 100px;
+               }
+               
+               .kkk {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 15px;
+                        background-color: hsl(0, 0%, 10%);
+                        width: 355px;
+                        height: 100px;
+                        padding-left: 20px;
+                    }
+                    
+                    .kkk a {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        background: #2d2d2d;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        transition: 0.3s;
+                    }
+                    
+                    .yyy {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .footer {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        background-color: black;
+                        color: white;
+                        padding: 10px 10px 50px 10px;
+                        font-size: 13px;
+                        line-height: 100%;
+                    }
+                    
+                    .footerp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerpp {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 6px;
+                        text-align: center;
+                    }
+                    
+                    .footerppp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    
+                    .footerpppp {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .imgpppp {
+                        width: 24px;
+                        height: 16px;
+                    }
+                    
+                    .zzz {
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                        margin-top: 8px;
+                        align-items: center;
+                    }
+                    
+                    .ggg {
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    a:hover {
+                        color: hsl(27, 100%, 50%);
+                    }
+                    
+                    .footer p {
+                      margin: 0;
+                      line-height: 2;
+                    }
+               
+                    .google {
+                        background-color: #4a4a4a;
+                        width: 90%;
+                        max-width: 900px;
+                        margin: 0px 13px 35px 13px;
+                        border-radius: 50px;
+                        text-align: center;
+                        padding: 10px 0px 12px 0px;
+                        align-items: center;
+                        display: flex;
+                        column-gap: 10px;
+                        justify-content: center;
+                    }
+                    
+                    .googleimg {
+                        max-width: 16px;
+                    }
+                    
+                    .square {
+                        background-color: hsl(0, 0%, 10%);
+                        width: 330px;
+                        height: 80px;
+                        margin: -2px 35px -50px 13px;
+                    }
+                    
+                    .con {
+                        font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                        font-size: 9px;
+                    } 
+                    
+                    .ficons {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 16px;
+                        margin-bottom: 30px;
+                        padding-top: 20px;
+                    }
+                    
+                    .icons {
+                        max-width: 30px;
+                    }
+                    
+                    .iconss {
+                        max-width: 22px;
+                    }
+                    
+                    .iconsss {
+                        max-width: 27px;
+                    }
+                    
+                    .iconssss {
+                        max-width: 38px;
+                    }
+                    
+                    .dark {
+                        max-width: 60px;
+                    }
+                    
+                    .fgordon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .gordon {
+                        max-width: 110px;
+                        padding-top: 7px;
+                    }
+                    
+          
+          </style>
+             </head>
+             <body>
+              <header class="header">
+               <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+               <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+               <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+               <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+               <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+              </header>
+              <nav id="menu">
+               <a href="#">WORLD CUP</a>
+               <a href="#">LIVE SCORES</a>
+               <a href="#">NEWS</a>
+               <a href="#">FORUMS</a>
+               <a href="#">PREMIER LEAGUE</a>
+               <a href="#">LA LIGA</a>
+               <a href="#">BETTING</a>
+               <a href="#">CULTURE</a>
+                  </nav>
+                  <br>
+                  <br>
+              <section class="firstsec">
+              <div>
+               <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+              </div>
+              <div class="firstdiv">
+               <br>
+                <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+               <div class="ddiv">
+                <p class="p2">Explore</p>
+               </div>
+              </div>
+              <div Class="seconddiv">
+               <p class="p3">Explore Betting on GOAL</p>
+               <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
+              </div>
+              </section>
+              
+              <span class="spanf">
+               <img class="firstimg" src="https://i.postimg.cc/d3WdfT1X/IMG-5470.webp" alt="Kane">
+              </span>
+             
+              <span class="span2"><p class="p4">James Westwood</p> <p class="pp">|</p><p class="p5">17 Jul 2026 08:02+01:00</p></span>
+               <h1 class="firsth1">Lionel Messi for the Ballon d'Or?! Inter Miami superhero <br>would deserve Golden Ball No.9 for World Cup heroics AND magnificent MLS displays if he gets Argentina over the <br>line</h1>
+               
+                   
+              <span class="span1">
+               <img class="firstimg" src="https://i.postimg.cc/Nj7Ywhm9/IMG-0087.jpg" alt="United Team"> 
+              </span>
+                <h4 class="thirdh3">When Lionel Messi was pushed onto his weaker foot by Nico O'Reilly and Djed Spence on the right side of the box in the 92nd minute of stoppage time, England fans held their breath in unison. The Three Lions had four of their tallest players hovering around the six-yard area, and the Argentina captain needed a perfect delivery to reach Lautaro Martinez at the back post (his only realistic target) - but as we all know, Messi can conjure up perfection at any moment.
+                
+               <br><br> Sure enough, his cross landed right on Martinez's forehead and the ball crashed into the back of Jordan Pickford's net, giving Argentina a 2-1 comeback victory and a deserved place in the 2026 World Cup final. The majority of Argentina players and coaching staff members then ran over to mob Messi rather than Martinez, which served as more proof of the God-like status he still commands at the age of 39, and a just reward for single-handedly dragging his country over the line again.
+                
+              <br><br>  Messi absolutely terrorised England in the final 30 minutes. Yes, Thomas Tuchel's cowardly tactics played into his hands, but the eight-time Ballon d'Or winner exploited them ruthlessly. A ninth Golden Ball might yet follow later this year, given he has been the most influential player in this summer's mammoth expanded tournament.
+                
+              <br><br>  Another majestic display in the final, against Spain and his supposed Barcelona heir Lamine Yamal, would all but guarantee it. Argentina head into that showpiece as underdogs, but make no mistake: they will hold onto the beautiful gold trophy if Spain give them even the smallest inch, emboldened by an unshakable collective self-belief and Messi’s insatiable hunger for victory.</h4>
+                
+                
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/mkF8WszG/IMG-5471.webp" alt="United Team"> 
+                </span>
+                 <h1 class="secondh1">Unmatched grit</h1>
+                 <h4 class="thirdh3">Prior to Wednesday’s semi-final tie, Argentina hadn’t really impressed in North America. They romped through a very favourable group, but only scraped past Cape Verde, Egypt and Switzerland in the earlier knockout rounds, needing extra time to prevail on two occasions.
+                 
+               <br><br>  At Qatar 2022, they were a more well-rounded team. Nine members of that triumphant squad did not travel for the 2026 edition, including, most crucially, the recently retired Angel Di Maria, Messi's long-time right-hand man.
+                 
+               <br><br>  Argentina have sorely lacked proper width without Di Maria, and the narrow midfield has left huge gaps for the lesser nations to bomb into on the break. But no team can match their sheer grit. Argentina never know when they’re beaten, and tend to hit their maximum level when under the most pressure.
+                 
+               <br><br>  They can also rely on Messi as the coolest head on the pitch. He sets a shining example by always demanding the ball and pushing them forward, relishing the heat of battle with every ounce of his being. Lionel Scaloni’s men feed on Messi’s aura to get over the line, transforming into ravenous animals who refuse to relent until they claim the spoils.</h4>
+                 
+                 
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/Qtz0ztM2/IMG-5416.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">The ultimate risk-taker</h1>
+                <h4 class="thirdh3">Messi’s enduring quality and humility almost defy logic. While his eternal rival Cristiano Ronaldo’s painful decline can be summed up by the iconic “Victory has defeated you” line uttered by Bane in The Dark Knight Rises, Messi never buys into his own hype.
+                
+               <br><br> The most decorated footballer of all time just takes each game as it comes, and his ability to adapt is unrivalled. The Inter Miami star has spent more time walking at this tournament than any other player, while frequently looking like a mere mortal, including in a frustrating first half against England, but he always has another gear.
+                
+              <br><br>  More often than not, too, Messi’s execution in the final third is flawless. Indeed, he bagged two assists and completed nine dribbles in the England tie - a feat never before seen in a World Cup knockout match. He currently sits top of the Golden Boot charts with eight goals, and has set up another four - just one less than assists leader Michael Olise.
+                
+               <br><br> It's fair to say he's already done enough to win the third World Cup Golden Ball of his career as player of the tournament. Even more important than the statistics, though, is the fact that there is tremendous purpose in every action Messi takes. In positions where most players would opt for a bog-standard pass sideways or backwards, he’s programmed to go for an incisive one, or embark on a mesmerising slalom run.
+                
+              <br><br>  Messi is the ultimate risk-taker, and even with 20-plus years of otherworldly brilliance to dissect, opponents are still powerless to stop him in full flow.</h4>
+                    
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/vBK3KBBG/IMG-5473.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">'I just want to enjoy myself'</h1>
+               <h4 class="thirdh3">The common consensus is that Messi's longevity is down to his natural talent, which is certainly a factor, but his willingness to graft and persevere in adversity are often overlooked. For so long he refused to confirm whether he'd even participate in his sixth World Cup, insisting he would only make himself available to Scaloni if he was certain he could still contribute at the highest level. Over the last five weeks, Messi has proven that beyond all reasonable doubt, and is now revelling in the fruits of his labour.
+               
+             <br><br>  "I've been preparing and training for a year now, and I knew I was going to give it my all to be in the best possible shape," he said after the England win. "Right now I just want to enjoy myself. I'm not talking about my last World Cup, or anything like that. This team always gives its all and owes nothing to anyone.
+               
+             <br><br>  "This team never stops trying; we went out to win it with our football and determination, and we're in another World Cup final. We pinned them [England] back in their own half and showed we could win it in regulation, without going to extra time. We had the composure and character to come from behind. To be honest, we really enjoyed it."
+               
+              <br><br> In Qatar, Messi was like a man possessed as he chased the only piece of silverware that had eluded him. It was very serious business, with fun in short supply. The intensity to his play remains this time around, but with that heavy monkey off his back, Messi has appeared more relaxed and joyful.
+               
+              <br><br> Remarkably, he's also shown very little signs of tiredness, with England falling victim to the most energetic version of Messi we've seen so far this summer. He’s played 420 minutes across the knockout stages, and yet it feels like he is peaking in time for the final. Spain won’t strike any fear into Messi, either.
+               
+              <br><br> "It's a team I know well; they have a footballing philosophy and have been playing this way for many, many years," he added. "I know the players - I've played against them, I follow them - and several of them are at Barca, the team I love and follow. It's a special match, a World Cup final. I imagine it's going to be an even contest."</h4>
+                                                                     
+                <span class="span1">
+                 <img class="firstimg" src="https://i.postimg.cc/3RqnqRwV/IMG-5474.webp" alt="United Team"> 
+                </span>
+                <h1 class="secondh1">Yamal's chances looking slim</h1>
+                <h4 class="thirdh3">Argentina won't let Spain dominate in the manner they did against France in the first semi-final. The most stacked frontline at the World Cup flopped when it mattered most, with Kylian Mbappe, Ousmane Dembele and Michael Olise all marked out of the game as Spain won every loose ball and ran rings around the 2018 champions.
+                
+              <br><br>  It was clear from the first whistle that France had a mental block, plagued by the memories of their defeats to La Roja at the same stage at Euro 2024 and in last year's Nations League. Argentina will have no such issue. If they come out with the same ferocity that forced England into retreat, Spain will struggle to play their usual fluid brand of football.
+                
+               <br><br> You can bet that Scaloni will also have a plan for Yamal. The Barcelona wonderkid has had to gradually build up his rhythm at this tournament after carrying an injury into Spain's camp, and his cutting edge has been lacking. He's sparkled sporadically, and put in the hard yards for Luis de la Fuente's group, but he won't be rivalling Messi for the Golden Ball at the end of the final.
+                
+              <br><br>  The Ballon d'Or will probably be out of Yamal's reach, too, unless he scores multiple goals in a Spain victory, because his haul of 42 goal contributions at club level last season falls 26 short of current favourite Harry Kane's staggering final total in a Bayern Munich shirt. If Messi ends up being the match-winner, though, he'll have a much better chance of pipping the England skipper, who could end up rueing his subdued outings against both Argentina and Norway in the knockout stages.</h4>
+                
+               <span class="span1">
+                <img class="firstimg" src="https://i.postimg.cc/Y9PbP9SV/IMG-5475.webp" alt="United Team"> 
+               </span>
+               <h1 class="secondh1">Messi's MLS magic</h1>
+               <h4 class="thirdh3">Messi beat Erling Haaland to the 2023 Ballon d'Or mainly on the strength of a monumental World Cup, but also racked up a combined 41 goals and assists in his final season at Paris Saint-Germain, winning the Ligue 1 title in the process. He is on course to strike a similar balance ahead of the 2026 ceremony after enjoying a magnificent year at Inter Miami.
+               
+              <br><br> The Sir David Beckham-owned franchise stormed to its first MLS Cup success thanks to Messi's genius, as he set a new single-postseason league record for goal involvements (13 in six matches), having also scooped the Golden Boot in the regular season with 29 goals. That's despite having to overcome a series of injury setbacks, which sparked premature talk he was nearing a retirement decision.
+               
+              <br><br> After a well-earned break, Messi then started the 2026 MLS campaign in optimum condition, playing every minute in all but two of Miami's first 15 fixtures and plundering another 20 goal contributions. Of course, MLS is still nowhere near any of Europe's top five leagues in terms of prestige, but Messi's awe-inspiring performances and record-breaking numbers have put Miami into a whole new stratosphere.
+               
+             <br><br>  All of this bolsters his Ballon d'Or case; not that he really needs it. Outshining Yamal, Mbappe and the poster boys of the current generation on the biggest platform of all is enough to put him in the forefront of the minds of the specialised international jury of journalists who will soon cast their votes.</h4>
+               
+               
+            <span class="span1">
+              <img class="firstimg" src="https://i.postimg.cc/ZRQVQRqL/IMG-5476.webp" alt="United Team"> 
+            </span>
+              <h1 class="secondh1">A legendary leader</h1>
+                
+             <h4 class="thirdh3">It is normal for elite teams to build around their best player, but Argentina's treatment of Messi goes way beyond that. Everyone in the squad is devoted to him, and will put their bodies on the line to ensure he is happy and able to express himself freely. They're committed to enhancing Messi's legend at all costs, and put aside any ego to unconditionally accept supporting roles.
+               
+             <br><br>  Guiliano Simeone almost broke down in tears on live TV after the England game, when asked how he feels about being part of Messi's final World Cup. "We know Messi is 39 years old, he has everything a footballer could dream of… and then he is still fighting as the best," the Argentine winger said with his voice cracking. "So for us, there’s only one thing left, give everything we have, run for him and for Argentina."
+               
+              <br><br> The Argentina squad has even embraced a new anthem for this World Cup, titled La Cuarta Estrella, with the lyrics: "We won the third one with Lionel, we want to be champions again, and 32 years on, La Scaloneta will avenge the cup stolen from the number 10 [referencing Diego Maradona in 1990]. I want to see the fourth star shine on the shirt. Argentine from cradle to grave, for the Falklands, for Diego, for Leo's last outing. Argentina, I want to see you become champions again."
+               
+              <br><br> Has an active player ever been held up in such a mythical light? And more to the point, actually lived up to it? Messi has redefined what it means to be a world-class footballer repeatedly, and we're now at the point where he has transcended the sport. That makes him worthy of a ninth Ballon d'Or regardless of what happens in his third World Cup final appearance on Sunday.</h4>
+               
+               
+               
+               
+               
+              <div class="lastdiv">
+                   </div>
+                   
+                       <div class="kkk">
+                        <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+                        <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                       </div>
+                       <footer class="footer">
+                          <span class="yyy">
+                         <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                          </span>
+                         <div class="ficons">
+                          <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                          <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                          <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                          <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                         </div>
+                         <div class="footerp">
+                          <p><a href="http">Contact Us</a> |</p>
+                          <p><a href="http">Terms of Service</a> |</p>
+                          <p><a href="http">Privacy policy</a> |</p>
+                          <p><a href="http">Careers</a> |</p>
+                         </div>
+                         <div class="footerpp">
+                          <p><a href="http">Goal App (Android)</a> |</p>
+                          <p><a href="http">Goal App (iOS)</a> |</p>
+                          <p><a href="http">Goal Live</a> |</p>
+                         </div>
+                         <div class="footerppp">
+                         <p><a href="http">Betting</a> |</p>
+                         <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                         </div>
+                         <div class="footerpppp">
+                          <div class="zzz">
+                          <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                          <span>Nigeria</span>
+                          </div>
+                         </div>
+                         
+                         <div class="google">
+                          <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                          <span class="ggg">Add as preferred source on Google</span>
+                         </div>
+                         
+                          <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                         
+                         <div class="square">
+                         <div class="fgordon">
+                          <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                         </div> 
+                          <p class="con">+18
+                          Please play responsibly</p>
+                         </div>
+                        </footer>
+              
+              <script>
+                            const menuBtn = document.getElementById("menu-btn");
+                            const menu = document.getElementById("menu");
+                            
+                            menuBtn.addEventListener("click", function () {
+                              if (menu.style.display === "block") {
+                                menu.style.display = "none";
+                              } else {
+                                menu.style.display = "block";
+                              }
+                            });
+                            </script>
+              
+              
+       </body>
+      </html>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     

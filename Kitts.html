@@ -1,0 +1,1060 @@
+<!DOCTYPE HTML>
+ <html lang="en">
+   <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal official website</title>
+    <style>
+    
+    body {
+        background-color: hsl(0, 0%, 18%);
+        margin: 0;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 10px;
+        background-color: black;
+        width: 375px;
+        height: 50px;
+        border-bottom: 4px solid hsl(21, 100%, 50%);
+        paddin: 0px 15px 0px 0px;
+    }
+    
+    .menu {
+        max-width: 19px;
+    }
+    
+    .profile {
+        max-width: 30px;
+    }
+    
+    .goal {
+        max-width: 135px;
+    }
+    
+    .live {
+        max-width: 68px;
+    }
+    
+    .vpn {
+        max-width: 75px;
+    }
+    
+    .firstsec {
+        background-color: hsl(0, 0%, 10%);
+        padding-bottom: 10px;
+    }
+    
+     .ccc {
+         
+     }
+     
+     .firstp {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-weight: bold;
+         background-color: black;
+         color: white;
+         text-align: center;
+         font-size: 9px;
+         padding: 20px;
+     }
+     
+     .firstdiv {
+         background-color: hsl(215, 100%, 50%);
+         width: 350px;
+         height: 140px;
+         border-radius: 15px;
+         margin: 15px 13px;
+         padding-bottom: 15px;
+     }
+     
+     .ddiv {
+         background-color: white;
+         width: 70px;
+         height: 25px;
+         margin: 10px 140px;
+         border-radius: 20px;
+     }
+     
+     .firsth3 {
+         font-family: Impact, Arial Black, sans-serif;
+         color: white;
+         text-transform: uppercase;
+         text-align: center;
+         font-weight: bold;
+     }
+     
+     .secondh3 {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         color: white;
+         font-weight: bold;
+         padding-left: 18px;
+     }
+     
+     .thirdh3 {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-size: 18px;
+         font-weight: 10;
+         color: white;
+         padding-left: 18px;
+     }
+     
+     .p2 {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-size: 13px;
+         font-weight: bold;
+         color: hsl(0, 0%, 13%);
+         text-align: center;
+         padding-top: 6px;
+     }
+     
+     .p3 {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-size: 14px;
+         font-weight: bold;
+         color: white;
+         padding: 13px 8px;
+     }
+     
+     .p4 {
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-size: 14px;
+         font-weight: 540;
+         color: white;
+         padding: 8px 10px 5px 18px;
+    
+     }
+     
+     .p5 {
+         font-family: "Sofia Pro", sans-serif;
+         font-weight: 200;
+         color: white;
+         padding: 3px 0px 0px 10px;
+     }
+    
+     .pp {
+         color: white;
+         padding-top: 2px;
+     }
+    
+     .seconddiv {
+         display: flex;
+         justify-conten: center;
+         align-items: center;
+         column-gap: 60px;
+         background-color: hsl(0, 0%, 26%);
+         width: 350px;
+         height: 40px;
+         margin: 0 13px;
+         border-radius: 5px;
+     }
+     
+      .inn {
+         max-width: 105px;
+          }
+     
+     .firstimg {
+         max-width: 187px;
+     }
+     
+     .firstimgg {
+         max-width: 176px;
+     }
+     
+     .span1 {
+         display: flex;
+         border-top: 25px solid black;
+     }
+     
+     .spanf, .span2 {
+         display: flex;
+     }
+     
+     .firsth1 {
+         font-family: "Sofia Pro", sans-serif;
+         font-weight: 800;
+         color: white;
+         padding-left: 18px;
+         word-spacing: -5px;
+     }
+     
+     .secondh1 {
+         font-family: "Sofia Pro", sans-serif;
+         font-weight: 800;
+         font-size: 24px;
+         color: white;
+         padding-left: 18px;
+         word-spacing: -5px;
+     }
+     
+     .divv {
+         background-color: black;
+         color: white;
+         text-alig: center;
+         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+         font-weight: bold; 
+         width: 350px;
+         height: 170px;
+         margin: 0px 13px 110px 13px;
+         border-radius: 10px;
+         padding-top: 2px;
+     }
+     
+     .divlogo {
+         max-width: 70px;
+         margin: 0px 17px 34px 20px;
+     }
+     
+     .divwest {
+         max-width: 100px;
+     }
+     
+     .divlogoo {
+        max-width: 60px;
+        margin: 0px 17px 34px 20px;
+          }
+     
+     .spanz {
+         display: flex;
+         align-items: flex-end;
+     }
+     
+     .cta {
+         background-color: hsl(27, 100%, 50%);
+         text-align: center;
+         width: 300px;
+         heigh: 15px;
+         margin: 0px 27px 0px 27px;
+         padding: 1px 0px 0.5px 0px;
+         border-radius: 50px;
+         font-size: 14px;
+     }
+     
+     .fh4 {
+         color: white;
+     }
+     
+     .lastdiv {
+         background-color: black;
+         height: 55px;
+         margin-top: 200px;
+     }
+     
+     .kkk {
+              display: flex;
+              align-items: center;
+              column-gap: 15px;
+              background-color: hsl(0, 0%, 10%);
+              width: 355px;
+              height: 100px;
+              padding-left: 20px;
+          }
+          
+          .kkk a {
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              background: #2d2d2d;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+              text-decoration: none;
+              font-size: 28px;
+              transition: 0.3s;
+          }
+          
+          .yyy {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          
+          .footer {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              background-color: black;
+              color: white;
+              padding: 10px 10px 50px 10px;
+              font-size: 13px;
+              line-height: 100%;
+          }
+          
+          .footerp {
+              display: flex;
+              justify-content: center;
+              column-gap: 6px;
+              text-align: center;
+          }
+          
+          .footerpp {
+              display: flex;
+              justify-content: center;
+              column-gap: 6px;
+              text-align: center;
+          }
+          
+          .footerppp {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+          }
+          
+          .footerpppp {
+              text-align: center;
+              margin-bottom: 30px;
+          }
+          
+          .imgpppp {
+              width: 24px;
+              height: 16px;
+          }
+          
+          .zzz {
+              display: flex;
+              column-gap: 10px;
+              justify-content: center;
+              margin-top: 8px;
+              align-items: center;
+          }
+          
+          .ggg {
+              font-weight: bold;
+              font-size: 16px;
+          }
+          
+          a {
+              text-decoration: none;
+              color: white;
+          }
+          
+          a:hover {
+              color: hsl(27, 100%, 50%);
+          }
+          
+          .footer p {
+            margin: 0;
+            line-height: 2;
+          }
+     
+          .google {
+              background-color: #4a4a4a;
+              width: 90%;
+              max-width: 900px;
+              margin: 0px 13px 35px 13px;
+              border-radius: 50px;
+              text-align: center;
+              padding: 10px 0px 12px 0px;
+              align-items: center;
+              display: flex;
+              column-gap: 10px;
+              justify-content: center;
+          }
+          
+          .googleimg {
+              max-width: 16px;
+          }
+          
+          .square {
+              background-color: hsl(0, 0%, 10%);
+              width: 330px;
+              height: 80px;
+              margin: -2px 35px -50px 13px;
+          }
+          
+          .con {
+              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+              font-weight: bold;
+              color: white;
+              text-align: center;
+              font-size: 9px;
+          } 
+          
+          .ficons {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              column-gap: 16px;
+              margin-bottom: 30px;
+              padding-top: 20px;
+          }
+          
+          .icons {
+              max-width: 30px;
+          }
+          
+          .iconss {
+              max-width: 22px;
+          }
+          
+          .iconsss {
+              max-width: 27px;
+          }
+          
+          .iconssss {
+              max-width: 38px;
+          }
+          
+          .dark {
+              max-width: 60px;
+          }
+          
+          .fgordon {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          
+          .gordon {
+              max-width: 110px;
+              padding-top: 7px;
+          }
+          
+         
+         #menu {
+             position: sticky;
+             top: 50px;
+             font-family: "Sofia Pro", sans-serif;
+             font-weight: bold;
+             line-height: 45px;
+             font-size: 22px;
+             display: none;
+             background: #111;
+             padding: 20px;
+         }
+          
+         #menu a {
+             display: block;
+             color: white;
+             text-decoration: none;
+             padding: 10px 0;
+         }
+          
+    </style>
+   </head>
+   <body>
+    <header class="header">
+     <img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon">
+     <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+     <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+     <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+     <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+    </header>
+    <nav id="menu">
+     <a href="#">WORLD CUP</a>
+     <a href="#">LIVE SCORES</a>
+     <a href="#">NEWS</a>
+     <a href="#">FORUMS</a>
+     <a href="#">PREMIER LEAGUE</a>
+     <a href="#">LA LIGA</a>
+     <a href="#">BETTING</a>
+     <a href="#">CULTURE</a>
+        </nav>
+    <section class="firstsec">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+     <p class="firstp">This page contains affiliate links. When you purchase through the links <br>provided, we may earn a commission.
+     <br>+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
+    </div>
+    <div class="firstdiv">
+     <br>
+      <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
+     <div class="ddiv">
+      <p class="p2">Explore</p>
+     </div>
+    </div>
+    <div Class="seconddiv">
+     <p class="p3">Explore Betting on GOAL</p>
+     <img class="inn" src="https://i.postimg.cc/FR7n0YJF/photo-output.png">
+    </div>
+    </section>
+    
+    <span class="spanf">
+     <img class="firstimg" src="https://i.postimg.cc/dtTWBkKz/IMG-5106.jpg" alt="Lamine Yamal">
+     <img class="firstimg" src="https://i.postimg.cc/G28fdWwk/IMG-5094.jpg" alt="Madrid Feminine">
+    </span>
+   
+    <span class="span2"><p class="p4">Renuka Odedra</p> <p class="pp">|</p><p class="p5">03 Jul 2026 15:13+01:00</p></span>
+     <h1 class="firsth1">New 2026-27 football kits: Chelsea, Man <br>Utd, Arsenal, Real Madrid & all the top teams' jerseys <br>revealed</h1>
+     <h3 class="secondh3">All the 2026-27 kits in one place</h3>
+     <h4 class="thirdh3">With the 2025-26 season almost over, <br>minds are now turning to 2026-27, with the biggest clubs in world football releasing all their new kits for the campaign ahead.
+     <br><br>Some of the biggest sporting brands and football clubs around the globe have <br>teamed up to produce some <br>genuinely outstanding kits. The annual glut of new shirt releases always showcases the best football culture and fashion has to <br>offer because it's always more than just a football jersey.
+     <br><br>Kit manufacturers such as Nike, Adidas, New Balance, and more vie for the <br>attention of football fans by coming up with fresh looks every year, and the demand is such that there is always room for innovation. The bigger, the better.
+     <br><br>If you want a refresher on what was released last season, catch up with <br>our complete guide to all the 2025-26 football kits released.
+     <br><br>Whether it's a new direction in a futuristic, experimental style or a retro throwback effort, there is a vast array of options to choose from. GOAL takes a closer look at what the top teams will wear in the 2026-<br>27 season.</h3>
+     <h1 class="secondh1">Shop: 2026-27 football kits</h1>
+    <span class="span1">
+     <img class="firstimg" src="IMG_5111.jpg" alt="Ac Milan Feminine">
+     <img class="firstimg" src="IMG_5110.jpg" alt="Rafa Leâo">
+    </span>
+     <h1 class="secondh1">AC Milan I Home</h1>
+     <h4 class="thirdh3">The 2026/27 AC Milan home kit restores <br>the thick red and black stripes - bold, wide, and unmistakable - running across the full body of the jersey, both front and back, completed by the return of white shorts <br>and black socks. A look that has always stood for itself.
+      <br><br>The stripes are the defining mark of AC Milan. Every detail reinforces that identity. The inscription ‘From Milan to the World’ pays tribute to the millions of fans worldwide, capable of making the Club feel at home on every continent. On the back neck, a wax seal enshrines the Rossoneri crest: the essence of AC Milan, imprinted <br>on every shirt as its authentic signature, a timeless passage handed down from <br>parent to child.</h3>
+     <div class="divv">
+      <span class="spanz">
+      <img class="divlogo" src="https://i.postimg.cc/L6MPSWRg/IMG-5197.jpg" alt="Puma logo">
+      <h2>AC Milan Kits at <br>Puma</h2>
+      </span>
+      <div class="cta">
+       <p class="fh4">Shop now</p>
+      </div>
+     </div>
+    
+     <span class="span1">
+      <img class="firstimg" src="IMG_5112.jpg" alt="Ajax Masculine">
+      <img class="firstimg" src="IMG_5113.jpg" alt="Ajax Feminine">
+     </span>
+      <h1 class="secondh1">Ajax I Home</h1>
+      <h4 class="thirdh3">The Ajax 2026-27 home kit features one of football’s most recognisable and timeless designs, defined by a thick, bold vertical <br>red band running down the centre of the jersey, flanked by clean white sides and sleeves. Crafted by adidas, the uniform maintains a highly cohesive look, featuring the club crest and three gold stars.</h4>
+     <div class="divv">
+           <span class="spanz">
+           <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+           <h2>Ajax 2026-27 Kits at <br>Adidas</h2>
+           </span>
+           <div class="cta">
+            <p class="fh4">Shop now</p>
+           </div>
+          </div>
+     
+     <span class="span1">
+      <img class="firstimg" src="IMG_5114.jpg" alt="Declan Rice">
+      <img class="firstimg" src="IMG_5116.heic" alt="Arsenal Feminine">
+     </span>
+      <h1 class="secondh1">Arsenal I Home</h1>
+      <h4 class="thirdh3">At its core, the 2025-26 Arsenal shirt stays true to the club's unmistakable identity, combining a rich red body with crisp white sleeves to deliver an instantly recognisable silhouette. The design features subtle visual references to the Emirates, including a bespoke crewneck collar inspired by the sweeping rooflines and subtle red <br>patterning across the body, which adds depth and texture.</h4>
+      <div class="divv">
+            <span class="spanz">
+            <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+            <h2>Arsenal Kits at <br>Adidas</h2>
+            </span>
+            <div class="cta">
+             <p class="fh4">Shop now</p>
+            </div>
+           </div>
+   
+     <span class="span1">
+           <img class="firstimg" src="IMG_5172.jpg" alt="Aston Villa Masculine">
+           <img class="firstimg" src="IMG_5127.jpg" alt="Aston Villa Feminine">
+          </span>
+           <h1 class="secondh1">Aston Villa I Home</h1>
+           <h4 class="thirdh3">Aston Villa's new home kit for the 2026-27 season honours the club’s more unconventional claret and blue designs, which originated in the 1960s. Inspired by the kits from the archive from the 1960s to 2010s, the new design offers a clean and elegant look, creating a departure from the raglan-sleeved home kits that Villa have donned in the modern era, usually finished with gold detailing. </h4>
+      <div class="divv">
+            <span class="spanz">
+            <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+            <h2>Aston Villa Kits at <br>Adidas</h2>
+            </span>
+            <div class="cta">
+             <p class="fh4">Shop now</p>
+            </div>
+           </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5106.jpg" alt="Lamine Yamal">
+           <img class="firstimg" src="IMG_5129.jpg" alt="Barcelona Feminine">
+          </span>
+           <h1 class="secondh1">Barcelona I Home</h1>
+           <h4 class="thirdh3">The Barcelona 2026-27 home kit honours the club's traditional Blaugrana identity with a clever architectural twist inspired by the renovated façade panels of the Camp Nou. The shirt features the club's classic layout of four vertical stripes, reminiscent of the <br>iconic 2006/07 home kit. But it elevates <br>the look by introducing a complex tonal colour gradient. The design is framed with dark Blackened Blue accents on the cuffs and a sleek, semi-hexagonal collar.</h4>
+      <div class="divv">
+            <span class="spanz">
+            <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+            <h2>Barcelona 2026-27 <br>Kits at Nike</h2>
+            </span>
+            <div class="cta">
+             <p class="fh4">Shop now</p>
+            </div>
+           </div>
+     
+        <span class="span1">
+                   <img class="firstimg" src="IMG_5347.jpg" alt="Bayern Leverkusen Feminine">
+                   <img class="firstimg" src="IMG_5347 3.jpg" alt="Bayern Leverkusen Masculine">
+                  </span>
+                   <h1 class="secondh1">Bayern Leverkusen I <br>Home</h1>
+                   <h4 class="thirdh3">Bayer Leverkusen's 2026-27 away kit is inspired by Farbenstadt, 'The City of Colours' and the creative identity that defines the club. At the heart of the design <br>is a luminous Terrarium base overlaid with fluid marbled graphics in Light Surf, Faded Teal, and Deep Sea flowing across the shoulders and sleeves. White and Deep Black Iris accents add contrast and structure, creating a bold yet controlled visual identity. Subtle cross details are embedded within the artwork, referencing the iconic Bayer Cross as a constant presence within the club's visual heritage.</h4>
+               <div class="divv">
+                     <span class="spanz">
+                     <img class="divlogo" src="https://i.postimg.cc/cLxWkrXy/IMG-5215.png" alt="New Balance logo">
+                     <h2>Bayern Leverkusen<br>Kits at New Balance</h2>
+                     </span>
+                     <div class="cta">
+                      <p class="fh4">Shop now</p>
+                     </div>
+                    </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5168.jpg" alt="Bayern Munich Feminine">
+           <img class="firstimg" src="IMG_5131.jpg" alt="Serge Genabry">
+          </span>
+           <h1 class="secondh1">Bayern Munich I Home</h1>
+           <h4 class="thirdh3">Bayern Munich’s new 2026-27 home kit marks a confident return to the club's traditional roots, prioritising a classic Red and White identity. The primary design features a vibrant, deep red base characterised by subtle, tonal vertical stripes. These red-on-red stripes are woven into a textured jacquard fabric, providing a modern depth and structure to the jersey without compromising its iconic monochromatic silhouette.
+            <br><br>It also includes premium gold accents, a colour choice that hasn't been a staple of <br>the home kit since the early 2010s. To celebrate their 2025/26 Bundesliga title triumph, the kit includes a unique championship detail: a gold badge <br>featuring the club’s cockatoo mascot, positioned centrally on the chest between the manufacturer logo and the club crest.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+             <h2>Bayern Munich Kits <br>at Adidas</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5132.jpg" alt="Dortmund Masculine">
+           <img class="firstimg" src="IMG_5173.jpg" alt="Dortmund Feminine">
+          </span>
+           <h1 class="secondh1">Borussia Dortmund I Home</h1>
+           <h4 class="thirdh3">The Borussia Dortmund 2026-27 home kit is a striking homage to the city’s industrial <br>soul. Moving away from simpler designs, Puma has crafted a jersey rooted in the steel, concrete, and ambition of the Ruhr region. The shirt retains the club's signature Yellow base but is defined by an intricate, tonal graphic pattern that covers the front and lower body.
+           <br><br>This geometric motif draws direct <br>inspiration from the steel framework of the Minister Stein colliery and the lattice-like architecture of the legendary Dortmunder <br>U-Tower, celebrating the city's heritage as it prepares to mark the 40th anniversary of <br>the colliery’s closure.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/L6MPSWRg/IMG-5197.jpg" alt="Puma logo">
+             <h2>Borussia Dortmund<br>Kits at Puma</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+    
+     <span class="span1">
+           <img class="firstimg" src="IMG_5169.jpg" alt="Celtic Masculines">
+           <img class="firstimg" src="IMG_5169 2.jpg" alt="Celtic Feminines">
+          </span>
+           <h1 class="secondh1">Celtic I Home</h1>
+           <h4 class="thirdh3">The 2026-27 Celtic home kit celebrates the 60th anniversary of the Lisbon Lions, designed to honour the historical achievements of the team that brought the European Cup to Celtic Park. The jersey is <br>a tribute to Celtic FC's most iconic 1966/67 season, and the local roots of the players who made the magic happen.
+           <br><br>The kit is adorned with gold details, including a special crest to celebrate 60 years since that legendary season. The overall aesthetic is clean and heritage-driven, deliberately echoing the simplicity <br>of the Lisbon Lions era, while refined fabric textures and engineered ventilation zones are seamlessly integrated into the design.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+             <h2>Celtic Kits at <br>Adidas</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5137.jpg" alt="Chelsea Feminine">
+           <img class="firstimg" src="IMG_5138.jpg" alt="Reece James">
+          </span>
+           <h1 class="secondh1">Chelsea I Home</h1>
+           <h4 class="thirdh3">The Chelsea 2026-27 home kit is here, and following fan consultation, the club crest <br>has been refreshed and interwoven proudly into the fabric on the front of the shirt. The Bright Blue fabric features a collar and button-down neck, with Midwest Gold accents for the rampant lion and Nike swoosh.  
+           <br><br>The iconic rampant lion is a feature of the Chelsea badge following Ted Drake’s arrival at the Blues 75 seasons ago, and its claw marks take centre stage this year. <br>Appearing on walls, beach murals and at concerts, a series of sightings around the world built noise beyond the boundaries of traditional storytelling.</h4>
+        <div class="divv">
+              <span class="spanz">
+              <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+              <h2>Chelsea Kits at <br>Nike</h2>
+              </span>
+              <div class="cta">
+               <p class="fh4">Shop now</p>
+              </div>
+             </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5139.jpg" alt="Inter Milan Feminine">
+           <img class="firstimg" src="IMG_5140.jpg" alt="Inter Milan Masculine">
+          </span>
+           <h1 class="secondh1">Inter Milan I Home</h1>
+           <h4 class="thirdh3">The 2026-27 Inter Milan home kit is <br>defined by a combination of Black and <br>Lyon Blue colours, paying tribute to Inter’s historic 1998 shirt, while the University <br>Gold detailing nods to the yellow of the <br>Nike swoosh and the Club crest from that iconic kit.
+           <br><br>The reintroduction of the collar brings a touch of tradition back into a contemporary silhouette, while on the inside, the Inner Pride reads 'Made of Milano', a concept <br>that highlights the unbreakable bond between Inter and the city. This concept is also reflected in the kit’s graphic details, <br>with stripe edges finished in a style inspired by the cut of tailor’s scissors, a direct reference to Milano’s tailoring and manufacturing tradition.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+             <h2>Inter Milan Kits at <br>Nike</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5141.jpg" alt="Juventus Feminine">
+           <img class="firstimg" src="IMG_5176.jpg" alt="Juventus Masculine">
+          </span>
+           <h1 class="secondh1">Juventus I Home</h1>
+           <h4 class="thirdh3">The Juventus 2026-27 home kit represents a bold return to the Sartorial Elegance that defined the club's most prestigious eras. Moving away from the experimental "barcode" patterns of the previous season, this kit focuses on a clean, uniform application of the iconic black and white vertical stripes. The design is anchored by <br>a retro-inspired, fold-over polo collar in <br>crisp white, which lends the jersey a <br>tailored, high-fashion aesthetic intended to look as sharp on the streets of Turin as it does on the pitch at the Allianz Stadium.
+           <br><br>The defining characteristic of this year’s kit is the heavy use of Gold Metallic accents, replacing the pink highlights of the <br>previous cycle. This shimmering gold is applied to the simplified Juventus 'J' crest, the Adidas performance logo, and the sponsor branding, creating a luxurious contrast against the monochrome base.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+             <h2>Juventus Kits at <br>Adidas</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5143.jpg" alt="Leeds United Masculine">
+           <img class="firstimg" src="IMG_5144.jpg" alt="Leeds United Feminine">
+          </span>
+           <h1 class="secondh1">Leeds United I Away</h1>
+           <h4 class="thirdh3">The new 2026-27 away kit sees <br>a comeback of the classic yellow base colour, this time in a smart, but <br>striking shade, <br>which is complemented with night navy <br>and white detailing, turning a renowned colour palette into a modern masterpiece. 
+           <br><br>The V-neck jersey <br>is paired with navy shorts and yellow <br>socks.  It's also the first time that the Leeds United away kit features the iconic <br>adidas Originals trefoil logo and a return <br>of a classic club badge, which was last <br>seen in 1998.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+             <h2>Leeds United Kits at <br>Adidas</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5148.jpg" alt="Lille Players">
+           <img class="firstimg" src="IMG_5145.jpg" alt="Lille Masculine">
+          </span>
+           <h1 class="secondh1">Lille I Home</h1>
+           <h4 class="thirdh3">At the heart of Lille's 2026-27 home kit is <br>the classic white-and-navy scapular, scaled and positioned to echo LOSC silhouettes while feeling modern in its execution. A <br>bold red base is cut by this unmistakable pattern, delivering a look that is sharp, balanced, and immediately recognisable. The kit draws inspiration from the jersey worn when the Dogues lifted the 2011 championship trophy, celebrating the moment 15 years later.</h4>
+      <div class="divv">
+            <span class="spanz">
+            <img class="divlogoo" src="https://i.postimg.cc/cLxWkrXy/IMG-5215.png" alt="New balance logo">
+            <h2>Lille Kits at<br>New Balance</h2>
+            </span>
+            <div class="cta">
+             <p class="fh4">Shop now</p>
+            </div>
+           </div>
+     
+     <span class="span1">
+           <img class="firstimg" src="IMG_5150.jpg" alt="Liverpool Masculine">
+           <img class="firstimg" src="IMG_5149.jpg" alt="Liverpool Feminine">
+          </span>
+           <h1 class="secondh1">Liverpool I Home</h1>
+           <h4 class="thirdh3">Inspired by the classic adidas 1989-91 Liverpool FC home jersey, instantly recognisable for its dynamic geometric pattern, and worn during a successful <br>period for the club, when Kenny Dalglish’s side secured the 1989/90 league title. The new design celebrates a defining period in the club’s history. The deep red base is elevated through a contemporary all-over graphic, directly echoing the visual <br>language of the late-80s original while introducing a sharper, modern execution.
+           <br><br>Clean white detailing across the adidas <br>logo, club crest and trims reinforces the classic aesthetic, while the reimagined all-over print channels the energy and attitude of 80s football culture.</h4>
+      <div class="divv">
+            <span class="spanz">
+            <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+            <h2>Liverpool Kits at <br>Adidas</h2>
+            </span>
+            <div class="cta">
+             <p class="fh4">Shop now</p>
+            </div>
+           </div>
+   
+     <span class="span1">
+           <img class="firstimg" src="IMG_5147.jpg" alt="Manchester United Feminine">
+           <img class="firstimg" src="IMG_5146.jpg" alt="Mbuemo">
+          </span>
+           <h1 class="secondh1">Manchester United I Home</h1>
+           <h4 class="thirdh3">Inspired by the 1970s, the 2026-27 Manchester United kit has a clean red base <br>that allows the iconic polo collar and <br>striped cuffs to take centre stage, bringing <br>a refined and unmistakably United look <br>back to the pitch. The collar execution, combined with subtle striping details, references the kits worn during the club’s Domestic Cup triumph in 1977 - marking <br>the 50th anniversary of that historic <br>moment. This connection to the past is balanced with a contemporary <br>construction, creating a jersey that feels both nostalgic and progressive.
+           <br><br>White accents across the adidas three stripes and branding provide a sharp contrast against the red base, while black detailing is integrated subtly throughout the design, reinforcing the club’s classic colour palette.  A 'United' sign-off on the back of <br>the neck rounds off the look.</h45
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+                <h2>Manchester United <br>Kits at Adidas</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+          
+          
+     <span class="span1">
+           <img class="firstimgg" src="IMG_5161 2.jpg" alt="Phil Foden">
+           <img class="firstimgg" src="IMG_5161 3.jpg" alt="Manchester City Feminine">
+          </span>
+           <h1 class="secondh1">Manchester City I Home</h1>
+           <h4 class="thirdh3">Manchester City’s 2026-27 home kit <br>breaks away from the traditional solid-tone approach to feature a distinct sky-blue gradient. Fading smoothly from a darker shade at the shoulders down to white at <br>the bottom hem, the design is meant to represent a visual timeline of the various shades of sky blue the club has worn throughout its history.
+           <br><br>It is framed nicely by a crisp white collar <br>and sleeve cuffs, and finished with a monochromatic, metallic silver club crest and matching sponsor branding to emphasise a theme of modern progression.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/L6MPSWRg/IMG-5197.jpg" alt="Puma logo">
+                <h2>Manchester City Kits <br>at Puma</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+          
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5153.jpg" alt="New Castle Feminine">
+           <img class="firstimg" src="IMG_5154.jpg" alt="New Castle Masculine">
+          </span>
+           <h1 class="secondh1">Newcastle United I Home</h1>
+           <h4 class="thirdh3">The Newcastle United home kit for the <br>2026-27 season reimagines the club’s classic stripes, introducing a bold, <br>disrupted pattern and an energetic pop of colour for a fresh take on tradition. The design is future-thinking and progressive, with the redefined black and white stripes paired with striking blue detailing around <br>the crew collar and adidas’ three stripes.  The club’s symbolic magpie iconography is printed on the neck of the shirt.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+                <h2>Newcastle United <br>Kits at Adidas</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+          
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5155.jpg" alt="Porto Masculine">
+           <img class="firstimg" src="IMG_5155 2.jpg" alt="Porto Players">
+          </span>
+           <h1 class="secondh1">Porto I Home</h1>
+           <h4 class="thirdh3">Porto's home shirt is a modern <br>interpretation of the Dragons’ classic <br>identity. FC Porto and New Balance <br>present a piece that will instantly resonate with any true Porto supporter, reflecting the club’s culture and tradition. Wide blue and white stripes, an embroidered crest, a V-neck collar, and red velvet numbers evoke the distinctive style of the late 1980s and early 1990s.
+           <br><br>Easily the most talked-about element of this kit is the player names and numbers on the back. To lean heavily into the 1980s aesthetic, New Balance brought back bold, red 3D block lettering. Complete with inset highlighting lines and a velvet-like texture finish.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogoo" src="https://i.postimg.cc/cLxWkrXy/IMG-5215.png" alt="New Balance logo">
+                <h2>Porto Kits at<br>New Balance</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+               
+         
+     <span class="span1">
+           <img class="firstimg" src="IMG_5156.jpg" alt="Porto Feminine">
+           <img class="firstimg" src="IMG_5156 2.jpg" alt="Porto Masculine">
+          </span>
+           <h1 class="secondh1">Porto I Away</h1>
+           <h4 class="thirdh3">Porto's 2026-27 away kit features a deep purple base with soft cream detailing, creating a refined, elegant look. Subtle <br>tonal striping is integrated into the fabric to add depth while maintaining a clean, <br>classic silhouette. A monochromatic club crest enhances the modern aesthetic, while refined finishing touches reinforce the overall sense of precision.
+           <br><br>The design also reflects the journey of Port from the Douro Valley to a global stage, mirroring FC Porto’s own international presence. From material textures to construction, each element speaks to the city’s reputation for quality and authenticity.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogoo" src="https://i.postimg.cc/cLxWkrXy/IMG-5215.png" alt="New Balance logo">
+                <h2>Porto Kits at <br>New Balance</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+          
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5158.jpg" alt="Dembele">
+           <img class="firstimg" src="IMG_5157.jpg" alt="PSG Feminine">
+          </span>
+           <h1 class="secondh1">PSG I Home</h1>
+           <h4 class="thirdh3">The Paris Saint-Germain 2026/27 home kit marks a profound return to the <br>fundamentals of Parisian design. For this iteration, Nike has moved away from the recent experiments with paintbrush effects and offset graphics to restore the <br>legendary Hechter stripe to its full glory. <br>The jersey features a vibrant Old Royal blue base, a lighter, more electric shade than <br>the deep navy of previous years, anchored by a bold, wide central red stripe flanked <br>by two crisp white lines.
+           <br><br>In a move that has delighted traditionalists, this iconic tri-colour band now continues seamlessly onto the back of the shirt, creating a unified flow that mirrors the flags waved by the ultras at the Parc des Princes.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+                <h2>PSG Kits at <br>Nike</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+               
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5094.jpg" alt="Real Madrid Feminine">
+           <img class="firstimg" src="IMG_5159.jpg" alt="Jude Bellingham">
+          </span>
+           <h1 class="secondh1">Real Madrid I Home</h1>
+           <h4 class="thirdh3">Built on the club’s iconic white base, the jersey brings together familiar foundations with refined textures and subtle accents, delivering a design that feels considered <br>and modern while retaining the clarity that defines Real Madrid at home.
+           <br><br>Dark green accents frame the design <br>across the collar and sleeve cuffs, which include intricate patterning across the <br>fabric, taking inspiration from the geometry of diamonds and pearls found in the club’s crown, translating craftsmanship and excellence into a modern performance aesthetic. The adidas three stripes on the shoulders feature an unexpected pop of pink, connecting the jersey to the wider seasonal identity while adding energy to <br>the overall look.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/Wp82PGKg/IMG-5213.jpg" alt="Adidas logo">
+                <h2>Real Madrid Kits at <br>Adidas</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+               
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5160.jpg" alt="Tottenham Masculine">
+           <img class="firstimg" src="IMG_5160 2.jpg" alt="Tottenham Feminine">
+          </span>
+           <h1 class="secondh1">Tottenham I Home</h1>
+           <h4 class="thirdh3">The Tottenham Hotspur 2026-27 home kit features the club's classic Lilywhite base. Still, it elevates it with a subtle, textured diagonal tonal stripe patterned directly into the fabric, a nod to the iconic mid-1980s Hummel designs. Deep navy blue handles the details on the collar, sleeve cuffs, side panels, and the embroidered club crest.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+                <h2>Tottenham 2026-27 <br>Kits at Nike</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+               
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5162.jpg" alt="Tottenham Feminine">
+           <img class="firstimg" src="IMG_5162 2.jpg" alt="Tottenham Masculine">
+          </span>
+           <h1 class="secondh1">Tottenham I Away</h1>
+           <h4 class="thirdh3">In stark contrast, the 2026-27 away kit ditches minimalism for a bold, futuristic digital vibe. Built on a deep navy base, the shirt is dominated by an energetic, glowing graphic across the chest that features sharp, jagged lines in a vibrant mix of electric pink, purple, and neon orange. This high-speed light effect gives the kit a distinct, street-ready look meant to stand out under the stadium floodlights.</h4>
+          <div class="divv">
+                <span class="spanz">
+                <img class="divlogo" src="https://i.postimg.cc/bNq9Zhmz/IMG-5214.jpg" alt="Nike logo">
+                <h2>Tottenham 2026-27 <br>Kits at Nike</h2>
+                </span>
+                <div class="cta">
+                 <p class="fh4">Shop now</p>
+                </div>
+               </div>
+               
+          
+     <span class="span1">
+           <img class="firstimg" src="IMG_5163.jpg" alt="West Ham Masculine">
+           <img class="firstimg" src="IMG_5163 2.jpg" alt="West Ham Feminine">
+          </span>
+           <h1 class="secondh1">West Ham I Home</h1>
+           <h4 class="thirdh3">West Ham's 2026-27 home kit is a bold and original design with the return of the iconic ‘Bonds Blue’ sleeves. The new kit blends traditional with that distinctive contemporary New Balance style, in the club's first collaboration with the leading apparel brand. The iconic claret body is completed by subtle chevron detailing woven into the fabric, with Claret & Blue patterns to the collar and cuffs.</h4>
+       <div class="divv">
+             <span class="spanz">
+             <img class="divwest" src="https://i.postimg.cc/HkyvL3x9/photo-output.png" alt="West Ham logo">
+             <h2>West Ham 2026-27 <br>Kits at the club store</h2>
+             </span>
+             <div class="cta">
+              <p class="fh4">Shop now</p>
+             </div>
+            </div>
+            
+            <span class="span1">
+                       <img class="firstimg" src="IMG_5346.jpg" alt="West Ham Feminine">
+                       <img class="firstimg" src="IMG_5346 4.jpg" alt="West Ham Masculine">
+                      </span>
+                       <h1 class="secondh1">West Ham I Away</h1>
+                       <h4 class="thirdh3">West Ham brings back the white away kit <br>for the 2026-27 season, which is worn for some of the most memorable moments in West Ham United history, reinvented by <br>New Balance for the season ahead. A white away kit has long held a special place in West Ham history and was the colour worn by Billy Bonds and his teammates as the Hammers lifted the FA Cup in 1980. 
+                       <br><br>Sporting claret and blue flashes to the <br>collar and cuffs, the shirt also features the club's crossed hammers standing alone on the chest. Featuring subtle patterns inspired by the ornate ceiling of the iconic Boleyn Tavern woven into the fabric, the design is rooted in the artistry of the East End.</h4>
+                  <div class="divv">
+                        <span class="spanz">
+                        <img class="divwest" src="https://i.postimg.cc/HkyvL3x9/photo-output.png" alt="West Ham logo">
+                        <h2>West Ham Kits at the <br>club store</h2>
+                        </span>
+                        <div class="cta">
+                         <p class="fh4">Shop now</p>
+                        </div>
+                       </div>
+            
+     <div class="lastdiv">
+     </div>
+     
+         <div class="kkk">
+          <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
+          <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+          <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+          <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+         </div>
+         <footer class="footer">
+            <span class="yyy">
+           <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+            </span>
+           <div class="ficons">
+            <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+            <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+            <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+            <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+           </div>
+           <div class="footerp">
+            <p><a href="http">Contact Us</a> |</p>
+            <p><a href="http">Terms of Service</a> |</p>
+            <p><a href="http">Privacy policy</a> |</p>
+            <p><a href="http">Careers</a> |</p>
+           </div>
+           <div class="footerpp">
+            <p><a href="http">Goal App (Android)</a> |</p>
+            <p><a href="http">Goal App (iOS)</a> |</p>
+            <p><a href="http">Goal Live</a> |</p>
+           </div>
+           <div class="footerppp">
+           <p><a href="http">Betting</a> |</p>
+           <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+           </div>
+           <div class="footerpppp">
+            <div class="zzz">
+            <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+            <span>Nigeria</span>
+            </div>
+           </div>
+           
+           <div class="google">
+            <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+            <span class="ggg">Add as preferred source on Google</span>
+           </div>
+           
+            <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+           
+           <div class="square">
+           <div class="fgordon">
+            <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+           </div> 
+            <p class="con">+18
+            Please play responsibly</p>
+           </div>
+          </footer>
+          
+          
+          
+          
+          <script>
+              const menuBtn = document.getElementById("menu-btn");
+              const menu = document.getElementById("menu");
+              
+              menuBtn.addEventListener("click", function () {
+                if (menu.style.display === "block") {
+                  menu.style.display = "none";
+                } else {
+                  menu.style.display = "block";
+                }
+              });
+              </script>
+          
+          
+          
+   </body>
+ </html>
+ 
+ 
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</html>
