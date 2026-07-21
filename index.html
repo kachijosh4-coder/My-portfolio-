@@ -1,483 +1,500 @@
 <!DOCTYPE HTML>
- <html lang="en">
-   <head>
-    <meta charset=UTF-8>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goal official website</title>
-    <style>
-    
-    body {
-        background-color: hsl(0, 0%, 18%);
-        margin: 0;
-    }
-    
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        column-gap: 10px;
-        background-color: black;
-        width: 375px;
-        height: 50px;
-        border-bottom: 4px solid hsl(21, 100%, 50%);
-        paddin: 0px 15px 0px 0px;
-    }
-    
-    .menu {
-        max-width: 19px;
-    }
-    
-    .profile {
-        max-width: 30px;
-    }
-    
-    .goal {
-        max-width: 135px;
-    }
-    
-    .live {
-        max-width: 68px;
-    }
-    
-    .vpn {
-        max-width: 75px;
-    }
-    
-    .firstsec {
-        background-color: hsl(0, 0%, 10%);
-    }
-    
-    #menu {
-                 position: sticky;
-                 top: 50px;
-                 font-family: "Sofia Pro", sans-serif;
-                 font-weight: bold;
-                 line-height: 45px;
-                 font-size: 22px;
-                 display: none;
-                 background: #111;
-                 padding: 20px;
-             }
-              
-             #menu a {
-                 display: block;
-                 color: white;
-                 text-decoration: none;
-                 padding: 10px 0;
-             }
-    
-       .hero {
-           max-width: 100%;
-       }
-       
-       .div1 {
-           background-color: hsl(0, 0%, 18%);
-           width: 100%;
-           height: 150px;
-           padding-top: 10px;
-           border-bottom: 1px solid black;
-       }
-       
-        .div2 {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            column-gap: 35px;
+     <html lang="en">
+       <head>
+        <meta charset=UTF-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Goal official website</title>
+        <style>
+        
+        body {
             background-color: hsl(0, 0%, 18%);
-            width: 100%;
-            height: 150px;
-            padding-top: 10px;
-         }
-              
-       
-       .p1 {
-           font-family: "Sofia Pro", sans-serif;
-           color: white;
-           padding-left: 15px;
-           font-weight: bold;
-           font-size: 18px;
-       }
-       
-       .p2 {
-           font-family: "Sofia Pro", sans-serif;
-           color: white;
-           font-size: 12px;
-           padding-left: 15px;
-       }
-       
-       .p3 {
-           color: white;
-           font-family: "Sofia Pro", sans-serif;
-           font-weight: bold;
-           font-size: 14px;
-           padding-left: 15px;
-       }
-       
-       .p4 {
-           color: white;
-           font-family: "Sofia Pro", sans-serif;
-           font-weight: bold;
-           font-size: 12px;
-           padding-left: 15px;
-           padding-top: -20px;
+            margin: 0;
         }
-       
-       .img2 {
-           max-width: 115px;
-       }
-       
-       .div3 {
-           background-color: hsl(0, 0%, 18%);
-           width: 100%;
-           height: 200px;
-           border-bottom: 1px solid black;
-           padding-to: 20px;
-       }
-       
-       .footer {
-                     font-family: "Inter", "SF Pro Display", Arial, sans-serif;
-                     background-color: black;
-                     color: white;
-                     padding: 10px 10px 50px 10px;
-                     font-size: 13px;
-                     line-height: 100%;
-                 }
-                 
-                 .yyy {
-                               display: flex;
-                               justify-content: center;
-                               align-items: center;
-                           }
-                 
-                 .footerp {
-                     display: flex;
-                     justify-content: center;
-                     column-gap: 6px;
-                     text-align: center;
-                 }
-                 
-                 .footerpp {
-                     display: flex;
-                     justify-content: center;
-                     column-gap: 6px;
-                     text-align: center;
-                 }
-                 
-                 .footerppp {
-                     display: flex;
-                     justify-content: center;
-                     align-items: center;
-                     text-align: center;
-                 }
-                 
-                 .footerpppp {
-                     text-align: center;
-                     margin-bottom: 30px;
-                 }
-                 
-                 .imgpppp {
-                     width: 24px;
-                     height: 16px;
-                 }
-                 
-                 .zzz {
-                     display: flex;
-                     column-gap: 10px;
-                     justify-content: center;
-                     margin-top: 8px;
-                     align-items: center;
-                 }
-                 
-                 .ggg {
-                     font-weight: bold;
-                     font-size: 16px;
-                 }
-                 
-                 a {
-                     text-decoration: none;
-                     color: white;
-                 }
-                 
-                 a:hover {
-                     color: hsl(27, 100%, 50%);
-                 }
-                 
-                 .footer p {
-                   margin: 0;
-                   line-height: 2;
-                 }
-            
-                 .google {
-                     background-color: #4a4a4a;
-                     width: 90%;
-                     max-width: 900px;
-                     margin: 0px 13px 35px 13px;
-                     border-radius: 50px;
-                     text-align: center;
-                     padding: 10px 0px 12px 0px;
-                     align-items: center;
-                     display: flex;
-                     column-gap: 10px;
-                     justify-content: center;
-                 }
-                 
-                 .googleimg {
-                     max-width: 16px;
-                 }
-                 
-                 .square {
-                     background-color: hsl(0, 0%, 10%);
-                     width: 330px;
-                     height: 80px;
-                     margin: -2px 35px -50px 13px;
-                 }
-                 
-                 .con {
-                     font-family: "Inter", "SF Pro Display", Arial, sans-serif;
-                     font-weight: bold;
-                     color: white;
-                     text-align: center;
-                     font-size: 9px;
-                 } 
-                 
-                 .ficons {
-                     display: flex;
-                     justify-content: center;
-                     align-items: center;
-                     column-gap: 16px;
-                     margin-bottom: 30px;
-                     padding-top: 20px;
-                 }
-                 
-                 .icons {
-                     max-width: 30px;
-                 }
-                 
-                 .iconss {
-                     max-width: 22px;
-                 }
-                 
-                 .iconsss {
-                     max-width: 27px;
-                 }
-                 
-                 .iconssss {
-                     max-width: 38px;
-                 }
-                 
-                 .dark {
-                     max-width: 60px;
-                 }
-                 
-                 .fgordon {
-                     display: flex;
-                     justify-content: center;
-                     align-items: center;
-                 }
-                 
-                 .gordon {
-                     max-width: 110px;
-                     padding-top: 7px;
-                 }
-                 
-       
-       
-    </style>
-       </head>
-       <body>
-        <header class="header">
-         <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
-         <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
-         <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
-         <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
-         <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
-        </header>
-        <nav id="menu">
-         <a href="#">WORLD CUP</a>
-         <a href="#">LIVE SCORES</a>
-         <a href="#">NEWS</a>
-         <a href="#">FORUMS</a>
-         <a href="#">PREMIER LEAGUE</a>
-         <a href="#">LA LIGA</a>
-         <a href="#">BETTING</a>
-         <a href="#">CULTURE</a>
-            </nav>
-        <section class="firstsec">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a href="hero-section.html">
-        <img class="hero" src="IMG_5470.WEBP" alt="hero image">
-        </section>
-        <div class="div1">
-         <p class="p1">Mythical Messi deserves a ninth<br>Ballon d'Or</p>
-          <br>
-         <p class="p2">Ballon d'Or</p>
-        </div></a>
         
-        <a href="power-ranking-ballon.html"><div class="div3">
-        <div class="div2">
-         <p class="p3">BDO Power Rankings: Messi<br>& Yamal pile pressure on <br>Kane</p>
-         <img class="img2" src="IMG_5388.jpg" alt="Messk, Kane and Lamine">
-        </div>
-        <p class="p4">Power rankings</p>
-        </div></a>
-        
-        <a href="players-ratings-1.html">
-         <div class="div3">
-                <div class="div2">
-                 <p class="p3">Never write Argentina off!<br>Messi's magic helps seal spot <br>in final</p>
-                 <img class="img2" src="IMG_5389.jpg" alt="Messi, Martinez and Enzo">
-                </div>
-                <p class="p4">Players ratings</p>
-                </div></a>
-        
-        <a href="players-rating-kane.html">
-         <div class="div3">
-                <div class="div2">
-                 <p class="p3">Kane's most painful failure yet<br>could cost him Ballon d'Or</p>
-                 <img class="img2" src="IMG_5453.jpg" alt="Kane">
-                </div>
-                <p class="p4">Players ratings</p>
-                </div></a>
+        .header {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  z-index: 1000;
+                  display: flex;
+                  justify-content: left;
+                  align-items: center;
+                  column-gap: 4px;
+                  background-color: black;
+                  width: 375px;
+                  height: 59px;
+                  border-bottom: 4px solid hsl(21, 100%, 50%);
+                  paddin: 0px 15px 0px 0px;
+              }
               
-              <a href="lamine-and-messi-baby-bath.html">
-         <div class="div3">
-                <div class="div2">
-                 <p class="p3">Yamal & Messi: From baby<br>baths to the biggest game of<br>all</p>
-                 <img class="img2" src="IMG_5461.jpg" alt="Messi and Lamine">
-                </div>
-                <p class="p4">Winners & Losers</p>
-                </div></a>
+              .menu {
+                  margin: 5px 0 0 8px;
+                  max-width: 25px;
+              }
+              
+              .profile {
+                  max-width: 32px;
+              }
+              
+              .goal {
+                  margin-left: -3px;
+                  max-width: 140px;
+              }
+              
+              .live {
+                  max-width: 68px;
+              }
+              
+              .vpn {
+                  max-width: 76px;
+              }
+        
+        .firstsec {
+            background-color: hsl(0, 0%, 10%);
+        }
+        
+        #menu {
+                     position: sticky;
+                     top: 50px;
+                     font-family: "Sofia Pro", sans-serif;
+                     font-weight: bold;
+                     line-height: 45px;
+                     font-size: 22px;
+                     display: none;
+                     background: #111;
+                     padding: 20px;
+                 }
+                  
+                 #menu a {
+                     display: block;
+                     color: white;
+                     text-decoration: none;
+                     padding: 10px 0;
+                 }
+        
+           .hero {
+               max-width: 100%;
+           }
+           
+           .div1 {
+               background-color: hsl(0, 0%, 18%);
+               width: 100%;
+               height: 150px;
+               padding-top: 10px;
+               border-bottom: 1px solid black;
+           }
+           
+            .div2 {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                column-gap: 35px;
+                background-color: hsl(0, 0%, 18%);
+                width: 100%;
+                height: 150px;
+                padding-top: 10px;
+             }
+                  
+           
+           .p1 {
+               font-family: "Sofia Pro", sans-serif;
+               color: white;
+               padding-left: 15px;
+               font-weight: bold;
+               font-size: 18px;
+           }
+           
+           .p2 {
+               font-family: "Sofia Pro", sans-serif;
+               color: white;
+               font-size: 12px;
+               padding-left: 15px;
+           }
+           
+           .p3 {
+               color: white;
+               font-family: "Sofia Pro", sans-serif;
+               font-weight: bold;
+               font-size: 14px;
+               padding-left: 15px;
+           }
+           
+           .p4 {
+               color: white;
+               font-family: "Sofia Pro", sans-serif;
+               font-weight: bold;
+               font-size: 12px;
+               padding-left: 15px;
+               padding-top: -20px;
+            }
+           
+           .img2 {
+               max-width: 115px;
+           }
+           
+           .div3 {
+               background-color: hsl(0, 0%, 18%);
+               width: 100%;
+               height: 200px;
+               border-bottom: 1px solid black;
+               padding-to: 20px;
+           }
+           
+           .footer {
+                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                         background-color: black;
+                         color: white;
+                         padding: 10px 10px 50px 10px;
+                         font-size: 13px;
+                         line-height: 100%;
+                     }
+                     
+                     .yyy {
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                               }
+                     
+                     .footerp {
+                         display: flex;
+                         justify-content: center;
+                         column-gap: 6px;
+                         text-align: center;
+                     }
+                     
+                     .footerpp {
+                         display: flex;
+                         justify-content: center;
+                         column-gap: 6px;
+                         text-align: center;
+                     }
+                     
+                     .footerppp {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         text-align: center;
+                     }
+                     
+                     .footerpppp {
+                         text-align: center;
+                         margin-bottom: 30px;
+                     }
+                     
+                     .imgpppp {
+                         width: 24px;
+                         height: 16px;
+                     }
+                     
+                     .zzz {
+                         display: flex;
+                         column-gap: 10px;
+                         justify-content: center;
+                         margin-top: 8px;
+                         align-items: center;
+                     }
+                     
+                     .ggg {
+                         font-weight: bold;
+                         font-size: 16px;
+                     }
+                     
+                     a {
+                         text-decoration: none;
+                         color: white;
+                     }
+                     
+                     a:hover {
+                         color: hsl(27, 100%, 50%);
+                     }
+                     
+                     .footer p {
+                       margin: 0;
+                       line-height: 2;
+                     }
                 
-                <a href="players-rating-2.html">
-         <div class="div3">
-                <div class="div2">
-                 <p class="p3">World Cup value tracker:<br>Enzo playes hero as Yamal <br>hits £210m</p>
-                 <img class="img2" src="IMG_5392.jpg" alt="Enzo and Lamine">
-                </div>
-                <p class="p4">World cup</p>
-                </div></a>
-               
-               <a href="power-rating,-united.html">
-        <div class="div3">
-                        <div class="div2">
-                         <p class="p3">Slow summer puts United at<br>risk of falling further behind<br>WSL elite</p>
-                         <img class="img2" src="IMG_5393.jpg" alt="Manchester United Feminine">
-                        </div>
-                        <p class="p4">Women's football</p>
-                        </div></a>
-        
-        <a href="Kitts.html">
-        <div class="div3">
-      <div class="div2">
-        <p class="p3">All the top teams 2026-27<br>football kits released so far</p>
-         <img class="img2" src="IMG_5478.jpg" alt="Lamine and Madrid feminine kit">
-         </div>
-        <p class="p4">New club Kits</p>
-        </div></a>
-        
-        
-        
-        <footer class="footer">
-                    <span class="yyy">
-                   <a href="goal"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
-                    </span>
-                   <div class="ficons">
-                    <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
-                    <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
-                    <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
-                    <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
-                   </div>
-                   <div class="footerp">
-                    <p><a href="http">Contact Us</a> |</p>
-                    <p><a href="http">Terms of Service</a> |</p>
-                    <p><a href="http">Privacy policy</a> |</p>
-                    <p><a href="http">Careers</a> |</p>
-                   </div>
-                   <div class="footerpp">
-                    <p><a href="http">Goal App (Android)</a> |</p>
-                    <p><a href="http">Goal App (iOS)</a> |</p>
-                    <p><a href="http">Goal Live</a> |</p>
-                   </div>
-                   <div class="footerppp">
-                   <p><a href="http">Betting</a> |</p>
-                   <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
-                   </div>
-                   <div class="footerpppp">
-                    <div class="zzz">
-                    <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
-                    <span>Nigeria</span>
+                     .google {
+                         background-color: #4a4a4a;
+                         width: 90%;
+                         max-width: 900px;
+                         margin: 0px 13px 35px 13px;
+                         border-radius: 50px;
+                         text-align: center;
+                         padding: 10px 0px 12px 0px;
+                         align-items: center;
+                         display: flex;
+                         column-gap: 10px;
+                         justify-content: center;
+                     }
+                     
+                     .googleimg {
+                         max-width: 16px;
+                     }
+                     
+                     .square {
+                         background-color: hsl(0, 0%, 10%);
+                         width: 330px;
+                         height: 80px;
+                         margin: -2px 35px -50px 13px;
+                     }
+                     
+                     .con {
+                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                         font-weight: bold;
+                         color: white;
+                         text-align: center;
+                         font-size: 9px;
+                     } 
+                     
+                     .ficons {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         column-gap: 16px;
+                         margin-bottom: 30px;
+                         padding-top: 20px;
+                     }
+                     
+                     .icons {
+                         max-width: 30px;
+                     }
+                     
+                     .iconss {
+                         max-width: 22px;
+                     }
+                     
+                     .iconsss {
+                         max-width: 27px;
+                     }
+                     
+                     .iconssss {
+                         max-width: 38px;
+                     }
+                     
+                     .dark {
+                         max-width: 60px;
+                     }
+                     
+                     .fgordon {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                     }
+                     
+                     .gordon {
+                         max-width: 110px;
+                         padding-top: 7px;
+                     }
+                     
+           
+           
+        </style>
+           </head>
+           <body>
+            <header class="header">
+             <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+             <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
+             <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
+             <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+             <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+            </header>
+           <nav id="menu">
+             <a href="index.html">Home</a>
+            <a href="power-ranking-ballon.html">Ballon d'Or</a>
+             <a href="players-rating-2.html">WC Semi-Final</a>
+                <a href="players-rating-kane.html">Kane's Saga</a>
+            <a href="lamine-and-messi-baby-bath.html">WC Final</a>
+            <a href="spain-champions.html">WC Champions</a>
+            <a href="power-rating,-united.html">Man United Feminine🔴</a>
+            <a href="players-rating-2.html">Market Values📈</a>
+             <a href="Kitts.html">2026-27 Kits👕</a>
+             <br>
+             <br>
+             </nav>
+            <section class="firstsec">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="hppppp">
+            <img class="hero" src="IMG_5542.WEBP" alt="hero image">
+            </section>
+            <div class="div1">
+             <p class="p1">World Cup winners Spain set up to<br>dominate for a decade</p>
+              <br>
+             <p class="p2">Analysis</p>
+            </div></a>
+            
+            
+            <a href="hero-section.html">
+            <div class="div3">
+            <div class="div2">
+            <p class="p3">Mythical Messi deserves a <br>ninth Ballon d'Or</p></p>
+             <img class="img2" src="IMG_5470.jpg" alt="Messi">
+            </div>
+            <p class="p4">Ballon d'Or</p>
+             </div></a>
+            
+            
+            
+            <a href="power-ranking-ballon.html"><div class="div3">
+            <div class="div2">
+             <p class="p3">BDO Power Rankings: Messi<br>& Yamal pile pressure on <br>Kane</p>
+             <img class="img2" src="IMG_5388.jpg" alt="Messk, Kane and Lamine">
+            </div>
+            <p class="p4">Power rankings</p>
+            </div></a>
+            
+            <a href="players-ratings-1.html">
+             <div class="div3">
+                    <div class="div2">
+                     <p class="p3">Never write Argentina off!<br>Messi's magic helps seal spot <br>in final</p>
+                     <img class="img2" src="IMG_5389.jpg" alt="Messi, Martinez and Enzo">
                     </div>
-                   </div>
+                    <p class="p4">Players ratings</p>
+                    </div></a>
+            
+            <a href="players-rating-kane.html">
+             <div class="div3">
+                    <div class="div2">
+                     <p class="p3">Kane's most painful failure yet<br>could cost him Ballon d'Or</p>
+                     <img class="img2" src="IMG_5453.jpg" alt="Kane">
+                    </div>
+                    <p class="p4">Players ratings</p>
+                    </div></a>
+                  
+                  <a href="lamine-and-messi-baby-bath.html">
+             <div class="div3">
+                    <div class="div2">
+                     <p class="p3">Yamal & Messi: From baby<br>baths to the biggest game of<br>all</p>
+                     <img class="img2" src="IMG_5461.jpg" alt="Messi and Lamine">
+                    </div>
+                    <p class="p4">Winners & Losers</p>
+                    </div></a>
+                    
+                    <a href="players-rating-2.html">
+             <div class="div3">
+                    <div class="div2">
+                     <p class="p3">World Cup value tracker:<br>Enzo playes hero as Yamal <br>hits £210m</p>
+                     <img class="img2" src="IMG_5392.jpg" alt="Enzo and Lamine">
+                    </div>
+                    <p class="p4">World cup</p>
+                    </div></a>
                    
-                   <div class="google">
-                    <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
-                    <span class="ggg">Add as preferred source on Google</span>
-                   </div>
-                   
-                    <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
-                   
-                   <div class="square">
-                   <div class="fgordon">
-                    <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
-                   </div> 
-                    <p class="con">+18
-                    Please play responsibly</p>
-                   </div>
-                  </footer>
+                   <a href="power-rating,-united.html">
+            <div class="div3">
+                            <div class="div2">
+                             <p class="p3">Slow summer puts United at<br>risk of falling further behind<br>WSL elite</p>
+                             <img class="img2" src="IMG_5393.jpg" alt="Manchester United Feminine">
+                            </div>
+                            <p class="p4">Women's football</p>
+                            </div></a>
+            
+            <a href="Kitts.html">
+            <div class="div3">
+          <div class="div2">
+            <p class="p3">All the top teams 2026-27<br>football kits released so far</p>
+             <img class="img2" src="IMG_5478.jpg" alt="Lamine and Madrid feminine kit">
+             </div>
+            <p class="p4">New club Kits</p>
+            </div></a>
+            
+            
+            
+            <footer class="footer">
+                        <span class="yyy">
+                       <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                        </span>
+                       <div class="ficons">
+                        <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                        <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                        <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                        <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                       </div>
+                       <div class="footerp">
+                        <p><a href="http">Contact Us</a> |</p>
+                        <p><a href="http">Terms of Service</a> |</p>
+                        <p><a href="http">Privacy policy</a> |</p>
+                        <p><a href="http">Careers</a> |</p>
+                       </div>
+                       <div class="footerpp">
+                        <p><a href="http">Goal App (Android)</a> |</p>
+                        <p><a href="http">Goal App (iOS)</a> |</p>
+                        <p><a href="http">Goal Live</a> |</p>
+                       </div>
+                       <div class="footerppp">
+                       <p><a href="http">Betting</a> |</p>
+                       <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                       </div>
+                       <div class="footerpppp">
+                        <div class="zzz">
+                        <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
+                        <span>Nigeria</span>
+                        </div>
+                       </div>
+                       
+                       <div class="google">
+                        <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                        <span class="ggg">Add as preferred source on Google</span>
+                       </div>
+                       
+                        <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                       
+                       <div class="square">
+                       <div class="fgordon">
+                        <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                       </div> 
+                        <p class="con">+18
+                        Please play responsibly</p>
+                       </div>
+                      </footer>
+            
+            
+            
+            
+            <script>
+                          const menuBtn = document.getElementById("menu-btn");
+                          const menu = document.getElementById("menu");
+                          
+                          menuBtn.addEventListener("click", function () {
+                            if (menu.style.display === "block") {
+                              menu.style.display = "none";
+                            } else {
+                              menu.style.display = "block";
+                            }
+                          });
+                          </script>
+       </body>
+      </html>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         
         
-        
-        
-        <script>
-                      const menuBtn = document.getElementById("menu-btn");
-                      const menu = document.getElementById("menu");
-                      
-                      menuBtn.addEventListener("click", function () {
-                        if (menu.style.display === "block") {
-                          menu.style.display = "none";
-                        } else {
-                          menu.style.display = "block";
-                        }
-                      });
-                      </script>
-   </body>
-  </html>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
     
