@@ -3,11 +3,11 @@
        <head>
         <meta charset=UTF-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Goal official website</title>
+        <title>My Portfolio~Josh_dev3</title>
         <style>
         
         body {
-            background-color: hsl(0, 0%, 18%);
+            background-color: hsl(0, 0%, 17%);
             margin: 0;
         }
         
@@ -30,7 +30,7 @@
               
               .menu {
                   margin: 5px 0 0 8px;
-                  max-width: 25px;
+                  max-width: 22px;
               }
               
               .profile {
@@ -55,23 +55,28 @@
         }
         
         #menu {
-                     position: sticky;
-                     top: 50px;
-                     font-family: "Sofia Pro", sans-serif;
-                     font-weight: bold;
-                     line-height: 45px;
-                     font-size: 22px;
-                     display: none;
-                     background: #111;
-                     padding: 20px;
-                 }
-                  
-                 #menu a {
-                     display: block;
-                     color: white;
-                     text-decoration: none;
-                     padding: 10px 0;
-                 }
+                                                position: sticky;
+                                                top: 50px;
+                                                font-family: "Sofia Pro", sans-serif;
+                                                font-weight: bold;
+                                                line-height: 45px;
+                                                font-size: 22px;
+                                                display: none;
+                                                background: #111;
+                                                padding: 20px;
+                                            }
+                                             
+                                            #menu.show{
+                                                display: block;
+                                            }
+                                
+                                
+                                          #menu a{
+                                             display: block;
+                                             color: white;
+                                             text-decoration: none;
+                                             padding: 10px 0;
+                                          }
         
            .hero {
                max-width: 100%;
@@ -294,9 +299,9 @@
            <body>
             <header class="header">
              <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
-             <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
-             <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
-             <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
+             <a href="https://www.besoccer.com/#google_vignette"> <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon"></a>
+             <a href="https://www.expressvpn.com/start/homepage?cq_acc=6395056203&cq_adg=118048917979&keyword=express%20vpn&geo=9235301&device=&cq_src=google_ads&utm_campaign=%7Bcampaignname%7D&cq_cmp=12349063810&cq_term=express%20vpn&cq_plac=&cq_net=g&cq_plt=gp&gad_source=1&gad_campaignid=12349063810&gbraid=0AAAAACmOeQpDiKlBaFgbUbbPWVYa-zoEM&gclid=CjwKCAjwvZHTBhAlEiwA1ug5Pyo7JgVpoJC1n7S6ecodQ4e7FJdWVRbM1poQBNZ2j3XMqmE0wUXK_xoCqogQAvD_BwE"> <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon"></a>
+             <a href="profile.html"> <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon"></a>
              <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
             </header>
            <nav id="menu">
@@ -414,18 +419,18 @@
                         <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
                        </div>
                        <div class="footerp">
-                        <p><a href="http">Contact Us</a> |</p>
-                        <p><a href="http">Terms of Service</a> |</p>
-                        <p><a href="http">Privacy policy</a> |</p>
-                        <p><a href="http">Careers</a> |</p>
+                        <p><a href="contact-us.html">Contact Us</a> |</p>
+                        <p><a href="terms-of-service.html">Terms of Service</a> |</p>
+                        <p><a href="privacy-policy.html">Privacy policy</a> |</p>
+                        <p><a href="http">Disclaimer</a> |</p>
                        </div>
                        <div class="footerpp">
                         <p><a href="http">Goal App (Android)</a> |</p>
-                        <p><a href="http">Goal App (iOS)</a> |</p>
-                        <p><a href="http">Goal Live</a> |</p>
+                        <p><a href="https://apps.apple.com/ng/app/goal-football-news-scores/id518026818">Goal App (iOS)</a> |</p>
+                        <p><a href="https://www.besoccer.com/#google_vignette">Goal Live</a> |</p>
                        </div>
                        <div class="footerppp">
-                       <p><a href="http">Betting</a> |</p>
+                       <p><a href="https://www.sportybet.com/ng/m/">Betting</a> |</p>
                        <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
                        </div>
                        <div class="footerpppp">
@@ -455,16 +460,13 @@
             
             
             <script>
-                          const menuBtn = document.getElementById("menu-btn");
-                          const menu = document.getElementById("menu");
-                          
-                          menuBtn.addEventListener("click", function () {
-                            if (menu.style.display === "block") {
-                              menu.style.display = "none";
-                            } else {
-                              menu.style.display = "block";
-                            }
-                          });
+             const menuBtn = document.getElementById("menu-btn");
+                                              const menu = document.getElementById("menu");
+                                              
+                                              menuBtn.addEventListener("click", function (e) {
+                                                  e.preventDefault(); // Stops the page from jumping to the top
+                                                  menu.classList.toggle("show");
+                                              });
                           </script>
        </body>
       </html>
