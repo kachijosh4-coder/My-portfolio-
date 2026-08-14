@@ -7,8 +7,23 @@
               <style>
               
               body {
-                  background-color: hsl(0, 0%, 17%);
+                  color: black;
+                  background-color: white;
                   margin: 0;
+              }
+                            
+              body.menu-open {
+                  overflow: hidden;
+              }
+                            
+              .dark-mode {
+                   background-color: hsl(0, 0%, 17%);
+                   color: white;
+                   margin: 0;
+              
+                   .firstsec {
+                        background-color: hsl(0, 0%, 10%);
+                     }
               }
               
              .header {
@@ -30,30 +45,96 @@
                     }
                     
                     
-                    .menu {
-                        margin: 5px 0 0 8px;
-                        max-width: 22px;
-                    }
-                    
                     .profile {
-                        max-width: 32px;
-                    }
+                                            max-width: 42px;
+                                            margin-left: -9px;
+                                        }
+                                        
+                                        .goal {
+                                            margin-left: 2px;
+                                            max-width: 137px;
+                                        }
+                                        
+                                        .live {
+                                            max-width: 112px;
+                                            margin-left: -24px;
+                                            position: relative;
+                                        }
+                                        
+                                        .vpn {
+                                            max-width: 91px;
+                                            margin-left: -24px;
+                                        }
+                                        
+                                        .live-circle {
+                                            background: #063b63;
+                                            width: 21px;
+                                            height: 21px;
+                                            border-radius: 50px;
+                                            display: flex;
+                                            position: absolute;
+                                            bottom: 9px;
+                                            animation: pulse 2.3s ease-in-out infinite;
+                                            left: 158px;
+                                            top: 25.4px;
+                                        }
                     
-                    .goal {
-                        margin-left: -3px;
-                        max-width: 140px;
-                    }
-                    
-                    .live {
-                        max-width: 68px;
-                    }
-                    
-                    .vpn {
-                        max-width: 76px;
-                    }
+                                        .live-circle2 {
+                                            background: #087ac5;
+                                            width: 15px;
+                                            height: 15px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 3px;
+                                            left: 3px;
+                                            
+                                        }
+                                        
+                                        .live-circle3 {
+                                            background: #12b9ff;
+                                            box-shadow: 0 0 12px #12b9ff;;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 5.2px;
+                                            left: 5.5px;
+                                        }
+                                        
+                                        .live-circle4 {
+                                            background: hsl(205, 100%, 70%);
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            position: absolute;
+                                            top: 7.3px;
+                                            left: 7.7px;
+                                            box-shadow: 0 0 12px rgba(0, 170, 255, 0.9);
+                                        }
+                                        
+                                        @keyframes pulse {
+                                            0%, 100% {
+                                                transform: translate(-50%, -50%) scale(1);
+                                                opacity: 1;
+                                            }
+                                        
+                                            25% {
+                                                transform: translate(-50%, -50%) scale(1.08);
+                                                opacity: 0.75;
+                                            }
+                                            
+                                            50% {
+                                                transform: translate(-50%, -50%) scale(1.12);
+                                                opacity: 0.95;
+                                            }
+                                            
+                                            75% {
+                                                transform: translate(-50%, -50%) scale(1.14);
+                                                opacity: 1;
+                                            }
+                                        }
               
               .firstsec {
-                  background-color: hsl(0, 0%, 10%);
                   padding-bottom: 10px;
               }
               
@@ -76,9 +157,9 @@
                .firstdiv {
                           background:
                               linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                              url("https://i.postimg.cc/zv5hsMn8/IMG-5685.jpg");
+                              url("IMG_5685.jpeg");
                           background-size: cover;
-                          background-position: left;
+                          background-position: center;
                           background-repeat: no-repeat;
                           width: 100%;
                           height: 310px;
@@ -108,8 +189,7 @@
                         margin: 10px 140px;
                         border-radius: 20px;
                     }
-                    
-                    
+
                .span1 {
                         display: flex;
                         border-top: 25px solid black;
@@ -136,7 +216,7 @@
                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
                         font-size: 19px;
                         font-weight: 300;
-                        color: white;
+                        colo: white;
                         padding: 0 14px 0 18px;
                         word-spacing: 1px;
                     }
@@ -155,14 +235,14 @@
                         font-size: 14px;
                         font-weight: bold;
                         color: white;
-                        padding: 13px 8px;
+                        margin-right: auto;
+                        white-space: nowrap;
                     }
                     
                     .p4 {
                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
                         font-size: 14px;
                         font-weight: 600;
-                        color: white;
                         padding: 8px 10px 5px 18px;
                    
                     }
@@ -170,12 +250,10 @@
                     .p5 {
                         font-family: "Sofia Pro", sans-serif;
                         font-weight: 200;
-                        color: white;
                         padding: 3px 0px 0px 10px;
                     }
                    
                     .pp {
-                        color: white;
                         padding-top: 2px;
                     }
                
@@ -184,34 +262,92 @@
                         font-family: "Sofia Pro", sans-serif;
                         font-weight: bold;
                         font-size: 29px;
-                        color: white;
+                        colo: white;
                         padding-left: 18px;
                         word-spacing: -2px;
                     }
                
                .seconddiv {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        column-gap: 70px;
-                        background-color: hsl(0, 0%, 26%);
-                        height: 40px;
-                        border-radius: 5px;
-                        width: calc(100% - 26px);
-                        max-width: 700px;
-                        margin: 20px auto;
-                        padding: 0 10px;
-                        box-sizing: border-box;
+                         display: flex;
+                         justify-content: space-between;
+                         align-items: center;
+                         background-color: hsl(0, 0%, 26%);
+                         height: 45px;
+                         border-radius: 5px;
+                         width: calc(100% - 26px);
+                         max-width: 100%;
+                         margin: auto;
+                         padding: 0 20px 0 15px;
+                         box-sizing: border-box;
+                         white-space: nowrap;
                     }
                     
+                    .seconddiv a {
+                         width: 35px;
+                         height: 35px;
+                         border-radius: 50%;
+                         background: white;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                     }
+                    
+                    .ook {
+                       display: flex;
+                       margin-right: 5px;
+                    }
+                                        
                     .inn {
-                             max-width: 73px;
-                              }
+                        max-width: 110px;
+                        margin-top: 13px;
+                    }
                
+                    .inn2 {
+                         max-widt: 70px;
+                         margin-lef: -70px;
+                     }
+               
+                    .inn3 {
+                         max-widt: 45px;
+                         margin-lef: -70px;
+                         
+                     }
+                    
+                     .sporty-link, .bet365-link, .xbet-link {
+                         width: -10px;
+                         height: 45px;
+                         flex: 0 0 65px;
+                         display: block;
+                         padding: 0;
+                         margin: 0;
+                         border-radius: 50%;
+                         overflow: hidden;
+                         line-height: 0;
+                     }
+                     
+                     .sporty-link img,
+                     .bet365-link img,
+                     .xbet-link img {
+                         width: 100%;
+                         height: 100%;
+                         object-fit: cover;
+                         display: block;
+                     }
+                     
+                     
+                    ** {
+                         outline:1px solid red;
+                     }
+                     
+                     body{
+                         overflow-x: auto;
+                     }
+                     
+                     
                   .firsth1 {
                            font-family: "Sofia Pro", sans-serif;
                            font-weight: 800;
-                           color: white;
+                           colo: white;
                            padding-left: 18px;
                            word-spacing: -1px;
                        }
@@ -269,9 +405,6 @@
                              display: flex;
                              justify-content: center;
                              align-items: center;
-                             color: white;
-                             text-decoration: none;
-                             font-size: 28px;
                              transition: 0.3s;
                          }
                          
@@ -392,22 +525,22 @@
                          }
                          
                          .icons1 {
-                                                     max-width: 45px;
-                                                     margin-top: 5px;
-                                                  }
+                            max-width: 45px;
+                            margin-top: 5px;
+                         }
                                                   
-                                                  .icons11 {
-                                                      max-width: 34px;
-                                                  }
+                        .icons11 {
+                            max-width: 34px;
+                         }
                          
                          .icons {
                              max-width: 30px;
                          }
                          
                          .icons2 {
-                                                max-width: 35px;
-                                                margin-top: 1px;
-                                            }
+                             max-width: 35px;
+                             margin-top: 1px;
+                        }
                          
                          .iconss {
                              max-width: 22px;
@@ -420,6 +553,47 @@
                          .iconssss {
                              max-width: 38px;
                          }
+                         
+                         #dark {
+                                width: 45px;
+                                height: 20px;
+                                border-radius: 20px;
+                                background: #aaa;
+                                margin-left: 7px;
+                                padding-top: 1px;
+                                position: relative;
+                          }
+                                                  
+                          .circle {
+                                width: 15px;
+                                height: 15px;
+                                border-radius: 50%;
+                                background: white;
+                                display: block;
+                                margin: 2px 1px 0 3px;
+                                transition: 0.3s;
+                                z-index: 1;
+                           }
+                                                  
+                         .dark-mode .circle {
+                                transform: translateX(24px);
+                          }
+                                                 
+                         .sun-img {
+                                max-width: 18px;
+                                position: absolute;
+                                top: 2px;
+                                right: 25.7px;
+                                z-index: 2;
+                           }
+                                                  
+                         .moon-img {
+                                 max-width: 14px;
+                                 position: absolute;
+                                 top: 3.5px;
+                                 right: 3.5px;
+                                 z-index: 2;
+                            }
                          
                          .dark {
                              max-width: 60px;
@@ -436,16 +610,51 @@
                              padding-top: 7px;
                          }
                          
-               
+                       .okok {
+                                                   background: white;
+                                                   width: 22px;
+                                                   height: 2px;
+                                                   transition: 0.3s;
+                                                }
+                                                              
+                                               .men {
+                                                   display: flex;
+                                                   flex-direction: column;
+                                                   gap: 4.3px;
+                                                   margin: 0 0 1px -1px;
+                                                }
+                                                              
+                                               #menu-btn.active .okok:nth-child(1) {
+                                                    transform: translateY(6.3px) rotate(45deg);
+                                                }
+                                                              
+                                               #menu-btn.active .okok:nth-child(2) {
+                                                    opacity: 0;
+                                                }
+                                                              
+                                               #menu-btn.active .okok:nth-child(3) {
+                                                    transform: translateY(-6.3px) rotate(-45deg);
+                                                }
+                       
                </style>
                   </head>
                   <body>
                    <header class="header">
-                    <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
-                    <a href="https://www.besoccer.com/#google_vignette"> <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon"></a>
-                    <a href="https://www.expressvpn.com"> <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon"></a>
-                    <a href="profile.html"> <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon"></a>
-                    <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
+                    <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
+                    <a href="https://www.besoccer.com/#google_vignette"><img class="live" src="photo-output 5.PNG" alt="live icon">
+                                         <span class="live-circle">
+                                          <span class="live-circle2"></span>
+                                          <span class="live-circle3"></span>
+                                          <span class="live-circle4"></span>
+                                         </span>
+                                        </a>
+                    <a href="https://www.expressvpn.com"> <img class="vpn" src="photo-output 4.PNG" alt="vpn icon"></a>
+                    <a href="profile.html"> <img class="profile" src="photo-output 3.PNG" alt="profile icon"></a>
+                    <a href="#" id="menu-btn"><div class="men" alt="menu icon">
+                         <span class="okok"></span>
+                         <span class="okok"></span>
+                         <span class="okok"></span>
+                         </div></a>
                    </header>
                    <nav id="menu">
                           <a href="index.html">Home</a>
@@ -459,6 +668,7 @@
                           <a href="Kitts.html">2026-27 Kits👕</a>
                            <br><br>
                              </nav>
+                        
                 <div class="firstdiv">
                     <br>
                     <h3 class="firsth3">Discover if LIONEL MESSI<br>is the favourite to win the<br> Ballon D'OR</h3>
@@ -467,12 +677,14 @@
                    <div>
                     <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
                    </div>
-                                
-                   <a href="https://www.sportybet.com/ng/m/">
                    <div Class="seconddiv">
                     <p class="p3">Explore Betting on GOAL</p>
-                    <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
-                   </div></a>
+                     <div class="ook">
+                     <a href="https://www.sportybet.com/ng/m/"><img class="inn" src="photo-output 8.PNG" alt="sporty-bet"></a>
+                     <a href="https://www.bet365.com/#/HO/"><img class="inn" src="photo-output 9.PNG" alt="bet365"></a>
+                     <a href="https://1xbet.ng/en"><img class="inn" src="photo-output 10.PNG" alt="1xbet"></a>
+                    </div>
+                    </div>
                    </section>
                    
                    <span class="spanf">
@@ -586,17 +798,17 @@
                             <div class="kkk">
                              <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons11" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
                              <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
-                             <a href="https"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                             <a href="https://x.com/Josh_dev3"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
                              <a href="https://www.reddit.com/u/Joshua_Shopify/s/YtbbP9Z0bl"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
                             </div>
                             <footer class="footer">
                                <span class="yyy">
-                              <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                              <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
                                </span>
                               <div class="ficons">
                                <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="icons2" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
                                <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons1" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
-                               <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                               <a href="https://x.com/Josh_dev3"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
                                <a href="https://www.instagram.com/josh_web.dev?igsh=bXNxcW9yb244NTRl&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
                               </div>
                               <div class="footerp">
@@ -612,18 +824,22 @@
                               </div>
                               <div class="footerppp">
                               <p><a href="https://www.sportybet.com/ng/m/">Betting</a> |</p>
-                              <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                              <a href="#dark-mode"><div id="dark"  alt="dark & light theme">
+                                    <span class="sun"><img class="sun-img" src="photo-output 11.PNG"></span>
+                                    <span class="moon"><img class="moon-img" src="photo-output 7.PNG"></span>
+                                    <span class="circle"></span>
+                                    </div></a>
                               </div>
                               <div class="footerpppp">
                                <div class="zzz">
-                               <img class="imgpppp" src="https://i.postimg.cc/Z5dKRgqf/IMG-5658.jpg" alt="USA flag">
+                               <img class="imgpppp" src="IMG_5658.jpg" alt="USA flag">
                                <span>USA</span>
                                </div>
                               </div>
                               
                               <a href="https://www.google.com/preferences/source?q=https%3A%2F%2Fwww.goal.com">
                               <div class="google">
-                               <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                               <img class="googleimg" src="IMG_5234.PNG">
                                <span class="ggg">Add as preferred source on Google</span>
                               </div></a>
                               
@@ -631,7 +847,7 @@
                               
                               <div class="square">
                               <div class="fgordon">
-                               <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                               <img class="gordon" src="photo-output.PNG" alt="Gordon Moody">
                               </div> 
                                <p class="con">+18
                                Please play responsibly</p>
@@ -640,13 +856,33 @@
                    
                    <script>
                         const menuBtn = document.getElementById("menu-btn");
-                                                         const menu = document.getElementById("menu");
+                        const menu = document.getElementById("menu");
                                                          
-                                                         menuBtn.addEventListener("click", function (e) {
-                                                             e.preventDefault(); // Stops the page from jumping to the top
-                                                             menu.classList.toggle("show");
-                                                         });
-                                 </script>
+                        menuBtn.addEventListener("click", function (e) {
+                        e.preventDefault(); // Stops the page from jumping to the top
+                        menu.classList.toggle("show");
+                        
+                        document.body.classList.toggle("menu-open");
+                        menuBtn.classList.toggle("active");
+                            
+                        });
+                  
+                  const sss = document.getElementById("dark");
+                        
+                  if (localStorage.getItem("darkMode") === "enabled") {
+                      document.body.classList.add("dark-mode");
+                  }
+                                          
+                  dark.addEventListener("click", function () {
+                  document.body.classList.toggle("dark-mode");
+                 
+                  if (document.body.classList.contains("dark-mode")) {
+                      localStorage.setItem("darkMode", "enabled");
+                  } else {
+                      localStorage.setItem("darkMode", "disabled");
+                  }
+                  });
+                  </script>
                    
                    
             </body>
