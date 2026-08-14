@@ -3,55 +3,137 @@
              <head>
               <meta charset=UTF-8>
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Goal official website</title>
+              <title>My Portfolio~Josh_dev3</title>
               <style>
               
               body {
-                  background-color: hsl(0, 0%, 18%);
+                  color: black;
+                  background-color: white;
                   margin: 0;
+              }
+                            
+              body.menu-open {
+                  overflow: hidden;
+              }
+                            
+              .dark-mode {
+                   background-color: hsl(0, 0%, 17%);
+                   color: white;
+                   margin: 0;
+              
+                   .firstsec {
+                        background-color: hsl(0, 0%, 10%);
+                     }
               }
               
               .header {
-                        position: fixed;
+                        position: sticky;
                         top: 0;
                         left: 0;
-                        width: 100%;
                         z-index: 1000;
                         display: flex;
-                        justify-content: left;
+                        justify-content: space-around;
                         align-items: center;
                         column-gap: 4px;
                         background-color: black;
-                        width: 375px;
+                        width: 100%;
+                        max-width: 100%;
                         height: 59px;
                         border-bottom: 4px solid hsl(21, 100%, 50%);
-                        paddin: 0px 15px 0px 0px;
-                    }
-                    
-                    .menu {
-                        margin: 5px 0 0 8px;
-                        max-width: 25px;
-                    }
+                        padding-right: 10px;
+                        box-sizing: border-box;
+                     }
                     
                     .profile {
-                        max-width: 32px;
-                    }
+                                            max-width: 42px;
+                                            margin-left: -9px;
+                                        }
+                                        
+                                        .goal {
+                                            margin-left: 2px;
+                                            max-width: 137px;
+                                        }
+                                        
+                                        .live {
+                                            max-width: 112px;
+                                            margin-left: -24px;
+                                            position: relative;
+                                        }
+                                        
+                                        .vpn {
+                                            max-width: 91px;
+                                            margin-left: -24px;
+                                        }
+                                        
+                                        .live-circle {
+                                            background: #063b63;
+                                            width: 21px;
+                                            height: 21px;
+                                            border-radius: 50px;
+                                            display: flex;
+                                            position: absolute;
+                                            bottom: 9px;
+                                            animation: pulse 2.3s ease-in-out infinite;
+                                            left: 158px;
+                                            top: 25.4px;
+                                        }
                     
-                    .goal {
-                        margin-left: -3px;
-                        max-width: 140px;
-                    }
-                    
-                    .live {
-                        max-width: 68px;
-                    }
-                    
-                    .vpn {
-                        max-width: 76px;
-                    }
+                                        .live-circle2 {
+                                            background: #087ac5;
+                                            width: 15px;
+                                            height: 15px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 3px;
+                                            left: 3px;
+                                            
+                                        }
+                                        
+                                        .live-circle3 {
+                                            background: #12b9ff;
+                                            box-shadow: 0 0 12px #12b9ff;;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 5.2px;
+                                            left: 5.5px;
+                                        }
+                                        
+                                        .live-circle4 {
+                                            background: hsl(205, 100%, 70%);
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            position: absolute;
+                                            top: 7.3px;
+                                            left: 7.7px;
+                                            box-shadow: 0 0 12px rgba(0, 170, 255, 0.9);
+                                        }
+                                        
+                                        @keyframes pulse {
+                                            0%, 100% {
+                                                transform: translate(-50%, -50%) scale(1);
+                                                opacity: 1;
+                                            }
+                                        
+                                            25% {
+                                                transform: translate(-50%, -50%) scale(1.08);
+                                                opacity: 0.75;
+                                            }
+                                            
+                                            50% {
+                                                transform: translate(-50%, -50%) scale(1.12);
+                                                opacity: 0.95;
+                                            }
+                                            
+                                            75% {
+                                                transform: translate(-50%, -50%) scale(1.14);
+                                                opacity: 1;
+                                            }
+                                        }
               
               .firstsec {
-                  background-color: hsl(0, 0%, 10%);
                   padding-bottom: 10px;
               }
               
@@ -72,19 +154,22 @@
                }
                
                .firstdiv {
-                   background-color: hsl(215, 100%, 50%);
-                   width: 350px;
-                   height: 140px;
-                   border-radius: 15px;
-                   margin: 15px 13px;
-                   padding-bottom: 15px;
-               }
+                          background-colo: hsl(215, 100%, 50%);
+                          background:
+                              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                              url("IMG_5682.jpeg");
+                          background-size: cover;
+                          background-position: left;
+                          background-repeat: no-repeat;
+                          width: 100%;
+                          height: 310px;
+                          padding-top: 120px;
+                      }
                
                .spanf, .span2 {
                         display: flex;
                     }
-               
-               
+                    
                .firstimg {
                         max-width: 100%;
                     }
@@ -102,12 +187,15 @@
                         display: flex;
                         border-top: 25px solid black;
                     }
+                    
                     .firsth3 {
                         font-family: Impact, Arial Black, sans-serif;
                         color: white;
                         text-transform: uppercase;
                         text-align: center;
                         font-weight: bold;
+                        padding-top: 100px;
+                        font-size: 25px;
                     }
                     
                     .secondh3 {
@@ -121,7 +209,6 @@
                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
                         font-size: 19px;
                         font-weight: 30;
-                        color: white;
                         padding: 0 14px 0 18px;
                         word-spacing: 1px;
                     }
@@ -147,7 +234,6 @@
                         font-family: "Inter", "SF Pro Display", Arial, sans-serif;
                         font-size: 14px;
                         font-weight: 540;
-                        color: white;
                         padding: 8px 10px 5px 18px;
                    
                     }
@@ -155,12 +241,10 @@
                     .p5 {
                         font-family: "Sofia Pro", sans-serif;
                         font-weight: 200;
-                        color: white;
                         padding: 3px 0px 0px 10px;
                     }
                    
                     .pp {
-                        color: white;
                         padding-top: 2px;
                     }
                
@@ -169,53 +253,75 @@
                         font-family: "Sofia Pro", sans-serif;
                         font-weight: bold;
                         font-size: 29px;
-                        color: white;
                         padding-left: 18px;
                         word-spacing: -2px;
                     }
                
                .seconddiv {
-                        display: flex;
-                        justify-conten: center;
-                        align-items: center;
-                        column-gap: 80px;
-                        background-color: hsl(0, 0%, 26%);
-                        width: 350px;
-                        height: 40px;
-                        margin: 0 13px;
-                        border-radius: 5px;
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          background-color: hsl(0, 0%, 26%);
+                          height: 45px;
+                          border-radius: 5px;
+                          width: calc(100% - 26px);
+                          max-width: 100%;
+                          margin: auto;
+                          padding: 0 20px 0 15px;
+                          box-sizing: border-box;
+                          white-space: nowrap;
+                     }
+                     
+                     .seconddiv a {
+                          width: 35px;
+                          height: 35px;
+                          border-radius: 50%;
+                          background: white;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                      }
+                    
+                    .ook {
+                       display: flex;
+                       margin-right: 5px;
+                    }
+                                        
+                    .inn {
+                        max-width: 110px;
+                        margin-top: 13px;
                     }
                     
-                    .inn {
-                             max-width: 73px;
-                              }
-               
                   .firsth1 {
                            font-family: "Sofia Pro", sans-serif;
                            font-weight: 800;
-                           color: white;
                            padding-left: 18px;
-                           word-spacing: -5px;
+                           word-spacing: -1px;
                        }
                
-                  #menu {
-                               position: sticky;
-                               top: 50px;
-                               font-family: "Sofia Pro", sans-serif;
-                               font-weight: bold;
-                               line-height: 45px;
-                               font-size: 22px;
-                               display: none;
-                               background: #111;
-                               padding: 20px;
-                           }
-                            
-                           #menu a {
-                               display: block;
-                               color: white;
-                               text-decoration: none;
-                               padding: 10px 0;
-                           }
+                   #menu {
+                                                 position: sticky;
+                                                 top: 50px;
+                                                 font-family: "Sofia Pro", sans-serif;
+                                                 font-weight: bold;
+                                                 line-height: 45px;
+                                                 font-size: 22px;
+                                                 display: none;
+                                                 background: #111;
+                                                 padding: 20px;
+                                             }
+                                              
+                                             #menu.show{
+                                                 display: block;
+                                             }
+                                 
+                                 
+                                           #menu a{
+                                              display: block;
+                                              color: white;
+                                              text-decoration: none;
+                                              padding: 10px 0;
+                                           }
                
                
                .lastdiv {
@@ -225,13 +331,16 @@
                     }
                     
                     .kkk {
-                             display: flex;
-                             align-items: center;
-                             column-gap: 15px;
-                             background-color: hsl(0, 0%, 10%);
-                             width: 355px;
-                             height: 100px;
-                             padding-left: 20px;
+                            display: flex;
+                            align-items: center;
+                            column-gap: 15px;
+                            background-color: hsl(0, 0%, 10%);
+                            width: 100%;
+                            max-width: 100%;
+                            margin: auto;
+                            height: 100px;
+                            padding-left: 20px;
+                            box-sizing: border-box;
                          }
                          
                          .kkk a {
@@ -258,7 +367,7 @@
                              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
                              background-color: black;
                              color: white;
-                             padding: 10px 10px 50px 10px;
+                             padding: 10px 10px 0 10px;
                              font-size: 13px;
                              line-height: 100%;
                          }
@@ -322,29 +431,30 @@
                          }
                     
                          .google {
-                             background-color: #4a4a4a;
-                             width: 90%;
-                             max-width: 900px;
-                             margin: 0px 13px 35px 13px;
-                             border-radius: 50px;
-                             text-align: center;
-                             padding: 10px 0px 12px 0px;
-                             align-items: center;
-                             display: flex;
-                             column-gap: 10px;
-                             justify-content: center;
-                         }
+                               background-color: #4a4a4a;
+                               width: 90%;
+                               max-width: 900px;
+                               margin: 5%;
+                               border-radius: 50px;
+                               text-align: center;
+                               padding: 10px 0px 12px 0px;
+                               align-items: center;
+                               display: flex;
+                               column-gap: 10px;
+                               justify-content: center;
+                               box-sizing: border-box;
+                            }
                          
                          .googleimg {
                              max-width: 16px;
                          }
                          
                          .square {
-                             background-color: hsl(0, 0%, 10%);
-                             width: 330px;
-                             height: 80px;
-                             margin: -2px 35px -50px 13px;
-                         }
+                               background-color: hsl(0, 0%, 10%);
+                               width: calc(95% - 48px);
+                               height: 80px;
+                               margin: 13px auto 0 auto;
+                           }
                          
                          .con {
                              font-family: "Inter", "SF Pro Display", Arial, sans-serif;
@@ -363,9 +473,23 @@
                              padding-top: 20px;
                          }
                          
+                         .icons1 {
+                             max-width: 45px;
+                             margin-top: 5px;
+                        }
+                                                  
+                         .icons11 {
+                             max-width: 34px;
+                        }
+                         
                          .icons {
                              max-width: 30px;
                          }
+                         
+                         .icons2 {
+                            max-width: 35px;
+                            margin-top: 1px;
+                        }
                          
                          .iconss {
                              max-width: 22px;
@@ -378,6 +502,47 @@
                          .iconssss {
                              max-width: 38px;
                          }
+                         
+                         #dark {
+                                width: 45px;
+                                height: 20px;
+                                border-radius: 20px;
+                                background: #aaa;
+                                margin-left: 7px;
+                                padding-top: 1px;
+                                position: relative;
+                          }
+                                                  
+                          .circle {
+                                width: 15px;
+                                height: 15px;
+                                border-radius: 50%;
+                                background: white;
+                                display: block;
+                                margin: 2px 1px 0 3px;
+                                transition: 0.3s;
+                                z-index: 1;
+                           }
+                                                  
+                         .dark-mode .circle {
+                                transform: translateX(24px);
+                          }
+                                                 
+                         .sun-img {
+                                max-width: 18px;
+                                position: absolute;
+                                top: 2px;
+                                right: 25.7px;
+                                z-index: 2;
+                           }
+                                                  
+                         .moon-img {
+                                 max-width: 14px;
+                                 position: absolute;
+                                 top: 3.5px;
+                                 right: 3.5px;
+                                 z-index: 2;
+                            }
                          
                          .dark {
                              max-width: 60px;
@@ -394,17 +559,52 @@
                              padding-top: 7px;
                          }
                          
+                         .okok {
+                                                     background: white;
+                                                     width: 22px;
+                                                     height: 2px;
+                                                     transition: 0.3s;
+                                                  }
+                                                                
+                                                 .men {
+                                                     display: flex;
+                                                     flex-direction: column;
+                                                     gap: 4.3px;
+                                                     margin: 0 0 1px -1px;
+                                                  }
+                                                                
+                                                 #menu-btn.active .okok:nth-child(1) {
+                                                      transform: translateY(6.3px) rotate(45deg);
+                                                  }
+                                                                
+                                                 #menu-btn.active .okok:nth-child(2) {
+                                                      opacity: 0;
+                                                  }
+                                                                
+                                                 #menu-btn.active .okok:nth-child(3) {
+                                                      transform: translateY(-6.3px) rotate(-45deg);
+                                                  }
                
                </style>
                   </head>
                   <body>
                    <header class="header">
-                    <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
-                    <img class="live" src="https://i.postimg.cc/rpTDJfSm/photo-output.png" alt="live icon">
-                    <img class="vpn" src="https://i.postimg.cc/DzhSgxqf/photo-output.png" alt="vpn icon">
-                    <img class="profile" src="https://img.icons8.com/?size=100&id=7819&format=png&color=FFFFFF" alt="profile icon">
-                    <a href="#" id="menu-btn"><img class="menu" src="https://img.icons8.com/?size=100&id=8113&format=png&color=FFFFFF" alt="Menu icon"></a>
-                   </header>
+                    <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
+                    <a href="https://www.besoccer.com/#google_vignette"><img class="live" src="photo-output 5.PNG" alt="live icon">
+                                         <span class="live-circle">
+                                          <span class="live-circle2"></span>
+                                          <span class="live-circle3"></span>
+                                          <span class="live-circle4"></span>
+                                         </span>
+                                        </a>
+                    <a href="https://www.expressvpn.com"> <img class="vpn" src="photo-output 4.PNG" alt="vpn icon"></a>
+                    <a href="profile.html"> <img class="profile" src="photo-output 3.PNG" alt="profile icon"></a>
+                    <a href="#" id="menu-btn"><div class="men" alt="menu icon">
+                        <span class="okok"></span>
+                        <span class="okok"></span>
+                        <span class="okok"></span>
+                        </div></a>
+                  </header>
                   <nav id="menu">
                               <a href="index.html">Home</a>
                               <a href="power-ranking-ballon.html">Ballon d'Or</a>
@@ -418,23 +618,23 @@
                              <br>
                              <br>
                              </nav>
-                       <br>
-                       <br>
+                       <div class="firstdiv">
+                                        <br>
+                                         <h3 class="firsth3">SPAIN ARE WORLD CHAMPIONS...<br>The LA ROJAs are on top <br>of the world!!</h3>
+                                       </div>
+                      
                    <section class="firstsec">
                    <div>
                     <p class="firstp">+18 | Play Responsibly | T&C's Apply | Commercial Content<br> | Advertising Disclosure | Publishing Principles</p>
                    </div>
-                   <div class="firstdiv">
-                    <br>
-                     <h3 class="firsth3">Don't miss a moment of the world <br>cup</h3>
-                    <div class="ddiv">
-                     <p class="p2">Explore</p>
-                    </div>
-                   </div>
-                   <div Class="seconddiv">
+                  <div Class="seconddiv">
                     <p class="p3">Explore Betting on GOAL</p>
-                    <img class="inn" src="https://i.postimg.cc/nc9vfqTd/photo-output.png">
-                   </div>
+                     <div class="ook">
+                     <a href="https://www.sportybet.com/ng/m/"><img class="inn" src="photo-output 8.PNG" alt="sporty-bet"></a>
+                     <a href="https://www.bet365.com/#/HO/"><img class="inn" src="photo-output 9.PNG" alt="bet365"></a>
+                     <a href="https://1xbet.ng/en"><img class="inn" src="photo-output 10.PNG" alt="1xbet"></a>
+                    </div>
+                    </div>
                    </section>
                    
                    <span class="spanf">
@@ -542,53 +742,58 @@
                         </div>
                         
                             <div class="kkk">
-                             <a href="http"><img class="icons" src="https://img.icons8.com/?size=100&id=EWekelGFX1OO&format=png&color=FFFFFF" alt="link icon"></a>
-                             <a href="https://www.facebook.com/share/18q3VAu22N/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
-                             <a href="https://x.com/primekachi?s=21"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
-                             <a href="https://www.reddit.com/u/Kachi_verified/s/KXMwMs6HyQ"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                             <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons11" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
+                             <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                             <a href="https://x.com/Josh_dev3"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                             <a href="https://www.reddit.com/u/Joshua_Shopify/s/YtbbP9Z0bl"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
                             </div>
                             <footer class="footer">
                                <span class="yyy">
-                              <a href="index.html"><img class="goal" src="https://i.postimg.cc/NGZfDNtv/photo-output.png" alt="goal icon"></a>
+                              <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
                                </span>
                               <div class="ficons">
-                               <a href="https://www.facebook.com/share/1RMKMMLeoe/?mibextid=wwXIfr"><img class="icons" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
-                               <a href="https://x.com/primekachi?s=21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
-                               <a href="https://www.instagram.com/primekachi?igsh=MTZvZzRjMzRudmczag%3D%3D&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
-                               <a href="https://youtube.com/@primekachi?si=lTPhh-xa03P7zdzW"><img class="icons" src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="youtube icon"></a>
+                               <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="icons2" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                               <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons1" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
+                               <a href="https://x.com/Josh_dev3"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                               <a href="https://www.instagram.com/josh_web.dev?igsh=bXNxcW9yb244NTRl&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
                               </div>
                               <div class="footerp">
-                               <p><a href="http">Contact Us</a> |</p>
-                               <p><a href="http">Terms of Service</a> |</p>
-                               <p><a href="http">Privacy policy</a> |</p>
-                               <p><a href="http">Careers</a> |</p>
+                               <p><a href="contact-us.html">Contact Us</a> |</p>
+                               <p><a href="terms-of-service.html">Terms of Service</a> |</p>
+                               <p><a href="privacy-policy.html">Privacy policy</a> |</p>
+                               <p><a href="disclaimer.html">Disclaimer</a> |</p>
                               </div>
                               <div class="footerpp">
-                               <p><a href="http">Goal App (Android)</a> |</p>
-                               <p><a href="http">Goal App (iOS)</a> |</p>
-                               <p><a href="http">Goal Live</a> |</p>
+                               <p><a href="https://play.google.com/store/apps/details?id=com.freerange360.mpp.GOAL">Goal App (Android)</a> |</p>
+                               <p><a href="https://apps.apple.com/ng/app/goal-football-news-scores/id518026818">Goal App (iOS)</a> |</p>
+                               <p><a href="https://www.besoccer.com/#google_vignette">Goal Live</a> |</p>
                               </div>
                               <div class="footerppp">
-                              <p><a href="http">Betting</a> |</p>
-                              <img class="dark" src="https://i.postimg.cc/nrYCD7WL/photo-output.png" alt="dark & light theme">
+                              <p><a href="https://www.sportybet.com/ng/m/">Betting</a> |</p>
+                              <a href="#dark-mode"><div id="dark"  alt="dark & light theme">
+                                   <span class="sun"><img class="sun-img" src="photo-output 11.PNG"></span>
+                                   <span class="moon"><img class="moon-img" src="photo-output 7.PNG"></span>
+                                   <span class="circle"></span>
+                                   </div></a>
                               </div>
                               <div class="footerpppp">
                                <div class="zzz">
-                               <img class="imgpppp" src="https://i.postimg.cc/wjKD6XyT/IMG-5222.jpg" alt="Nigeria flag">
-                               <span>Nigeria</span>
+                               <img class="imgpppp" src="IMG_5658.jpg" alt="USA flag">
+                               <span>USA</span>
                                </div>
                               </div>
                               
+                              <a href="https://www.google.com/preferences/source?q=https%3A%2F%2Fwww.goal.com">
                               <div class="google">
-                               <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                               <img class="googleimg" src="IMG_5234.PNG">
                                <span class="ggg">Add as preferred source on Google</span>
-                              </div>
+                              </div></a>
                               
                                <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
                               
                               <div class="square">
                               <div class="fgordon">
-                               <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                               <img class="gordon" src="photo-output.PNG" alt="Gordon Moody">
                               </div> 
                                <p class="con">+18
                                Please play responsibly</p>
@@ -596,22 +801,37 @@
                              </footer>
                    
                    <script>
-                                 const menuBtn = document.getElementById("menu-btn");
-                                 const menu = document.getElementById("menu");
-                                 
-                                 menuBtn.addEventListener("click", function () {
-                                   if (menu.style.display === "block") {
-                                     menu.style.display = "none";
-                                   } else {
-                                     menu.style.display = "block";
-                                   }
-                                 });
-                                 </script>
+                       const menuBtn = document.getElementById("menu-btn");
+                       const menu = document.getElementById("menu");
+                                                     
+                       menuBtn.addEventListener("click", function (e) {
+                       e.preventDefault(); // Stops the page from jumping to the top
+                       menu.classList.toggle("show");
+                       document.body.classList.toggle("menu-open")
+                       menuBtn.classList.toggle("active");
+                       
+                     });
+                     
+                     const sss = document.getElementById("dark");
+                         
+                     if (localStorage.getItem("darkMode") === "enabled") {
+                         document.body.classList.add("dark-mode");
+                     }
+                                             
+                     sss.addEventListener("click", function () {
+                     document.body.classList.toggle("dark-mode");
+                     
+                     if (document.body.classList.contains("dark-mode")) {
+                        localStorage.setItem("darkMode", "enabled");
+                    } else {
+                        localStorage.setItem("darkMode", "disabled");
+                    }
+                     });
+                   </script>
                    
                    
             </body>
            </html>
-               
                
                
                
