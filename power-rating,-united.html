@@ -59,17 +59,27 @@
                     .goal {
                         margin-left: 2px;
                         max-width: 137px;
+                        flex-shrink: 1;
+                        min-width: 0;
                     }
                     
                     .live {
                         max-width: 112px;
                         margin-left: -24px;
+                        flex-shrink: 1;
+                        min-width: 0;
+                    }
+                    
+                    .header > a:nth-child(2) {
                         position: relative;
+                        display: block;
                     }
                     
                     .vpn {
                         max-width: 91px;
                         margin-left: -24px;
+                        flex-shrink: 1;
+                        min-width: 0;
                     }
                     
                     .live-circle {
@@ -81,8 +91,8 @@
                         position: absolute;
                         bottom: 9px;
                         animation: pulse 2.3s ease-in-out infinite;
-                        left: 158px;
-                        top: 25.4px;
+                        left: 16%;
+                        top: 46.5%;
                     }
 
                     .live-circle2 {
