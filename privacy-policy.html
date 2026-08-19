@@ -1,0 +1,673 @@
+<!DOCTYPE HTML>
+           <html lang="en">
+             <head>
+              <meta charset=UTF-8>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>My Portfolio~Josh_dev3</title>
+              <style>
+              
+              body {
+                  color: black;
+                  background: white;
+                  margin: 0;
+              }
+              
+              body.menu-open {
+                                overflow: hidden;
+                            }
+              
+              .dark-mode {
+                  color: white;
+                  background: hsl(0, 0%, 17%);
+                  margin: 0;
+              }
+              
+              .header {
+                        position: sticky;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        z-index: 1000;
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        column-gap: 4px;
+                        background-color: black;
+                        width: 375px;
+                        height: 59px;
+                        border-bottom: 4px solid hsl(21, 100%, 50%);
+                        paddin: 0px 15px 0px 0px;
+                    }
+                    
+                    .menu {
+                        margin: 5px 0 0 8px;
+                        max-width: 22px;
+                    }
+                    
+                    .profile {
+                                            max-width: 42px;
+                                            margin-left: -35px;
+                                        }
+                                        
+                                        .goal {
+                                            margin-left: 2px;
+                                            max-width: 137px;
+                                        }
+                                        
+                                        .live {
+                                            max-width: 112px;
+                                            margin-left: -50px;
+                                        }
+                                        
+                                        .header > a:nth-child(2) {
+                                            position: relative;
+                                            display: block;
+                                        }
+                                        
+                                        .heade > a {
+                                            min-width: 0;
+                                            flex-shrink: 1;
+                                        }
+                                        
+                                        .vpn {
+                                            max-width: 91px;
+                                            margin-left: -55px;
+                                        }
+                                        
+                                        .live-circle {
+                                            background: #063b63;
+                                            width: 21px;
+                                            height: 21px;
+                                            border-radius: 50px;
+                                            display: flex;
+                                            position: absolute;
+                                            bottom: 9px;
+                                            animation: pulse 2.3s ease-in-out infinite;
+                                            left: -20%;
+                                            top: 46.5%;
+                                        }
+                    
+                                        .live-circle2 {
+                                            background: #087ac5;
+                                            width: 15px;
+                                            height: 15px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 3px;
+                                            left: 3px;
+                                            
+                                        }
+                                        
+                                        .live-circle3 {
+                                            background: #12b9ff;
+                                            box-shadow: 0 0 12px #12b9ff;;
+                                            width: 10px;
+                                            height: 10px;
+                                            border-radius: 50px;
+                                            position: absolute;
+                                            top: 5.2px;
+                                            left: 5.5px;
+                                        }
+                                        
+                                        .live-circle4 {
+                                            background: hsl(205, 100%, 70%);
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            position: absolute;
+                                            top: 7.3px;
+                                            left: 7.7px;
+                                            box-shadow: 0 0 12px rgba(0, 170, 255, 0.9);
+                                        }
+                                        
+                                        @keyframes pulse {
+                                            0%, 100% {
+                                                transform: translate(-50%, -50%) scale(1);
+                                                opacity: 1;
+                                            }
+                                        
+                                            25% {
+                                                transform: translate(-50%, -50%) scale(1.08);
+                                                opacity: 0.75;
+                                            }
+                                            
+                                            50% {
+                                                transform: translate(-50%, -50%) scale(1.12);
+                                                opacity: 0.95;
+                                            }
+                                            
+                                            75% {
+                                                transform: translate(-50%, -50%) scale(1.14);
+                                                opacity: 1;
+                                            }
+                                        }
+               
+                   #menu {
+                               position: sticky;
+                               top: 50px;
+                              font-family: "Sofia Pro", sans-serif;
+                              font-weight: bold;
+                              line-height: 45px;
+                             font-size: 22px;
+                            display: none;
+                             background: #111;
+                             padding: 20px;
+                         }
+                                                       
+                         #menu.show{
+                          display: block;
+                        }
+                                          
+                                          
+                     #menu a{
+                          display: block;
+                         color: white;
+                         text-decoration: none;
+                        padding: 10px 0;
+                         }
+                         
+               .okok {
+                                           background: white;
+                                           width: 22px;
+                                           height: 2px;
+                                           transition: 0.3s;
+                                        }
+                                                      
+                                       .men {
+                                           display: flex;
+                                           flex-direction: column;
+                                           gap: 4.3px;
+                                           margin: 0 0 1px -28px;
+                                        }
+                                                      
+                                       #menu-btn.active .okok:nth-child(1) {
+                                            transform: translateY(6.3px) rotate(45deg);
+                                        }
+                                                      
+                                       #menu-btn.active .okok:nth-child(2) {
+                                            opacity: 0;
+                                        }
+                                                      
+                                       #menu-btn.active .okok:nth-child(3) {
+                                            transform: translateY(-6.3px) rotate(-45deg);
+                                        }
+               
+               .lastdiv {
+                        background-color: black;
+                        height: 55px;
+                        margin-top: 100px;
+                    }
+                    
+                    .kkk {
+                             display: flex;
+                             align-items: center;
+                             column-gap: 15px;
+                             background-color: hsl(0, 0%, 10%);
+                             width: 355px;
+                             height: 100px;
+                             padding-left: 20px;
+                         }
+                         
+                         .kkk a {
+                             width: 35px;
+                             height: 35px;
+                             border-radius: 50%;
+                             background: #2d2d2d;
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             color: white;
+                             text-decoration: none;
+                             font-size: 28px;
+                             transition: 0.3s;
+                         }
+                         
+                         .yyy {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                         }
+                         
+                         .footer {
+                             font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                             background-color: black;
+                             color: white;
+                             padding: 10px 10px 50px 10px;
+                             font-size: 13px;
+                             line-height: 100%;
+                         }
+                         
+                         .footerp {
+                             display: flex;
+                             justify-content: center;
+                             column-gap: 6px;
+                             text-align: center;
+                         }
+                         
+                         .footerpp {
+                             display: flex;
+                             justify-content: center;
+                             column-gap: 6px;
+                             text-align: center;
+                         }
+                         
+                         .footerppp {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             text-align: center;
+                         }
+                         
+                         .footerpppp {
+                             text-align: center;
+                             margin-bottom: 30px;
+                         }
+                         
+                         .imgpppp {
+                             width: 24px;
+                             height: 16px;
+                         }
+                         
+                         .zzz {
+                             display: flex;
+                             column-gap: 10px;
+                             justify-content: center;
+                             margin-top: 8px;
+                             align-items: center;
+                         }
+                         
+                         .ggg {
+                             font-weight: bold;
+                             font-size: 16px;
+                         }
+                         
+                         a {
+                             text-decoration: none;
+                             color: white;
+                         }
+                         
+                         a:hover {
+                             color: hsl(27, 100%, 50%);
+                         }
+                         
+                         .footer p {
+                           margin: 0;
+                           line-height: 2;
+                         }
+                    
+                         .google {
+                             background-color: #4a4a4a;
+                             width: 90%;
+                             max-width: 900px;
+                             margin: 0px 13px 35px 13px;
+                             border-radius: 50px;
+                             text-align: center;
+                             padding: 10px 0px 12px 0px;
+                             align-items: center;
+                             display: flex;
+                             column-gap: 10px;
+                             justify-content: center;
+                         }
+                         
+                         .googleimg {
+                             max-width: 16px;
+                         }
+                         
+                         .square {
+                             background-color: hsl(0, 0%, 10%);
+                             width: 330px;
+                             height: 80px;
+                             margin: -2px 35px -50px 13px;
+                         }
+                         
+                         .con {
+                             font-family: "Inter", "SF Pro Display", Arial, sans-serif;
+                             font-weight: bold;
+                             color: white;
+                             text-align: center;
+                             font-size: 9px;
+                         } 
+                         
+                         .ficons {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             column-gap: 16px;
+                             margin-bottom: 30px;
+                             padding-top: 20px;
+                         }
+                         
+                         .icons1 {
+                             max-width: 45px;
+                             margin-top: 5px;
+                         }
+                         
+                         .icons11 {
+                             max-width: 34px;
+                         }
+                         
+                         .icons {
+                             max-width: 33px;
+                         }
+                         
+                         .icons2 {
+                                                max-width: 35px;
+                                                margin-top: 1px;
+                                            }
+                         
+                         .iconss {
+                             max-width: 22px;
+                         }
+                         
+                         .iconsss {
+                             max-width: 27px;
+                         }
+                         
+                         .iconssss {
+                             max-width: 38px;
+                         }
+                         
+                         .dark {
+                             max-width: 60px;
+                         }
+                         
+                         .fgordon {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                         }
+                         
+                         .gordon {
+                             max-width: 110px;
+                             padding-top: 7px;
+                         }
+                         
+               
+               .sec {
+                   font-family: "Sofia Pro", sans-serif;
+                   font-size: 20px;
+                   font-weight: 10;
+                   text-align: center;
+                   width: 375px;
+                   height: auto;
+                   padding-top: 5px;
+               }
+               
+               
+               
+               .pcon1 {
+                   text-align: left;
+                   padding: 0 20px 0 20px;
+               }
+               
+              
+                              .read {
+                                  text-align: left;
+                                  padding: 0 20px 0 20px;
+                                  
+                              }
+               
+               #dark {
+                                               width: 45px;
+                                               height: 20px;
+                                               border-radius: 20px;
+                                               background: #aaa;
+                                               margin-left: 7px;
+                                               padding-top: 1px;
+                                               position: relative;
+                                         }
+                                                                 
+                                         .circle {
+                                               width: 15px;
+                                               height: 15px;
+                                               border-radius: 50%;
+                                               background: white;
+                                               display: block;
+                                               margin: 2px 1px 0 3px;
+                                               transition: 0.3s;
+                                               z-index: 1;
+                                          }
+                                                                 
+                                        .dark-mode .circle {
+                                               transform: translateX(24px);
+                                         }
+                                                                
+                                        .sun-img {
+                                               max-width: 18px;
+                                               position: absolute;
+                                               top: 2px;
+                                               right: 25.7px;
+                                               z-index: 2;
+                                          }
+                                                                 
+                                        .moon-img {
+                                                max-width: 14px;
+                                                position: absolute;
+                                                top: 3.5px;
+                                                right: 3.5px;
+                                                z-index: 2;
+                                           }
+               
+               </style>
+                  </head>
+                  <body>
+                   <header class="header">
+                    <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
+                    <a href="https://www.besoccer.com/#google_vignette"><img class="live" src="photo-output 5.PNG" alt="live icon">
+                                          <span class="live-circle">
+                                          <span class="live-circle2"></span>
+                                          <span class="live-circle3"></span>
+                                          <span class="live-circle4"></span>
+                                          </span>
+                                       </a>
+                   <a href="https://www.expressvpn.com"> <img class="vpn" src="photo-output 4.PNG" alt="vpn icon"></a>
+                   <a href="profile.html"> <img class="profile" src="photo-output 3.PNG" alt="profile icon"></a>
+                   <a href="#" id="menu-btn"><div class="men" alt="menu icon">
+                                           <span class="okok"></span>
+                                           <span class="okok"></span>
+                                           <span class="okok"></span>
+                                           </div></a>
+                   </header>
+                  <nav id="menu">
+                              <a href="index.html">Home</a>
+                              <a href="power-ranking-ballon.html">Ballon d'Or</a>
+                              <a href="hero-section.html">WC Semi-Final</a>
+                              <a href="players-rating-kane.html">Kane's Saga</a>
+                              <a href="lamine-and-messi-baby-bath.html">WC Final</a>
+                              <a href="spain-champions.html">WC Champions</a>
+                              <a href="power-rating,-united.html">Man United Feminine🔴</a>
+                              <a href="players-rating-2.html">Market Values📈</a>
+                              <a href="Kitts.html">2026-27 Kits👕</a>
+                             <br>
+                             <br>
+                             </nav>
+                    
+                    
+                    
+                
+                    <div class="sec">
+                     <h1>Privacy Policy</h1>
+                     <p class="pcon1"><span style="font-weight: bold;">1. Introduction:</span>
+                     <br><br>Your privacy is important to us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit and use our website. By accessing this website, you agree to the practices described in this Privacy Policy.
+                     If you do not agree with any part of this Privacy Policy, please discontinue using the website.
+                     
+                    <br><br><span style="font-weight: bold;"> 2. Information We Collect: </span>
+                    <br><br> We may collect different types of information, including but not limited to:
+                     Personal information you voluntarily provide, such as your name and email address when contacting us.
+                     Technical information including your browser type, device information, operating system, IP address, language preferences, and time zone.
+                     Usage information such as pages visited, time spent on the website, links clicked, and browsing activity.
+                    <br><br><span style="font-weight: bold;"> 3. How We Use Your Information: </span>
+                    <br><br> The information we collect may be used to:
+                     Improve the performance and functionality of our website.
+                     Respond to inquiries and customer support requests.
+                     Personalize your browsing experience.
+                     Analyze website traffic and visitor behavior.
+                     Detect fraudulent or unauthorized activity.
+                     Maintain the security and reliability of our services.
+                     Comply with applicable legal obligations.
+                  <br><br><span style="font-weight: bold;">   4. Cookies and Similar Technologies: </span>
+                    <br><br> Our website may use cookies and similar technologies to enhance your browsing experience.
+                     Cookies help us:
+                     Remember user preferences.
+                     Improve website performance.
+                     Analyze visitor traffic.
+                     Provide a better user experience.
+                     You may disable cookies through your browser settings, although some features of the website may not function properly.
+                  <br><br><span style="font-weight: bold;">   5. Third-Party Services: </span>
+                   <br><br>  Our website may include links, embedded content, or services provided by third parties.
+                     These third parties may collect information according to their own privacy policies. We are not responsible for the privacy practices, security, or content of external websites.
+                     We encourage users to review the privacy policies of any third-party websites they visit.
+                   <br><br><span style="font-weight: bold;">  6. Data Security: </span>
+                   <br><br>  We take reasonable administrative, technical, and organizational measures to protect your information from unauthorized access, disclosure, misuse, alteration, or destruction.
+                     While we strive to protect your information, no method of internet transmission or electronic storage can be guaranteed to be completely secure.
+                    <br><br><span style="font-weight: bold;"> 7. Data Retention: </span>
+                     We retain collected information only for as long as necessary to fulfill the purposes described in this Privacy Policy or as required by applicable laws and regulations.
+                     When information is no longer required, it may be securely deleted or anonymized.
+                   <br><br><span style="font-weight: bold;">  8. Children's Privacy: </span>
+                    <br><br> This website is not intended for children under the age required by applicable law without appropriate parental or guardian supervision.
+                     We do not knowingly collect personal information from children. If such information is discovered, appropriate steps will be taken to remove it.
+                  <br><br><span style="font-weight: bold;">   9. International Users: </span>
+                    <br><br> Visitors may access this website from different countries.
+                     By using this website, you understand that your information may be processed in jurisdictions where privacy laws may differ from those in your country of residence.
+                  <br><br><span style="font-weight: bold;">   10. Your Rights: </span>
+                    <br><br> Depending on your location and applicable laws, you may have the right to:
+                     Request access to your personal information.
+                     Request correction of inaccurate information.
+                     Request deletion of personal information.
+                     Object to certain types of data processing.
+                     Withdraw consent where applicable.
+                     Request a copy of your personal data.
+                     Requests may be submitted through our contact page.
+                   <br><br><span style="font-weight: bold;">  11. Changes to This Privacy Policy: </span>
+                   <br><br>  We reserve the right to update or modify this Privacy Policy at any time.
+                     Any updates will become effective immediately upon publication on this page. Continued use of the website after changes have been posted constitutes acceptance of the revised Privacy Policy.
+                   <br><br><span style="font-weight: bold;">  12. Disclaimer: </span>
+                   <br><br>  While we make every effort to maintain accurate and up-to-date football news, articles, statistics, and related information, we do not guarantee the completeness, accuracy, or reliability of all content published on this website.
+                     Users should verify important information through official sources where necessary.
+                    <br><br><span style="font-weight: bold;"> 13. Contact Us: </span>
+                    <br><br> If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your information, please contact us through the Contact page on this website.
+                     We will make reasonable efforts to respond to all legitimate inquiries in a timely manner.
+                   <br><br><span style="font-weight: bold;">  14. Acceptance of This Policy: </span>
+                    <br><br> By continuing to access or use this website, you acknowledge that you have read, understood, and agreed to this Privacy Policy.
+                     If you do not agree with these terms, please discontinue use of the website.
+                   
+                    </p>
+                
+                    
+                    
+                   <div class="lastdiv">
+                        </div>
+                        
+                            <div class="kkk">
+                             <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons11" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
+                             <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="iconsss" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                             <a href="http1"><img class="iconss" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                             <a href="https://www.reddit.com/u/Joshua_Shopify/s/YtbbP9Z0bl"><img class="iconss" src="https://img.icons8.com/?size=100&id=nudbJyiwsYUs&format=png&color=FFFFFF" alt="reddit icon"></a>
+                            </div>
+                            <footer class="footer">
+                               <span class="yyy">
+                              <a href="index.html"><img class="goal" src="photo-output 2.PNG" alt="goal icon"></a>
+                               </span>
+                              <div class="ficons">
+                               <a href="https://www.facebook.com/share/196FKNyGM8/?mibextid=wwXIfr"><img class="icons2" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF" alt="facebook icon"></a>
+                               <a href="https://www.tiktok.com/@josh_dev3?_r=1&_t=ZS-98PGqwyxquC"><img class="icons1" src="https://i.postimg.cc/hPNYy2qh/photo-output.png" alt="Tiktok icon"></a>
+                               <a href="https21"><img class="icons" src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="X icon"></a>
+                               <a href="https://www.instagram.com/josh_web.dev?igsh=bXNxcW9yb244NTRl&utm_source=qr"><img class="iconssss" src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF" alt="instagram icon"></a>
+                              </div>
+                              <div class="footerp">
+                               <p><a href="contact-us.html">Contact Us</a> |</p>
+                               <p><a href="terms-of-service.html">Terms of Service</a> |</p>
+                               <p><a href="privacy-policy.html">Privacy policy</a> |</p>
+                               <p><a href="disclaimer.html">Disclaimer</a> |</p>
+                              </div>
+                              <div class="footerpp">
+                               <p><a href="https://play.google.com/store/apps/details?id=com.freerange360.mpp.GOAL">Goal App (Android)</a> |</p>
+                               <p><a href="https://apps.apple.com/ng/app/goal-football-news-scores/id518026818">Goal App (iOS)</a> |</p>
+                               <p><a href="https://www.besoccer.com/#google_vignette">Goal Live</a> |</p>
+                              </div>
+                              <div class="footerppp">
+                              <p><a href="https://www.sportybet.com/ng/m/">Betting</a> |</p>
+                               <a href="#dark-mode"><div id="dark"  alt="dark & light theme">
+                                                                  <span class="sun"><img class="sun-img" src="photo-output 11.PNG"></span>
+                                                                  <span class="moon"><img class="moon-img" src="photo-output 7.PNG"></span>
+                                                                  <span class="circle"></span>
+                                                                  </div></a>
+                                                            </div>
+                              <div class="footerpppp">
+                               <div class="zzz">
+                               <img class="imgpppp" src="https://i.postimg.cc/Z5dKRgqf/IMG-5658.jpg" alt="USA flag">
+                               <span>USA</span>
+                               </div>
+                              </div>
+                              
+                              <a href="https://www.google.com/preferences/source?q=https%3A%2F%2Fwww.goal.com">
+                              <div class="google">
+                               <img class="googleimg" src="https://i.postimg.cc/3xMR5FSK/IMG-5234.png">
+                               <span class="ggg">Add as preferred source on Google</span>
+                              </div></a>
+                              
+                               <p class="firstp">Copyright © 2026 Goal All rights reserved. The information contained in Goal may not be published, broadcast, rewritten, or redistributed without the prior written authority of Goal</p>
+                              
+                              <div class="square">
+                              <div class="fgordon">
+                               <img class="gordon" src="https://i.postimg.cc/hGcVsP03/photo-output.png" alt="Gordon Moody">
+                              </div> 
+                               <p class="con">+18
+                               Please play responsibly</p>
+                              </div>
+                             </footer>
+                             
+                             <script>
+                    const menuBtn = document.getElementById("menu-btn");
+                                                     const menu = document.getElementById("menu");
+                                                     
+                                                     menuBtn.addEventListener("click", function (e) {
+                                                         e.preventDefault(); // Stops the page from jumping to the top
+                                                         menu.classList.toggle("show");
+                                                         document.body.classList.toggle("menu-open")
+                                                    
+                                                    menuBtn.classList.toggle("active");
+                                                     });
+                                                     
+                                 const sss = document.getElementById("dark");
+                                                              
+                                                       if (localStorage.getItem("darkMode") === "enabled") {
+                                                           document.body.classList.add("dark-mode");
+                                                       }
+                                                                               
+                                                       sss.addEventListener("click", function () {
+                                                       document.body.classList.toggle("dark-mode");
+                                                       
+                                                       if (document.body.classList.contains("dark-mode")) {
+                                                           localStorage.setItem("darkMode", "enabled");
+                                                       } else {
+                                                           localStorage.setItem("darkMode", "disabled");
+                                                       }
+                                                       });
+                                 
+                                 
+                                 </script>
+                   
+                   
+            </body>
+           </html>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
