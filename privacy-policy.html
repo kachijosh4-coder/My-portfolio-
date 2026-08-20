@@ -23,21 +23,22 @@
               }
               
               .header {
-                        position: sticky;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        z-index: 1000;
-                        display: flex;
-                        justify-content: left;
-                        align-items: center;
-                        column-gap: 4px;
-                        background-color: black;
-                        width: 375px;
-                        height: 59px;
-                        border-bottom: 4px solid hsl(21, 100%, 50%);
-                        paddin: 0px 15px 0px 0px;
-                    }
+                                      position: sticky;
+                                      top: 0;
+                                      left: 0;
+                                      z-index: 1000;
+                                      display: flex;
+                                      justify-content: space-between;
+                                      align-items: center;
+                                      column-gap: 4px;
+                                      background-color: black;
+                                      width: 100%;
+                                      max-width: 100%;
+                                      height: 59px;
+                                      border-bottom: 4px solid hsl(21, 100%, 50%);
+                                      padding-right: 10px;
+                                      box-sizing: border-box;
+                                   }
                     
                     .menu {
                         margin: 5px 0 0 8px;
@@ -46,7 +47,7 @@
                     
                     .profile {
                                             max-width: 42px;
-                                            margin-left: -13px;
+                                            margin-left: -35px;
                                         }
                                         
                                         .goal {
@@ -56,7 +57,7 @@
                                         
                                         .live {
                                             max-width: 112px;
-                                            margin-left: -30px;
+                                            margin-left: -50px;
                                         }
                                         
                                         .header > a:nth-child(2) {
@@ -71,7 +72,7 @@
                                         
                                         .vpn {
                                             max-width: 91px;
-                                            margin-left: -33px;
+                                            margin-left: -55px;
                                         }
                                         
                                         .live-circle {
@@ -83,7 +84,7 @@
                                             position: absolute;
                                             bottom: 9px;
                                             animation: pulse 2.3s ease-in-out infinite;
-                                            left: 10%;
+                                            left: -20%;
                                             top: 46.5%;
                                         }
                     
@@ -177,7 +178,7 @@
                                            display: flex;
                                            flex-direction: column;
                                            gap: 4.3px;
-                                           margin: 0 0 1px -3px;
+                                           margin: 0 0 1px -28px;
                                         }
                                                       
                                        #menu-btn.active .okok:nth-child(1) {
